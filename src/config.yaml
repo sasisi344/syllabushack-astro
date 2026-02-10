@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Syllabus Hack
+  site: 'https://syllabushack.com'
   base: '/'
   trailingSlash: false
 
@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Syllabus Hack
+    template: '%s — Syllabus Hack'
+  description: 'GenAIで資格試験を攻略する「シラバスハック」。ITパスポート、基本情報技術者試験、情報セキュリティマネジメント試験などの効率的な学習法と最新トレンドを発信。'
   robots:
     index: true
     follow: true
@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: ja
   textDirection: ltr
 
 apps:

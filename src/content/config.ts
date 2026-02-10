@@ -65,6 +65,14 @@ const postCollection = defineCollection({
     tags: z.array(z.string()).optional(),
     author: z.string().optional(),
 
+    // for App Connectivity
+    knowledge: z.object({
+        examId: z.enum(['it-passport', 'sg', 'fe', 'ap', 'common']).optional(),
+        type: z.enum(['term', 'problem', 'method', 'news', 'app']).optional(),
+        syllabusRef: z.string().optional(),
+        difficulty: z.enum(['beginner', 'intermediate', 'advanced']).optional(),
+    }).optional(),
+
     metadata: metadataDefinition(),
   }),
 });
