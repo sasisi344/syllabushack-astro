@@ -100,8 +100,14 @@ Web apps (interactive tools) source code must be kept in:
 - **Sub-folder**: `src/apps/{app-slug}/`
 - **Registry**: `src/apps/index.ts` (All apps MUST be registered here)
 
+### Quiz App Development
+
+- **Development Rules**: For building quiz/CBT apps, follow [.skills/quiz_app_rules.md](.skills/quiz_app_rules.md).
+- **Requirements Template**: Copy `00_templates/quiz-app-requirement-template.md` to `.workspace/tasks/` for new apps.
+
 ### Best Practice
 
 - **Logic & Content Separation**: Keep the visual content (Markdown/Page) and technical implementation (TS/React) separate.
 - **Shared Data**: Use centralized JSON datasets for quiz questions to maintain consistency across apps and articles.
+  - **Data Management**: For creating/updating quiz questions, follow [.skills/quiz_data_rules.md](.skills/quiz_data_rules.md).
 - **Astro Integration**: Import app components/logic into `src/data/post/app/` pages for seamless content-app integration.

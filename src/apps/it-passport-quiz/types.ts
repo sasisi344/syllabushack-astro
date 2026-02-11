@@ -34,6 +34,7 @@ export interface Question {
   choices: Choice[];
   correctLabel: string;      // 正解ラベル "ア" | "イ" | "ウ" | "エ"
   explanation: string;       // 解説テキスト
+  keywords?: string[];       // キーワード集 (AI解説生成・検索用)
   syllabusRef?: string;      // シラバス参照
   difficulty: 'beginner' | 'intermediate' | 'advanced';
 }
