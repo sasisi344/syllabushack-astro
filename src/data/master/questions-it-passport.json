@@ -1,0 +1,192 @@
+[
+  {
+    "id": "ip-r05a-q01",
+    "examId": "it-passport",
+    "field": "strategy",
+    "subField": "企業活動",
+    "year": "R05秋",
+    "questionNumber": 1,
+    "text": "企業の経営理念を説明したものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "企業が活動する際に守るべき行動基準" },
+      { "label": "イ", "text": "企業が目指している、将来のあるべき姿" },
+      { "label": "ウ", "text": "企業の存在意義や価値観などの基本的な考え方" },
+      { "label": "エ", "text": "経営理念を実現するための具体的な行動計画" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "経営理念は、企業の存在意義や使命、基本的な価値観を表明したものです。「ア」は行動規範、「イ」はビジョン（経営ビジョン）、「エ」は経営戦略や事業計画に該当します。",
+    "syllabusRef": "ストラテジ系-大分類1-中分類1",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "ip-r05a-q02",
+    "examId": "it-passport",
+    "field": "strategy",
+    "subField": "法務",
+    "year": "R05秋",
+    "questionNumber": 2,
+    "text": "著作権法で保護されるものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "アルゴリズム" },
+      { "label": "イ", "text": "プログラム言語" },
+      { "label": "ウ", "text": "プロトコル（通信規約）" },
+      { "label": "エ", "text": "データベースの構造（創作性があるもの）" }
+    ],
+    "correctLabel": "エ",
+    "explanation": "著作権法では、プログラム言語、規約（プロトコル）、アルゴリズムは保護の対象外です。一方、データベースは情報の選択・体系的な構成に創作性があれば著作物として保護されます。",
+    "syllabusRef": "ストラテジ系-大分類1-中分類3",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "ip-r05a-q03",
+    "examId": "it-passport",
+    "field": "strategy",
+    "subField": "経営戦略マネジメント",
+    "year": "R05秋",
+    "questionNumber": 3,
+    "text": "SWOT分析で「外部環境の脅威」に該当するものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "自社の技術力の高さ" },
+      { "label": "イ", "text": "競合他社の新製品投入" },
+      { "label": "ウ", "text": "新たな市場への参入機会" },
+      { "label": "エ", "text": "社員教育体制の不備" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "SWOT分析では、S（強み）・W（弱み）は内部環境、O（機会）・T（脅威）は外部環境です。「ア」はStrength（強み）、「ウ」はOpportunity（機会）、「エ」はWeakness（弱み）に該当します。競合の動きは外部のThreat（脅威）です。",
+    "syllabusRef": "ストラテジ系-大分類2-中分類4",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "ip-r04a-q04",
+    "examId": "it-passport",
+    "field": "management",
+    "subField": "プロジェクトマネジメント",
+    "year": "R04秋",
+    "questionNumber": 4,
+    "text": "プロジェクトのスコープを明確にするために最初に行うべきことはどれか。",
+    "choices": [
+      { "label": "ア", "text": "WBS（Work Breakdown Structure）の作成" },
+      { "label": "イ", "text": "プロジェクト憲章の作成" },
+      { "label": "ウ", "text": "スケジュールの見積もり" },
+      { "label": "エ", "text": "リスクの特定" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "プロジェクトのスコープ（範囲）を明確にするためには、まずプロジェクト憲章（プロジェクトチャーター）を作成し、目的・範囲・制約条件などの大枠を定義します。WBSはその後の詳細化段階で作成します。",
+    "syllabusRef": "マネジメント系-大分類4-中分類10",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "ip-r04a-q05",
+    "examId": "it-passport",
+    "field": "management",
+    "subField": "サービスマネジメント",
+    "year": "R04秋",
+    "questionNumber": 5,
+    "text": "ITILにおけるインシデント管理の目的として最も適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "障害の根本原因を特定し、再発を防止する" },
+      { "label": "イ", "text": "ITサービスを可能な限り迅速に正常な状態に回復させる" },
+      { "label": "ウ", "text": "新しいサービスの導入計画を策定する" },
+      { "label": "エ", "text": "サービスの変更による影響を最小限に抑える" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "インシデント管理の目的は、ITサービスを迅速に復旧させることです。「ア」は問題管理、「ウ」はサービストランジション（移行）、「エ」は変更管理の目的に該当します。",
+    "syllabusRef": "マネジメント系-大分類4-中分類11",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "ip-r05a-q06",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "セキュリティ",
+    "year": "R05秋",
+    "questionNumber": 6,
+    "text": "情報セキュリティの3要素（CIA）に該当しないものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "機密性（Confidentiality）" },
+      { "label": "イ", "text": "完全性（Integrity）" },
+      { "label": "ウ", "text": "可用性（Availability）" },
+      { "label": "エ", "text": "責任追跡性（Accountability）" }
+    ],
+    "correctLabel": "エ",
+    "explanation": "情報セキュリティの3要素（CIA）は、機密性・完全性・可用性です。責任追跡性は情報セキュリティの付加的な要素（JIS Q 27000で定義）であり、3要素には含まれません。",
+    "syllabusRef": "テクノロジ系-大分類6-中分類16",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "ip-r04a-q07",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "ネットワーク",
+    "year": "R04秋",
+    "questionNumber": 7,
+    "text": "DNSの役割として最も適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "ドメイン名とIPアドレスの対応付けを行う" },
+      { "label": "イ", "text": "電子メールの送受信を行う" },
+      { "label": "ウ", "text": "Webページのデータを転送する" },
+      { "label": "エ", "text": "ファイルの転送を行う" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "DNS（Domain Name System）は、ドメイン名（例：example.com）とIPアドレス（例：192.168.1.1）の対応付け（名前解決）を行うシステムです。「イ」はSMTP/POP3、「ウ」はHTTP/HTTPS、「エ」はFTPの役割です。",
+    "syllabusRef": "テクノロジ系-大分類6-中分類15",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "ip-r05a-q08",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "データベース",
+    "year": "R05秋",
+    "questionNumber": 8,
+    "text": "関係データベースにおいて、表の行を一意に識別するために設定するものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "インデックス" },
+      { "label": "イ", "text": "外部キー" },
+      { "label": "ウ", "text": "主キー" },
+      { "label": "エ", "text": "ビュー" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "主キー（Primary Key）は、表の各行（レコード）を一意に識別するための列（フィールド）です。「ア」は検索を高速化するための仕組み、「イ」は他の表との関連付け、「エ」は仮想的な表のことです。",
+    "syllabusRef": "テクノロジ系-大分類6-中分類14",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "ip-r04a-q09",
+    "examId": "it-passport",
+    "field": "strategy",
+    "subField": "システム戦略",
+    "year": "R04秋",
+    "questionNumber": 9,
+    "text": "DX（デジタルトランスフォーメーション）の説明として最も適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "紙の書類を電子化して保存すること" },
+      { "label": "イ", "text": "AIを使って業務の一部を自動化すること" },
+      { "label": "ウ", "text": "デジタル技術を活用してビジネスモデルや組織文化を変革すること" },
+      { "label": "エ", "text": "社内ネットワークをクラウドサービスに移行すること" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "DX（デジタルトランスフォーメーション）は、単なるIT化・デジタル化ではなく、デジタル技術を活用してビジネスモデル、製品・サービス、組織・企業文化そのものを変革することです。「ア」はデジタイゼーション、「イ」「エ」はデジタライゼーションの一例に過ぎません。",
+    "syllabusRef": "ストラテジ系-大分類2-中分類5",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "ip-r05a-q10",
+    "examId": "it-passport",
+    "field": "technology",
+    "subField": "セキュリティ",
+    "year": "R05秋",
+    "questionNumber": 10,
+    "text": "フィッシング詐欺の説明として最も適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "コンピュータウイルスをメールに添付して送信する攻撃" },
+      { "label": "イ", "text": "正規のWebサイトに見せかけた偽サイトに誘導し、個人情報を窃取する手口" },
+      { "label": "ウ", "text": "大量のデータを送りつけてサーバを停止させる攻撃" },
+      { "label": "エ", "text": "無線LANの通信を傍受してデータを盗み見る行為" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "フィッシング詐欺は、銀行やECサイトなどに見せかけた偽のWebページにユーザーを誘導し、ID・パスワードやクレジットカード情報などを入力させて窃取する手口です。「ウ」はDoS攻撃の説明です。",
+    "syllabusRef": "テクノロジ系-大分類6-中分類16",
+    "difficulty": "beginner"
+  }
+]

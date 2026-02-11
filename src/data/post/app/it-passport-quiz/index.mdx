@@ -1,0 +1,40 @@
+---
+publishDate: 2026-02-10
+title: ITパスポート 模擬試験シミュレーター (CBT対応)
+image: '~/data/post/app/it-passport-quiz/cover.jpg'
+excerpt: 本番のCBT試験を忠実に再現した、ITパスポート模擬試験ツールです。最新のシラバスに準拠し、AIによる解説機能も搭載しています。
+category: app
+tags:
+  - ITパスポート
+  - CBT
+  - 模擬試験
+  - SyllabusHack
+metadata:
+  description: ITパスポートの本番試験を再現したCBTシミュレーター。AIによる詳細な解説付きで、最短合格をサポートします。
+---
+
+import QuizApp from '~/apps/it-passport-quiz/QuizApp';
+import '~/apps/it-passport-quiz/quiz.css';
+import questions from '~/data/master/questions-it-passport.json';
+
+## アプリについて
+
+このシミュレーターは、ITパスポート試験の本番（CBT方式）をブラウザ上で体験できるツールです。
+
+### 主な機能
+
+- **分野別ドリル**: 苦手な分野（ストラテジ・マネジメント・テクノロジ）を集中攻撃。
+- **進捗トラッキング**: 正答率・回答数を自動で記録し、苦手分野を可視化。
+- **AI解説機能**: 間違えた問題に対し、Geminiがあなた専用の解説を作成。
+
+### 使い方
+
+1. 下のアプリで分野を選ぶか「全分野シャッフル」をタップしてください。
+2. 選択肢をタップすると即時に正誤が判定されます。
+3. 「AIにもっと詳しく聞く」でGeminiに質問できます。
+
+> ※ 現在はベータ版です。問題データは順次追加しています。
+
+---
+
+<QuizApp client:load questions={questions} examId="it-passport" examName="ITパスポート試験" />

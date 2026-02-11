@@ -4,6 +4,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import DailyQuizSection from '~/components/widgets/DailyQuizSection.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
@@ -100,6 +101,10 @@ const metadata = {
     title="最新の学習記事とニュース"
     information={`最新の試験対策メソッドや、シラバス改訂の速報、AI活用のヒントを定期的に更新しています。`}
   />
+
+  <!-- Daily Quiz Widget (今日の1問) ******* -->
+
+  <DailyQuizSection />
 
   <!-- CallToAction Widget *********** -->
 

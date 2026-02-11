@@ -14,6 +14,7 @@ export interface AppMetadata {
   description: string;
   category: 'quiz' | 'tool' | 'converter';
   status: 'development' | 'beta' | 'stable';
+  examId?: string;
 }
 
 export const appRegistry: Record<string, AppMetadata> = {
@@ -21,9 +22,10 @@ export const appRegistry: Record<string, AppMetadata> = {
     id: 'it-passport-quiz',
     slug: 'it-passport-quiz',
     title: 'ITパスポート 模擬試験シミュレーター',
-    description: '本番のCBT試験を忠実に再現した模擬試験ツール',
+    description: '本番のCBT試験を忠実に再現した模擬試験ツール。分野別ドリル＋AI解説付き。',
     category: 'quiz',
-    status: 'development',
+    status: 'beta',
+    examId: 'it-passport',
   },
   'pdf-to-text': {
     id: 'pdf-to-text',

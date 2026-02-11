@@ -1,0 +1,23 @@
+---
+/**
+ * DailyQuizSection.astro
+ * トップページに「今日の1問」を表示するためのAstroラッパー
+ */
+import DailyQuiz from '~/apps/it-passport-quiz/DailyQuiz';
+import '~/apps/it-passport-quiz/quiz.css';
+
+// JSON問題データをインポート
+import allQuestions from '~/data/master/questions-it-passport.json';
+---
+
+<section class="daily-quiz-section">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6">
+    <DailyQuiz client:load questions={allQuestions} />
+  </div>
+</section>
+
+<style>
+  .daily-quiz-section {
+    padding: 2rem 0;
+  }
+</style>

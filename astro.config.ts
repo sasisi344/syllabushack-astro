@@ -7,6 +7,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
+import preact from '@astrojs/preact';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
 import type { AstroIntegration } from 'astro';
@@ -28,6 +29,7 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
+    preact({ compat: true }),
     sitemap(),
     mdx(),
     icon({
