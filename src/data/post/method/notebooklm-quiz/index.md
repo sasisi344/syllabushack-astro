@@ -1,10 +1,10 @@
 ---
 title: "【NotebookLM】AIを「スパルタ専属コーチ」にするクイズ機能のハック術"
+image: "~/data/post/method/notebooklm-quiz/cover.jpg"
 description: "NotebookLM標準のクイズ機能だけでは物足りないあなたへ。チャット機能を活用して「弱点だけを執拗に攻める」「AIに授業をする」など、合格力を極限まで高めるパーソナライズ学習戦略を公開します。"
 date: 2026-02-07T09:30:00+09:00
 categories: ["method"]
 tags: ["NotebookLM", "勉強法", "ファインマンテクニック", "SyllabusHack", "弱点克服"]
-image: "cover.jpg"
 toc: true
 draft: false
 ---

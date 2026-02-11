@@ -1,10 +1,10 @@
 ---
 title: "残業社会人の味方！通勤時間を「最強の勉強時間」に変える神アプリ5選"
+image: "~/data/post/method/gap-time-apps/cover.jpg"
 description: "「勉強する時間がない」そう嘆く前に、スマホを見てください。通勤の往復2時間は「隠しボーナス」ステージです。Udemy、Audible、Studyplusなど、隙間時間をハックする神アプリを5つ紹介します。"
 date: 2026-02-02
 categories: ["method"]
 tags: ["勉強法", "アプリ", "隙間時間", "時短", "ツール"]
-image: "cover.jpg"
 draft: false
 toc: true
 ---

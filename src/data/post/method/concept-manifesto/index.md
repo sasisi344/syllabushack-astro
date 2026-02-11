@@ -1,5 +1,6 @@
 ---
 title: "まだ高い過去問集を買ってるの？シラバスとAIがあれば合格できる理由"
+image: "~/data/post/method/concept-manifesto/cover.jpg"
 date: 2026-01-26T09:00:00+09:00
 draft: false
 toc: true

@@ -52,10 +52,13 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     image,
     tags: rawTags = [],
     category: rawCategory,
+    categories: rawCategories = [],
     author,
     draft = false,
     metadata = {},
   } = data;
+
+  const actualCategory = rawCategory || (Array.isArray(rawCategories) && rawCategories.length > 0 ? rawCategories[0] : undefined);
 
   const slug = cleanSlug(id); // cleanSlug(rawSlug.split('/').pop());
   const publishDate = new Date(rawPublishDate);
@@ -68,10 +71,10 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     app: 'ウェブアプリ',
   };
 
-  const category = rawCategory
+  const category = actualCategory
     ? {
-        slug: cleanSlug(rawCategory),
-        title: CATEGORY_TITLES[cleanSlug(rawCategory)] || rawCategory,
+        slug: cleanSlug(actualCategory),
+        title: CATEGORY_TITLES[cleanSlug(actualCategory)] || actualCategory,
       }
     : undefined;
 

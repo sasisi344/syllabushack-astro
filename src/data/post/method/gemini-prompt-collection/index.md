@@ -4,7 +4,6 @@ description: "基本情報技術者試験の過去問が足りない？解説が
 date: 2026-02-02
 categories: ["method"]
 tags: ["Gemini", "ChatGPT", "プロンプト", "AI学習法", "基本情報技術者"]
-image: "cover.png"
 draft: false
 toc: true
 ---

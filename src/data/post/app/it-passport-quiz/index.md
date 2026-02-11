@@ -1,6 +1,7 @@
 ---
 publishDate: 2026-02-10
 title: ITパスポート 模擬試験シミュレーター (CBT対応)
+image: "~/data/post/app/it-passport-quiz/cover.jpg"
 excerpt: 本番のCBT試験を忠実に再現した、ITパスポート模擬試験ツールです。最新のシラバスに準拠し、AIによる解説機能も搭載しています。
 category: app
 tags:
@@ -8,7 +9,6 @@ tags:
   - CBT
   - 模擬試験
   - SyllabusHack
-image: ./cover.jpg
 metadata:
   description: ITパスポートの本番試験を再現したCBTシミュレーター。AIによる詳細な解説付きで、最短合格をサポートします。
 ---

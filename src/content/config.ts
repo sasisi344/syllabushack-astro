@@ -52,29 +52,33 @@ const postCollection = defineCollection({
     base: 'src/data/post',
     generateId: ({ entry }) => entry.replace(/\/index\.(md|mdx)$/, '').replace(/\.(md|mdx)$/, ''),
   }),
-  schema: z.object({
-    publishDate: z.coerce.date().optional(),
-    updateDate: z.coerce.date().optional(),
-    draft: z.boolean().optional(),
+  schema: ({ image }) =>
+    z.object({
+      publishDate: z.coerce.date().optional(),
+      updateDate: z.coerce.date().optional(),
+      draft: z.boolean().optional(),
 
-    title: z.string(),
-    excerpt: z.string().optional(),
-    image: z.string().optional(),
+      title: z.string(),
+      excerpt: z.string().optional(),
+      image: z.string().optional(),
 
-    category: z.string().optional(),
-    tags: z.array(z.string()).optional(),
-    author: z.string().optional(),
+      category: z.string().optional(),
+      categories: z.array(z.string()).optional(),
+      tags: z.array(z.string()).optional(),
+      author: z.string().optional(),
 
-    // for App Connectivity
-    knowledge: z.object({
-        examId: z.enum(['it-passport', 'sg', 'fe', 'ap', 'common']).optional(),
-        type: z.enum(['term', 'problem', 'method', 'news', 'app']).optional(),
-        syllabusRef: z.string().optional(),
-        difficulty: z.enum(['beginner', 'intermediate', 'advanced']).optional(),
-    }).optional(),
+      // for App Connectivity
+      knowledge: z
+        .object({
+          examId: z.enum(['it-passport', 'sg', 'fe', 'ap', 'common']).optional(),
+          type: z.enum(['term', 'problem', 'method', 'news', 'app']).optional(),
+          syllabusRef: z.string().optional(),
+          difficulty: z.enum(['beginner', 'intermediate', 'advanced']).optional(),
+        })
+        .optional(),
 
-    metadata: metadataDefinition(),
-  }),
+      metadata: metadataDefinition(),
+    }),
 });
 
 export const collections = {

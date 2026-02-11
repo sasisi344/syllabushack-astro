@@ -1,10 +1,10 @@
 ---
 title: "ITパスポートを取るのは恥ずかしい？→結論：取らない方がマズい時代です"
+image: "~/data/post/trend/it-passport-shame-debate/cover.jpg"
 description: "「ITパスポートは恥ずかしい」「意味ない」というネットの声に惑わされていませんか？合格率50％の現実と、DX時代における「国民的常識」としての価値を徹底解説します。"
 date: 2026-01-31
 categories: ["trend"]
 tags: ["ITパスポート", "資格取得", "キャリア戦略", "DX"]
-image: "cover.jpg"
 draft: false
 toc: true
 ---

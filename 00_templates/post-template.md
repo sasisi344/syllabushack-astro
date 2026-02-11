@@ -2,7 +2,7 @@
 publishDate: 2026-02-10
 title: 'ページのタイトル (30-40文字推奨)'
 excerpt: 'ページの一覧表示用サマリー (60文字程度)。概要を端的に記載します。'
-image: ./cover.jpg
+
 category: trend # [trend, method, career, app] のいずれか1つ
 tags:
   - タグ1

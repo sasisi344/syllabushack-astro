@@ -1,5 +1,6 @@
 ---
 title: "【プロンプト配布】基本情報技術者の「科目B」を無限に生成して対策する方法"
+image: "~/data/post/method/practice-guide-ipa/cover.jpg"
 date: 2026-01-26T10:00:00+09:00
 draft: false
 toc: true

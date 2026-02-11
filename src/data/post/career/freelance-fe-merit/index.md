@@ -1,10 +1,10 @@
 ---
 title: "フリーランスエンジニアこそ「基本情報」を取り直すべき3つの理由"
+image: "~/data/post/career/freelance-fe-merit/cover.jpg"
 description: "「フリーランスに資格なんて関係ない」そう思っていませんか？実は、独学フリーランスこそ基本情報技術者試験（FE）が役立ちます。穴だらけの知識を埋め、クライアントの信頼を勝ち取るための活用法。"
 date: 2026-02-02
 categories: ["career"]
 tags: ["フリーランス", "基本情報技術者", "キャリア", "学び直し", "単価アップ"]
-image: "cover.png"
 draft: false
 toc: true
 ---

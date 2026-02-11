@@ -5,7 +5,6 @@ draft: false
 toc: true
 categories: ["method"]
 tags: ["応用情報技術者", "Python", "Gemini", "SyllabusHack"]
-image: "cover.png"
 description: "「記述式問題の採点基準がわからない」「過去問を解き尽くしてしまった」そんな悩みを解決する、Gemini APIを活用した自分専用の論文添削トレーナーを配布します。"
 ---
 

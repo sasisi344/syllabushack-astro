@@ -1,10 +1,10 @@
 ---
 title: "【文系・未経験】3ヶ月で応用情報に受かるための「全力捨て問」戦略"
+image: "~/data/post/method/ap-discard-strategy/cover.jpg"
 description: "「プログラミングができないと受からない？」いいえ、むしろ捨てた方が受かります。文系未経験者が最短で応用情報技術者試験を突破するための、戦略的撤退と科目選択法を解説します。"
 date: 2026-02-02
 categories: ["method"]
 tags: ["応用情報技術者試験", "勉強法", "文系", "午後試験", "捨て問"]
-image: "cover.jpg"
 draft: false
 toc: true
 ---

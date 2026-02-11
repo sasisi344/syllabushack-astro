@@ -4,7 +4,6 @@ description: "過去問の解説を読んでも意味が分からない。そん
 date: 2026-02-02
 categories: ["method"]
 tags: ["Gemini", "勉強法", "プロンプト", "質問力", "初心者"]
-image: "cover.png"
 draft: false
 toc: true
 ---
