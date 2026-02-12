@@ -1,32 +1,80 @@
 [
   {
-    "id": "it-passport",
-    "name": "iパス（ITパスポート試験）",
-    "shortName": "iパス",
+    "id": "ip",
+    "name": "ITパスポート試験",
+    "shortName": "IP",
     "tags": ["ITパスポート", "iパス", "IP"]
   },
   {
     "id": "sg",
     "name": "情報セキュリティマネジメント試験",
-    "shortName": "セキュマネ",
+    "shortName": "SG",
     "tags": ["情報セキュリティマネジメント", "セキュマネ", "SG"]
   },
   {
     "id": "fe",
     "name": "基本情報技術者試験",
-    "shortName": "基本情報",
+    "shortName": "FE",
     "tags": ["基本情報技術者", "基本情報", "FE"]
   },
   {
     "id": "ap",
     "name": "応用情報技術者試験",
-    "shortName": "応用情報",
+    "shortName": "AP",
     "tags": ["応用情報技術者", "応用情報", "AP"]
+  },
+  {
+    "id": "st",
+    "name": "ITストラテジスト試験",
+    "shortName": "ST",
+    "tags": ["ITストラテジスト", "ST"]
+  },
+  {
+    "id": "sa",
+    "name": "システムアーキテクト試験",
+    "shortName": "SA",
+    "tags": ["システムアーキテクト", "SA"]
+  },
+  {
+    "id": "pm",
+    "name": "プロジェクトマネージャ試験",
+    "shortName": "PM",
+    "tags": ["プロジェクトマネージャ", "PM"]
+  },
+  {
+    "id": "nw",
+    "name": "ネットワークスペシャリスト試験",
+    "shortName": "NW",
+    "tags": ["ネットワークスペシャリスト", "NW"]
+  },
+  {
+    "id": "db",
+    "name": "データベーススペシャリスト試験",
+    "shortName": "DB",
+    "tags": ["データベーススペシャリスト", "DB"]
+  },
+  {
+    "id": "es",
+    "name": "エンベデッドシステムスペシャリスト試験",
+    "shortName": "ES",
+    "tags": ["エンベデッドシステムスペシャリスト", "ES"]
+  },
+  {
+    "id": "sm",
+    "name": "ITサービスマネージャ試験",
+    "shortName": "SM",
+    "tags": ["ITサービスマネージャ", "SM"]
+  },
+  {
+    "id": "au",
+    "name": "システム監査技術者試験",
+    "shortName": "AU",
+    "tags": ["システム監査技術者", "AU"]
   },
   {
     "id": "sc",
     "name": "情報処理安全確保支援士試験",
-    "shortName": "登録セキスペ",
+    "shortName": "SC",
     "tags": ["情報処理安全確保支援士", "登録セキスペ", "SC"]
   }
 ]

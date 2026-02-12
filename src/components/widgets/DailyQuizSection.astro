@@ -6,8 +6,12 @@
 import DailyQuiz from '~/apps/it-passport-quiz/DailyQuiz';
 import '~/apps/it-passport-quiz/quiz.css';
 
+import type { Question } from '~/apps/it-passport-quiz/types';
+
 // JSON問題データをインポート
-import allQuestions from '~/data/master/questions-it-passport.json';
+import allQuestionsRaw from '~/data/master/questions-it-passport.json';
+
+const allQuestions = allQuestionsRaw as unknown as Question[];
 ---
 
 <section class="daily-quiz-section">

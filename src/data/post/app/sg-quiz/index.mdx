@@ -1,0 +1,44 @@
+---
+publishDate: 2026-02-12
+title: '情報セキュリティマネジメント(SG) 科目A ドリル'
+excerpt: 'SG試験の科目A（知識問題）に対応した、AI生成の最新ドリルです。'
+image: '~/assets/images/apps/sg-quiz-cover.jpg'
+category: 'app'
+tags: ['情報セキュリティマネジメント', '科目A', 'SyllabusHack']
+knowledge:
+  examId: 'sg'
+  type: 'problem'
+  difficulty: 'intermediate'
+metadata:
+  description: '情報セキュリティマネジメント試験(SG)の科目A対策に特化したWEBアプリ。シラバスを網羅したAI生成問題で、知識を定着させます。'
+---
+
+import QuizApp from '~/apps/it-passport-quiz/QuizApp';
+import strategyQuestions from '~/data/quiz/sg/strategy.json';
+import managementQuestions from '~/data/quiz/sg/management.json';
+import technologyQuestions from '~/data/quiz/sg/technology.json';
+import practicalQuestions from '~/data/quiz/sg/practical.json';
+
+export const rawQuestions = [
+  ...strategyQuestions,
+  ...managementQuestions,
+  ...technologyQuestions,
+  ...practicalQuestions,
+];
+
+## SG 科目A・科目B 特訓ドリル
+
+情報セキュリティマネジメント試験（SG）の**科目A（知識）**および**科目B（実践・ケーススタディ）**に対応した問題集です。
+最新の試験範囲を網羅したキーワードに基づき、AIが本番レベルの問題を作成しています。
+
+特に科目Bについては、実際の業務シナリオに即した状況判断が問われる長文問題も収録しています。
+
+<div class="not-prose">
+  <QuizApp client:load questions={rawQuestions} examId="sg" examName="情報セキュリティマネジメント試験" />
+</div>
+
+### 使い方のヒント
+
+- **分野別学習**: 苦手な分野を選択して、10問ずつのドリルに挑戦できます。
+- **AI解説**: 正解・不正解にかかわらず、AIによる詳細な解説が表示されます。
+- **合格のコツ**: SG試験はセキュリティ技術だけでなく、組織管理や法規（ストラテジ系）も重要です。バランスよく学習しましょう。

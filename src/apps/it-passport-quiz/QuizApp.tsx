@@ -43,12 +43,43 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   /** 全問ドリル（シャッフルで全分野） */
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const startAll = useCallback(() => {
-    const shuffled = [...questions];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    // 分野ごとのターゲット出題数 (合計10問)
+    // ストラテジ: 35% -> 3-4問 (3)
+    // マネジメント: 20% -> 2問 (2)
+    // テクノロジ: 45% -> 4-5問 (5)
+    const TARGET_COUNTS = {
+      strategy: 3,
+      management: 2,
+      technology: 5,
+    };
+
+    const selectedQuestions: Question[] = [];
+
+    // 各分野からランダムに抽出
+    for (const [field, count] of Object.entries(TARGET_COUNTS)) {
+      let fieldQuestions = [];
+      if (field === 'technology') {
+        fieldQuestions = questions.filter((q) => q.field === 'technology' || q.field === 'generative-ai');
+      } else {
+        fieldQuestions = questions.filter((q) => q.field === field);
+      }
+      // シャッフル
+      for (let i = fieldQuestions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [fieldQuestions[i], fieldQuestions[j]] = [fieldQuestions[j], fieldQuestions[i]];
+      }
+      // 指定数だけ取得（足りなければあるだけ）
+      selectedQuestions.push(...fieldQuestions.slice(0, count));
     }
-    setAllQuestions(shuffled);
+
+    // 最終セットをシャッフル
+    const finalSet = [...selectedQuestions];
+    for (let i = finalSet.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [finalSet[i], finalSet[j]] = [finalSet[j], finalSet[i]];
+    }
+
+    setAllQuestions(finalSet);
     setCurrentField(null);
     setCurrentIndex(0);
     setAnswers({});
@@ -89,9 +120,10 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   // AIに聞くプロンプト生成
   const generateAiPrompt = useCallback(
     (q: Question, userAnswer: string) => {
+      const scenarioText = q.scenario ? `【シナリオ】\n${q.scenario}\n\n` : '';
       return `以下の${examName}の問題について、なぜ「${q.correctLabel}」が正解なのか、初学者にもわかるように詳しく解説してください。
 
-【問題】
+${scenarioText}【問題】
 ${q.text}
 
 ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
@@ -112,38 +144,18 @@ ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
           <h2 class="qa-title">{examName}</h2>
           <p class="qa-subtitle">分野を選んでドリルを開始</p>
 
-          {/* 進捗サマリ */}
-          <div class="qa-stats">
-            <div class="qa-stat">
-              <span class="qa-stat-num">{progress.totalAnswered}</span>
-              <span class="qa-stat-label">回答数</span>
-            </div>
-            <div class="qa-stat">
-              <span class="qa-stat-num">
-                {progress.totalAnswered > 0
-                  ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100)
-                  : 0}
-                %
-              </span>
-              <span class="qa-stat-label">正答率</span>
-            </div>
-            {weakest && (
-              <div class="qa-stat qa-stat-weak">
-                <span class="qa-stat-num">{FIELD_LABELS[weakest]}</span>
-                <span class="qa-stat-label">苦手分野</span>
-              </div>
-            )}
-          </div>
-
-          {/* 分野ボタン */}
-          <div class="qa-field-btns">
-            {(['strategy', 'management', 'technology'] as ExamField[]).map((field) => {
+          <button class="qa-btn full" onClick={startAll}>
+            <span class="icon">🎲</span> 全分野シャッフル (10問)
+          </button>
+          <div class="qa-grid">
+            {(Object.keys(FIELD_LABELS) as ExamField[]).filter(f => f !== 'generative-ai').map((field) => {
               const count = questions.filter((q) => q.field === field).length;
+              if (count === 0) return null; // 問題がない分野は表示しない
               const accuracy = getFieldAccuracy(progress, field);
               return (
                 <button
                   key={field}
-                  class={`qa-field-btn ${weakest === field ? 'qa-weak' : ''}`}
+                  class={`qa-btn ${weakest === field ? 'qa-weak' : ''}`}
                   onClick={() => startDrill(field)}
                 >
                   <span class="qa-field-name">{FIELD_LABELS[field]}</span>
@@ -152,6 +164,40 @@ ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
                 </button>
               );
             })}
+          </div>
+
+          {/* 生成AI特訓ボタン */}
+          {questions.some(q => q.field === 'generative-ai') && (
+            <div class="qa-special-menu">
+              <button class="qa-btn primary" onClick={() => startDrill('generative-ai')}>
+                <span class="icon">🤖</span> {FIELD_LABELS['generative-ai']} (特訓)
+              </button>
+            </div>
+          )}
+
+          <div class="qa-stats">
+            <h3>これまでの成績</h3>
+            <div class="qa-row">
+              <div class="qa-stat">
+                <span class="qa-stat-num">{progress.totalAnswered}</span>
+                <span class="qa-stat-label">回答数</span>
+              </div>
+              <div class="qa-stat">
+                <span class="qa-stat-num">
+                  {progress.totalAnswered > 0
+                    ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100)
+                    : 0}
+                  %
+                </span>
+                <span class="qa-stat-label">正答率</span>
+              </div>
+              {weakest && (
+                <div class="qa-stat qa-stat-weak">
+                  <span class="qa-stat-num">{FIELD_LABELS[weakest]}</span>
+                  <span class="qa-stat-label">苦手分野</span>
+                </div>
+              )}
+            </div>
           </div>
 
           <button class="qa-all-btn" onClick={startAll}>
@@ -181,6 +227,15 @@ ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
           <div class="qa-progress-text">
             {currentIndex + 1} / {activeQuestions.length}
           </div>
+
+          {/* シナリオ文 (Subject B用) */}
+          {activeQuestion.scenario && (
+            <div class="qa-scenario">
+              {activeQuestion.scenario.split('\n').map((line, i) => (
+                <p key={i}>{line}</p>
+              ))}
+            </div>
+          )}
 
           {/* 問題文 */}
           <p class="qa-question">{activeQuestion.text}</p>

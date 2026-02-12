@@ -25,7 +25,7 @@ export const appRegistry: Record<string, AppMetadata> = {
     description: '本番のCBT試験を忠実に再現した模擬試験ツール。分野別ドリル＋AI解説付き。',
     category: 'quiz',
     status: 'beta',
-    examId: 'it-passport',
+    examId: 'ip',
   },
   'pdf-to-text': {
     id: 'pdf-to-text',

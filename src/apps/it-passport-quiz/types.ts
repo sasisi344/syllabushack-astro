@@ -4,17 +4,19 @@
  */
 
 /** 分野カテゴリ */
-export type ExamField = 'strategy' | 'management' | 'technology';
+export type ExamField = 'strategy' | 'management' | 'technology' | 'generative-ai' | 'practical';
 
 /** 分野の日本語ラベル */
 export const FIELD_LABELS: Record<ExamField, string> = {
   strategy: 'ストラテジ系',
   management: 'マネジメント系',
   technology: 'テクノロジ系',
+  'generative-ai': '生成AI特化',
+  practical: '科目B・実践',
 };
 
 /** 対応試験ID */
-export type ExamId = 'it-passport' | 'sg' | 'fe';
+export type ExamId = 'ip' | 'sg' | 'fe' | 'ap' | 'st' | 'sa' | 'pm' | 'nw' | 'db' | 'es' | 'sm' | 'au' | 'sc';
 
 /** 1つの選択肢 */
 export interface Choice {
@@ -27,6 +29,7 @@ export interface Question {
   id: string;
   examId: ExamId;
   field: ExamField;
+  scenario?: string;         // 長文ケーススタディのシナリオ文
   subField?: string;         // 例: "企業活動", "ネットワーク"
   year?: string;             // 出典年度 例: "R05秋"
   questionNumber?: number;   // 問題番号

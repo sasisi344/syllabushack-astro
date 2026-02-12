@@ -15,7 +15,52 @@ metadata:
 
 import QuizApp from '~/apps/it-passport-quiz/QuizApp';
 import '~/apps/it-passport-quiz/quiz.css';
-import questions from '~/data/master/questions-it-passport.json';
+import masterQuestions from '~/data/master/questions-it-passport.json';
+import strategyQuestions from '~/data/quiz/it-passport/strategy.json';
+import managementQuestions from '~/data/quiz/it-passport/management.json';
+import technologyQuestions from '~/data/quiz/it-passport/technology.json';
+import predictedQuestions from '~/data/quiz/it-passport/predicted.json';
+import generativeAiQuestions from '~/data/quiz/it-passport/generative-ai.json';
+
+// 全問題データの結合
+const rawQuestions = [
+...masterQuestions,
+...strategyQuestions,
+...managementQuestions,
+...technologyQuestions,
+...predictedQuestions,
+...generativeAiQuestions
+];
+
+// データ形式の変換 (Raw JSON -> Question Type)
+const allQuestions = rawQuestions.map((q: any) => {
+// すでに正規化されている場合のガード
+if (q.choices && q.correctLabel) return q;
+
+// 生成データの変換
+return {
+id: q.id,
+examId: 'ip',
+field: q.field || 'strategy', // デフォルト
+text: q.question || q.text,
+choices: Array.isArray(q.options)
+? q.options.map((opt: string) => {
+// "ア: 選択肢..." 形式のパース
+const match = opt.match(/^([アイウエ]):\s\*(.+)$/);
+if (match) {
+return { label: match[1], text: match[2] };
+}
+// フォールバック
+return { label: '?', text: opt };
+})
+: q.choices,
+correctLabel: q.answer || q.correctLabel,
+explanation: q.explanation,
+keyword: q.keyword,
+syllabusRef: q.syllabusRef,
+difficulty: 'beginner' // デフォルト
+};
+});
 
 ## アプリについて
 
@@ -37,4 +82,4 @@ import questions from '~/data/master/questions-it-passport.json';
 
 ---
 
-<QuizApp client:load questions={questions} examId="it-passport" examName="ITパスポート試験" />
+<QuizApp client:load questions={allQuestions} examId="ip" examName="ITパスポート試験" />

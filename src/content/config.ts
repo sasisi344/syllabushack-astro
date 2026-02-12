@@ -70,7 +70,9 @@ const postCollection = defineCollection({
       // for App Connectivity
       knowledge: z
         .object({
-          examId: z.enum(['it-passport', 'sg', 'fe', 'ap', 'common']).optional(),
+          examId: z
+            .enum(['ip', 'sg', 'fe', 'ap', 'st', 'sa', 'pm', 'nw', 'db', 'es', 'sm', 'au', 'sc', 'common'])
+            .optional(),
           type: z.enum(['term', 'problem', 'method', 'news', 'app']).optional(),
           syllabusRef: z.string().optional(),
           difficulty: z.enum(['beginner', 'intermediate', 'advanced']).optional(),

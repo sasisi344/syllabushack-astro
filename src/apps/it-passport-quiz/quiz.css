@@ -385,6 +385,33 @@
   color: #e0e7ff;
 }
 
+/* シナリオ文 (Subject B用) */
+.qa-scenario {
+  background: #f1f5f9;
+  border-left: 4px solid #6366f1;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: #334155;
+  text-align: left;
+}
+
+.dark .qa-scenario {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: #818cf8;
+  color: #cbd5e1;
+}
+
+.qa-scenario p {
+  margin-bottom: 0.75rem;
+}
+
+.qa-scenario p:last-child {
+  margin-bottom: 0;
+}
+
 .qa-choices {
   display: flex;
   flex-direction: column;

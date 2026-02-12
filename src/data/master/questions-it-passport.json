@@ -1,7 +1,7 @@
 [
   {
     "id": "ip-r05a-q01",
-    "examId": "it-passport",
+    "examId": "ip",
     "field": "strategy",
     "subField": "企業活動",
     "year": "R05秋",
@@ -20,7 +20,7 @@
   },
   {
     "id": "ip-r05a-q02",
-    "examId": "it-passport",
+    "examId": "ip",
     "field": "strategy",
     "subField": "法務",
     "year": "R05秋",
@@ -39,7 +39,7 @@
   },
   {
     "id": "ip-r05a-q03",
-    "examId": "it-passport",
+    "examId": "ip",
     "field": "strategy",
     "subField": "経営戦略マネジメント",
     "year": "R05秋",
@@ -58,7 +58,7 @@
   },
   {
     "id": "ip-r04a-q04",
-    "examId": "it-passport",
+    "examId": "ip",
     "field": "management",
     "subField": "プロジェクトマネジメント",
     "year": "R04秋",
@@ -77,7 +77,7 @@
   },
   {
     "id": "ip-r04a-q05",
-    "examId": "it-passport",
+    "examId": "ip",
     "field": "management",
     "subField": "サービスマネジメント",
     "year": "R04秋",
@@ -96,7 +96,7 @@
   },
   {
     "id": "ip-r05a-q06",
-    "examId": "it-passport",
+    "examId": "ip",
     "field": "technology",
     "subField": "セキュリティ",
     "year": "R05秋",
@@ -115,7 +115,7 @@
   },
   {
     "id": "ip-r04a-q07",
-    "examId": "it-passport",
+    "examId": "ip",
     "field": "technology",
     "subField": "ネットワーク",
     "year": "R04秋",
@@ -134,7 +134,7 @@
   },
   {
     "id": "ip-r05a-q08",
-    "examId": "it-passport",
+    "examId": "ip",
     "field": "technology",
     "subField": "データベース",
     "year": "R05秋",
@@ -153,7 +153,7 @@
   },
   {
     "id": "ip-r04a-q09",
-    "examId": "it-passport",
+    "examId": "ip",
     "field": "strategy",
     "subField": "システム戦略",
     "year": "R04秋",
@@ -172,7 +172,7 @@
   },
   {
     "id": "ip-r05a-q10",
-    "examId": "it-passport",
+    "examId": "ip",
     "field": "technology",
     "subField": "セキュリティ",
     "year": "R05秋",

@@ -8,31 +8,32 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // .envファイルを読み込む（dotenvライブラリ不要版）
-const envPath = path.join(__dirname, '.env');
-if (fs.existsSync(envPath)) {
-    const envContent = fs.readFileSync(envPath, 'utf8');
-    envContent.split(/\r?\n/).forEach(line => {
-        // コメントや空行をスキップ
-        if (!line || line.trim().startsWith('#')) return;
+// .envファイルを読み込む（dotenvライブラリ不要版）
+// プロジェクトルートと同一ディレクトリの両方をチェック
+const envPaths = [
+    path.join(process.cwd(), '.env'),
+    path.join(__dirname, '.env')
+];
 
-        // export や $env: を除去して正規化
-        let cleanLine = line.trim();
-        cleanLine = cleanLine.replace(/^export\s+/, '').replace(/^\$env:/, '');
-
-        const match = cleanLine.match(/^([^=]+)=(.*)$/);
-        if (match) {
-            const key = match[1].trim();
-            let value = match[2].trim();
-            // クォーテーションの除去
-            if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
-                value = value.slice(1, -1);
+for (const envPath of envPaths) {
+    if (fs.existsSync(envPath)) {
+        const envContent = fs.readFileSync(envPath, 'utf8');
+        envContent.split(/\r?\n/).forEach(line => {
+            if (!line || line.trim().startsWith('#')) return;
+            let cleanLine = line.trim();
+            cleanLine = cleanLine.replace(/^export\s+/, '').replace(/^\$env:/, '');
+            const match = cleanLine.match(/^([^=]+)=(.*)$/);
+            if (match) {
+                const key = match[1].trim();
+                let value = match[2].trim();
+                if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+                    value = value.slice(1, -1);
+                }
+                process.env[key] = value;
             }
-            process.env[key] = value;
-        }
-    });
-    console.log(`Loaded environment variables from ${envPath}`);
-} else {
-    console.warn(`Warning: .env file not found at ${envPath}`);
+        });
+        console.log(`Loaded environment variables from ${envPath}`);
+    }
 }
 
 const API_KEY = process.env.GEMINI_API_KEY;
