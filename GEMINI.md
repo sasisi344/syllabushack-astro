@@ -53,6 +53,8 @@ The allowed categories are exactly these four:
 
 For the full standard template, refer to `00_templates/post-template.md`.
 
+- `publishDate`: 記事の初公開日。
+- `lastmod`: 記事の最終更新日。
 - `category`: Must be a SINGLE string value matching the directory name.
   - OK: `category: "trend"`
   - OK: `category: "method"`

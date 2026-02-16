@@ -75,8 +75,8 @@ export const recordAnswer = (
 
 /** 分野ごとの正答率を取得 */
 export const getFieldAccuracy = (progress: UserProgress, field: ExamField): number => {
-  const stats = progress.fieldStats[field];
-  if (stats.answered === 0) return 0;
+  const stats = progress.fieldStats?.[field];
+  if (!stats || stats.answered === 0) return 0;
   return Math.round((stats.correct / stats.answered) * 100);
 };
 

@@ -35,6 +35,15 @@ export const appRegistry: Record<string, AppMetadata> = {
     category: 'tool',
     status: 'development',
   },
+  'ip-strategy-drill': {
+    id: 'ip-strategy-drill',
+    slug: 'ip-strategy-drill',
+    title: 'ITパスポート ストラテジ系 集中100問ドリル',
+    description: '配点35%を占める最重要分野「ストラテジ系」に特化した集中演習ドリル。AI解説付き。',
+    category: 'quiz',
+    status: 'beta',
+    examId: 'ip',
+  },
 };
 
 /**

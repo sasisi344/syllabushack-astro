@@ -1,5 +1,6 @@
 ---
 publishDate: '2026-01-30T22:00:00+09:00'
+lastmod: 2026-02-17
 title: Agent Teacher
 excerpt: AIがあなた専属�E家庭教師になる。Syllabus Hackの核忁E��学習法、E
 category: method

@@ -56,6 +56,7 @@ const postCollection = defineCollection({
     z.object({
       publishDate: z.coerce.date().optional(),
       updateDate: z.coerce.date().optional(),
+      lastmod: z.coerce.date().optional(),
       draft: z.boolean().optional(),
 
       title: z.string(),

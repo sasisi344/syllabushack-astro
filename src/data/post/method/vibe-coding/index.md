@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-02-10
+lastmod: 2026-02-17
 title: バイブコーディングで実現する「自分専用」の資格試験対策アプリ開発
 image: "~/data/post/method/vibe-coding/cover.jpg"
 excerpt: プログラミング知識がなくても、AIエディターと「会話」するだけで、シラバスに基づいた高度な学習アプリが作れる時代。その具体的なステップを解説します。

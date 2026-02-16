@@ -1,6 +1,7 @@
 ---
 title: 'Article Outlines February'
 publishDate: 2026-02-10
+lastmod: 2026-02-17
 draft: true
 ---
 

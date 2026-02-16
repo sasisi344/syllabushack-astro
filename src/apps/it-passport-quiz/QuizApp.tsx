@@ -1,5 +1,5 @@
 /** @jsxImportSource preact */
-import { useState, useCallback, useMemo, useEffect } from 'preact/hooks';
+import { useState, useCallback, useMemo, useEffect, useRef } from 'preact/hooks';
 import type { Question, QuizAppProps, ExamField } from './types';
 import { FIELD_LABELS } from './types';
 import { recordAnswer, loadProgress, getFieldAccuracy, getWeakestField } from './progress';
@@ -14,6 +14,13 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   const [currentField, setCurrentField] = useState<ExamField | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const scrollToTop = () => {
+    if (containerRef.current) {
+      containerRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
   const [showResult, setShowResult] = useState(false);
   const [progress, setProgress] = useState(() => loadProgress(examId));
 
@@ -105,8 +112,10 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   const goNext = useCallback(() => {
     if (currentIndex < activeQuestions.length - 1) {
       setCurrentIndex((i) => i + 1);
+      scrollToTop();
     } else {
       setMode('result');
+      scrollToTop();
     }
   }, [currentIndex, activeQuestions]);
 
@@ -139,7 +148,7 @@ ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
   // メニュー画面
   if (mode === 'menu') {
     return (
-      <div class="quiz-app">
+      <div class="quiz-app" ref={containerRef}>
         <div class="qa-menu">
           <h2 class="qa-title">{examName}</h2>
           <p class="qa-subtitle">分野を選んでドリルを開始</p>
@@ -215,8 +224,8 @@ ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
     const isCorrect = userAnswer === activeQuestion.correctLabel;
 
     return (
-      <div class="quiz-app">
-        <div class="qa-drill">
+      <div class="quiz-app" ref={containerRef}>
+        <div class="qa-content">
           {/* プログレスバー */}
           <div class="qa-progress-bar">
             <div
@@ -291,7 +300,7 @@ ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
   // 結果画面
   if (mode === 'result') {
     return (
-      <div class="quiz-app">
+      <div class="quiz-app" ref={containerRef}>
         <div class="qa-result">
           <h2 class="qa-result-title">📊 結果発表</h2>
           <div class="qa-result-score">

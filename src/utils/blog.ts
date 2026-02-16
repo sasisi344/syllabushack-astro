@@ -47,6 +47,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
   const {
     publishDate: rawPublishDate = new Date(),
     updateDate: rawUpdateDate,
+    lastmod: rawLastmod,
     title,
     excerpt,
     image,
@@ -62,7 +63,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 
   const slug = cleanSlug(id); // cleanSlug(rawSlug.split('/').pop());
   const publishDate = new Date(rawPublishDate);
-  const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
+  const updateDate = (rawLastmod || rawUpdateDate) ? new Date(rawLastmod || rawUpdateDate) : undefined;
 
   const CATEGORY_TITLES = {
     trend: 'トレンド・試験情報',

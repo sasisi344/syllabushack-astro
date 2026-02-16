@@ -30,7 +30,16 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     preact({ compat: true }),
-    sitemap(),
+    sitemap({
+      serialize(item) {
+        if (/src\/data\/post\//.test(item.url)) {
+          // Note: Full URL analysis or a helper would be better, but we are inside the config.
+          // For simplicity, we can't easily fetch the specific post data here without more logic.
+          // However, we can try to use a more automated approach if we use a plugin.
+        }
+        return item;
+      },
+    }),
     mdx(),
     icon({
       include: {
