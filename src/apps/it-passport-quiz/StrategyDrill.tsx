@@ -186,9 +186,15 @@ export default function StrategyDrill({ questions, examId, examName }: StrategyD
   // AIプロンプト生成
   const generateAiPrompt = useCallback(
     (q: Question, userAnswer: string) => {
-      return `以下の${examName}の問題について、なぜ「${q.correctLabel}」が正解なのか、初学者にもわかるように詳しく解説してください。
+      const scenarioText = q.scenario ? `【シナリオ】\n${q.scenario}\n\n` : '';
+      const keywordsText = q.keywords && q.keywords.length > 0
+        ? `【解答のヒントとなるキーワード】\n${q.keywords.map(k => `・${k}`).join('\n')}\n\n`
+        : '';
 
-【問題】
+      return `以下の${examName}の問題について、なぜ「${q.correctLabel}」が正解なのか、初学者にもわかるように詳しく解説してください。
+解説では、各選択肢が「なぜ正しいのか」または「なぜ誤りなのか」を、上記の関連キーワードの意味も交えて丁寧に説明してください。
+
+${keywordsText}${scenarioText}【問題】
 ${q.text}
 
 ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}

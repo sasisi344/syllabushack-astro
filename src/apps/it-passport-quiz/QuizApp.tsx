@@ -15,6 +15,7 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const containerRef = useRef<HTMLDivElement>(null);
+  const progressRef = useRef<HTMLDivElement>(null);
 
   const scrollToTop = () => {
     if (containerRef.current) {
@@ -51,14 +52,11 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const startAll = useCallback(() => {
     // 分野ごとのターゲット出題数 (合計10問)
-    // ストラテジ: 35% -> 3-4問 (3)
-    // マネジメント: 20% -> 2問 (2)
-    // テクノロジ: 45% -> 4-5問 (5)
-    const TARGET_COUNTS = {
-      strategy: 3,
-      management: 2,
-      technology: 5,
-    };
+    const TARGET_COUNTS: Record<string, number> = examId === 'sg'
+      ? { strategy: 2, management: 2, technology: 3, practical: 3 }
+      : examId === 'fe'
+      ? { strategy: 2, management: 2, technology: 3, practical: 3 }
+      : { strategy: 3, management: 2, technology: 5 };
 
     const selectedQuestions: Question[] = [];
 
@@ -70,13 +68,17 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
       } else {
         fieldQuestions = questions.filter((q) => q.field === field);
       }
+      
+      if (fieldQuestions.length === 0) continue;
+
       // シャッフル
-      for (let i = fieldQuestions.length - 1; i > 0; i--) {
+      const shuffledField = [...fieldQuestions];
+      for (let i = shuffledField.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [fieldQuestions[i], fieldQuestions[j]] = [fieldQuestions[j], fieldQuestions[i]];
+        [shuffledField[i], shuffledField[j]] = [shuffledField[j], shuffledField[i]];
       }
       // 指定数だけ取得（足りなければあるだけ）
-      selectedQuestions.push(...fieldQuestions.slice(0, count));
+      selectedQuestions.push(...shuffledField.slice(0, count));
     }
 
     // 最終セットをシャッフル
@@ -130,9 +132,14 @@ export default function QuizApp({ questions, examId, examName }: QuizAppProps) {
   const generateAiPrompt = useCallback(
     (q: Question, userAnswer: string) => {
       const scenarioText = q.scenario ? `【シナリオ】\n${q.scenario}\n\n` : '';
-      return `以下の${examName}の問題について、なぜ「${q.correctLabel}」が正解なのか、初学者にもわかるように詳しく解説してください。
+      const keywordsText = q.keywords && q.keywords.length > 0
+        ? `【解答のヒントとなるキーワード】\n${q.keywords.map(k => `・${k}`).join('\n')}\n\n`
+        : '';
 
-${scenarioText}【問題】
+      return `以下の${examName}の問題について、なぜ「${q.correctLabel}」が正解なのか、初学者にもわかるように詳しく解説してください。
+解説では、各選択肢が「なぜ正しいのか」または「なぜ誤りなのか」を、上記の関連キーワードの意味も交えて丁寧に説明してください。
+
+${keywordsText}${scenarioText}【問題】
 ${q.text}
 
 ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
@@ -229,6 +236,7 @@ ${q.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}
           {/* プログレスバー */}
           <div class="qa-progress-bar">
             <div
+              ref={progressRef}
               class="qa-progress-fill"
               style={{ width: `${((currentIndex + 1) / activeQuestions.length) * 100}%` }}
             />

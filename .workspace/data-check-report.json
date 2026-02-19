@@ -1,0 +1,22 @@
+{
+  "generative-ai.json": {
+    "count": 36,
+    "errors": []
+  },
+  "management.json": {
+    "count": 81,
+    "errors": []
+  },
+  "predicted.json": {
+    "count": 15,
+    "errors": []
+  },
+  "strategy.json": {
+    "count": 101,
+    "errors": []
+  },
+  "technology.json": {
+    "count": 101,
+    "errors": []
+  }
+}

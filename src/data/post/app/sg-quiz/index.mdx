@@ -1,23 +1,26 @@
 ---
 publishDate: 2026-02-12
-title: '情報セキュリティマネジメント(SG) 科目A ドリル'
-excerpt: 'SG試験の科目A（知識問題）に対応した、AI生成の最新ドリルです。'
-image: '~/assets/images/apps/sg-quiz-cover.jpg'
+title: '情報セキュリティマネジメント 攻略マスター'
+excerpt: 'SG試験の科目A・科目Bに完全対応。実務シナリオと最新キーワードをハックする戦略的学習ツール。'
+image: '~/data/post/app/sg-quiz/cover.jpg'
 category: 'app'
-tags: ['情報セキュリティマネジメント', '科目A', 'SyllabusHack']
+tags: ['情報セキュリティマネジメント', 'セキュリティ', 'SyllabusHack']
 knowledge:
   examId: 'sg'
   type: 'problem'
   difficulty: 'intermediate'
 metadata:
-  description: '情報セキュリティマネジメント試験(SG)の科目A対策に特化したWEBアプリ。シラバスを網羅したAI生成問題で、知識を定着させます。'
+  description: '情報セキュリティマネジメント試験（SG）の科目Aおよび科目B（ケーススタディ）に対応した戦略的演習アプリ。合格に必要な実践的判断力を養います。'
 ---
 
 import QuizApp from '~/apps/it-passport-quiz/QuizApp';
+import '~/apps/it-passport-quiz/quiz.css';
 import strategyQuestions from '~/data/quiz/sg/strategy.json';
 import managementQuestions from '~/data/quiz/sg/management.json';
 import technologyQuestions from '~/data/quiz/sg/technology.json';
 import practicalQuestions from '~/data/quiz/sg/practical.json';
+
+import { transformRawQuestions } from '~/apps/it-passport-quiz/transformQuestions';
 
 export const rawQuestions = [
   ...strategyQuestions,
@@ -26,19 +29,39 @@ export const rawQuestions = [
   ...practicalQuestions,
 ];
 
-## SG 科目A・科目B 特訓ドリル
+export const allQuestions = transformRawQuestions(rawQuestions, 'sg');
 
-情報セキュリティマネジメント試験（SG）の**科目A（知識）**および**科目B（実践・ケーススタディ）**に対応した問題集です。
-最新の試験範囲を網羅したキーワードに基づき、AIが本番レベルの問題を作成しています。
+# 情報セキュリティマネジメント 攻略マスター
 
-特に科目Bについては、実際の業務シナリオに即した状況判断が問われる長文問題も収録しています。
+このシミュレーターは、 **情報セキュリティマネジメント試験（SG）** の科目A・科目Bに完全対応した、合格特化型の演習ツールです。
 
 <div class="not-prose">
-  <QuizApp client:load questions={rawQuestions} examId="sg" examName="情報セキュリティマネジメント試験" />
+  <QuizApp client:load questions={allQuestions} examId="sg" examName="情報セキュリティマネジメント試験" />
 </div>
 
-### 使い方のヒント
+---
 
-- **分野別学習**: 苦手な分野を選択して、10問ずつのドリルに挑戦できます。
-- **AI解説**: 正解・不正解にかかわらず、AIによる詳細な解説が表示されます。
-- **合格のコツ**: SG試験はセキュリティ技術だけでなく、組織管理や法規（ストラテジ系）も重要です。バランスよく学習しましょう。
+## 合格への最短ルート：戦略的学習サイクル
+
+SG試験を短期間で突破するため、本アプリは以下の **3ステップ・ハッシュサイクル** に基づいて設計されています。
+
+### 1. 「知識」を「反射」に変える（科目A対策）
+
+科目A（48問）は、過去問の類似問題が多く出題される傾向にあります。
+
+- **攻略法**: 本アプリの `ストラテジ系` `マネジメント系` `テクノロジ系` のドリルを繰り返し、用語を見た瞬間に意味が思い浮かぶ「反射速度」を上げます。
+- **ポイント**: 3C分析や不正のトライアングルなど、頻出キーワードを重点的に潰します。
+
+### 2. 「事例」から「リスク」を見抜く（科目B対策）
+
+科目B（12問）は、組織の状況設定を読み解くケーススタディ形式です。
+
+- **攻略法**: `実務・ケーススタディ` 分野を重点的に演習します。シナリオの中から「脆弱性」と「脅威」を特定し、ISMSの観点で最適な「管理策」を選ぶ訓練を行います。
+- **ポイント**: **「誰が、何のために、どのルールに基づいて」** 行動すべきかを意識してトレースしてください。
+
+### 3. AI解説による「思考の深掘り」
+
+単に正解を確認するだけでなく、解答後の「AIに聞く」機能を活用してください。
+
+- **活用法**: なぜ他の選択肢が不適切なのか、実際の現場ではどのような運用（規程整備や技術的対策）が行われるのかをAIと対話しながら理解します。
+- **効果**: 丸暗記ではない「実務的な判断軸」が身につき、初見の長文問題にも動じない対応力が備わります。

@@ -3,6 +3,7 @@ publishDate: 2026-02-17
 lastmod: 2026-02-17
 title: '【2026年CBT化】応用情報・高度試験がペーパー廃止へ！変更点とエンジニアの備え'
 excerpt: 'IPAは2026年から応用情報技術者および高度試験の全区分をCBT方式へ移行すると発表しました。長年続いた筆記試験の廃止により、何が変わり、どう対策すべきかを徹底解説。'
+image: '~/data/post/trend/applied-advanced-exam-cbt-transition-2026/cover.jpg'
 
 category: trend
 tags:

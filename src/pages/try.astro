@@ -1,0 +1,90 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getPermalink } from '~/utils/permalinks';
+
+const metadata = {
+  title: '無料体験 — 試験攻略シミュレーター',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText
+    tagline="Experience"
+    title="無料の学習メソッドを体験"
+    subtitle="最新のシラバスに対応した演習アプリで、AIを活用した学習効率を今すぐ実感してください。各試験のシミュレーターから開始できます。"
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="試験別シミュレーター"
+    subtitle="対象の試験を選択して、CBT形式の演習を開始しましょう。"
+    items={[
+      {
+        title: 'ITパスポート試験',
+        description:
+          '全分野（ストラテジ・マネジメント・テクノロジ）を網羅。最新の生成AI関連用語も収録した総合シミュレーター。',
+        icon: 'tabler:school',
+        callToAction: {
+          text: '記事とアプリを見る',
+          href: getPermalink('app/it-passport-quiz'),
+          variant: 'primary',
+        },
+      },
+      {
+        title: '情報セキュリティマネジメント',
+        description: '科目Aの知識問題から、科目Bのケーススタディ読解まで。セキュリティの重要トピックをハックします。',
+        icon: 'tabler:shield-check',
+        callToAction: {
+          text: '記事とアプリを見る',
+          href: getPermalink('app/sg-quiz'),
+          variant: 'primary',
+        },
+      },
+      {
+        title: '基本情報技術者試験',
+        description: '科目Bのアルゴリズム・擬似言語対策に特化。AIと一緒にコードの読み方をマスターしましょう。',
+        icon: 'tabler:code',
+        callToAction: {
+          text: '記事とアプリを見る',
+          href: getPermalink('app/fe-quiz'),
+          variant: 'primary',
+        },
+      },
+      {
+        title: 'IP：戦略系 100問ドリル',
+        description: '経営・法務などのストラテジ系に絞った集中トレーニング。短期間で知識を定着させます。',
+        icon: 'tabler:chart-arrows',
+        callToAction: {
+          text: '記事とアプリを見る',
+          href: getPermalink('app/ip-strategy-drill'),
+          variant: 'primary',
+        },
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="AIと一緒なら、もっと速く、深く。"
+    subtitle="単に問題を解くだけでなく、AIによる解説や学習メソッドを組み合わせることで、合格への距離は一気に縮まります。"
+    actions={[
+      {
+        variant: 'link',
+        text: '学習メソッドの詳細を見る',
+        href: getPermalink('method', 'category'),
+        icon: 'tabler:chevron-right',
+      },
+    ]}
+  />
+</Layout>

@@ -32,9 +32,14 @@ export default function DailyQuiz({ questions }: DailyQuizProps) {
   // AIに聞くプロンプト生成
   const aiPrompt = useMemo(() => {
     if (!revealed || !selected) return '';
-    return `以下のITパスポート試験の問題について、なぜ「${todayQuestion.correctLabel}」が正解なのか、初学者にもわかるように詳しく解説してください。
+    const keywordsText = todayQuestion.keywords && todayQuestion.keywords.length > 0
+      ? `【解答のヒントとなるキーワード】\n${todayQuestion.keywords.map(k => `・${k}`).join('\n')}\n\n`
+      : '';
 
-【問題】
+    return `以下のITパスポート試験の問題について、なぜ「${todayQuestion.correctLabel}」が正解なのか、初学者にもわかるように詳しく解説してください。
+解説では、各選択肢が「なぜ正しいのか」または「なぜ誤りなのか」を、上記の関連キーワードの意味も交えて丁寧に説明してください。
+
+${keywordsText}【問題】
 ${todayQuestion.text}
 
 ${todayQuestion.choices.map((c) => `${c.label}. ${c.text}`).join('\n')}

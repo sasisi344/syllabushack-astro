@@ -136,7 +136,12 @@ export function extractKeywords(text, masterSyllabus) {
         isInKeywordSection = false;
       } else {
         // 行を結合（改行で途切れた用語を再接続）
-        keywordBuffer += trimmed;
+        // 英数字同士ならスペースを入れる
+        if (/[A-Za-z0-9]$/.test(keywordBuffer) && /^[A-Za-z0-9]/.test(trimmed)) {
+          keywordBuffer += ' ' + trimmed;
+        } else {
+          keywordBuffer += trimmed;
+        }
       }
     }
   }
@@ -168,7 +173,9 @@ function detectMiddleCategory(line, middleCategoryNames) {
     let mcName = fullMatch[2].trim();
     // 末尾のページ番号等を除去
     mcName = mcName.replace(/\s*\d+\s*$/, '');
-    const found = middleCategoryNames.find(mc => mc.id === mcId || mc.name === mcName);
+    
+    // 名前で検索（完全一致またはエイリアス）
+    const found = findMiddleCategoryByName(mcName, middleCategoryNames);
     return found || { id: mcId, name: mcName };
   }
 
@@ -179,11 +186,41 @@ function detectMiddleCategory(line, middleCategoryNames) {
     const mcId = simpleMatch[1];
     let mcName = simpleMatch[2].trim();
     mcName = mcName.replace(/\s*\d+\s*$/, '');
-    const found = middleCategoryNames.find(mc => mc.id === mcId || mc.name === mcName);
-    return found || null;
+    
+    const found = findMiddleCategoryByName(mcName, middleCategoryNames);
+    return found || { id: mcId, name: mcName };
   }
 
   return null;
+}
+
+/**
+ * 名前またはエイリアスで中分類を検索する
+ */
+function findMiddleCategoryByName(name, middleCategoryNames) {
+  // 完全一致
+  let found = middleCategoryNames.find(mc => mc.name === name);
+  if (found) return found;
+
+  // エイリアス変換
+  const aliasMap = {
+    'ユーザーインタフェース': 'ヒューマンインタフェース',
+    '情報メディア': 'マルチメディア',
+    'ビジネスシステム': 'ビジネスインダストリ',
+    '経営・組織論': '企業活動',
+    '知的財産権': '法務',
+    'セキュリティ関連法規': '法務',
+    '労働関連・取引関連法規': '法務',
+    'その他の法律・ガイドライン・技術者倫理': '法務',
+    '標準化関連': '法務',
+  };
+
+  const aliasName = aliasMap[name];
+  if (aliasName) {
+    found = middleCategoryNames.find(mc => mc.name === aliasName);
+  }
+
+  return found || null;
 }
 
 /**

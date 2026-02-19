@@ -44,6 +44,24 @@ export const appRegistry: Record<string, AppMetadata> = {
     status: 'beta',
     examId: 'ip',
   },
+  'sg-quiz': {
+    id: 'sg-quiz',
+    slug: 'sg-quiz',
+    title: '情報セキュリティマネジメント 攻略マスター',
+    description: '科目A・B完全対応。AIによる実務シナリオ演習でSG合格を確実にする戦略的シミュレーター。',
+    category: 'quiz',
+    status: 'stable',
+    examId: 'sg',
+  },
+  'fe-quiz': {
+    id: 'fe-quiz',
+    slug: 'fe-quiz',
+    title: '基本情報技術者 攻略シミュレーター',
+    description: 'FE試験の科目A（全分野）と科目B（アルゴリズム・セキュリティ）に完全対応した戦略的学習ツール。',
+    category: 'quiz',
+    status: 'stable',
+    examId: 'fe',
+  },
 };
 
 /**

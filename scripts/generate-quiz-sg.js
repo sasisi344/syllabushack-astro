@@ -25,9 +25,9 @@ const CATEGORY_MAP = {
 
 async function callGemini(prompt) {
   const genAI = new GoogleGenerativeAI(API_KEY);
-  const model = genAI.getGenerativeModel({ 
+  const model = genAI.getGenerativeModel({
     model: MODEL,
-    generationConfig: { responseMimeType: "application/json" }
+    generationConfig: { responseMimeType: 'application/json' },
   });
 
   try {
@@ -59,7 +59,7 @@ async function main() {
   const targetCategory = CATEGORY_MAP[categoryArg];
   const numToGenerate = countArg ? parseInt(countArg, 10) : 5;
   const filterRegex = keywordArg ? new RegExp(keywordArg, 'i') : null;
-  
+
   const outputFile = path.join(OUTPUT_DIR, targetCategory.filename);
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
@@ -74,24 +74,59 @@ async function main() {
 
   let allKeywords = [];
   if (syllabusData.categories) {
-    syllabusData.categories.forEach(cat => {
+    syllabusData.categories.forEach((cat) => {
       // idで判定する方が安全 (NFC/NFD問題回避)
       if (cat.id !== categoryArg) return;
 
-      cat.large_categories.forEach(lCat => {
-        lCat.middle_categories.forEach(mCat => {
-          mCat.keywords.forEach(kw => {
+      cat.large_categories.forEach((lCat) => {
+        lCat.middle_categories.forEach((mCat) => {
+          mCat.keywords.forEach((kw) => {
             const keywordText = typeof kw === 'string' ? kw : kw.keyword;
             if (filterRegex && !filterRegex.test(keywordText)) return;
-            
+
             allKeywords.push({
               category: cat.name,
               middleCategory: mCat.name,
               keyword: keywordText,
-              syllabusRef: mCat.id
+              syllabusRef: mCat.id,
             });
           });
         });
+      });
+    });
+  }
+
+  // Fallback for Technology category if keywords are missing
+  if (categoryArg === 'technology' && allKeywords.length === 0) {
+    console.log('⚠️ Technology keywords missing from syllabus. Using fallback list.');
+    const TECH_KEYWORDS_FALLBACK = [
+      'ISMS(JIS Q 27001)',
+      'CIA(機密性・完全性・可用性)',
+      'リスクマネジメント',
+      'マルウェア(ランサムウェア等)',
+      'フィッシング詐欺',
+      'ソーシャルエンジニアリング',
+      'DoS/DDoS攻撃',
+      'SQLインジェクション',
+      'XSS(クロスサイトスクリプティング)',
+      'ファイアウォール',
+      'WAF',
+      'IDS/IPS',
+      'VPN',
+      '暗号技術(共通鍵/公開鍵)',
+      'デジタル署名',
+      'PKI(公開鍵基盤)',
+      '認証(多要素/生体)',
+      'CSIRT',
+      'IoTセキュリティ',
+      'クラウドセキュリティ',
+    ];
+    TECH_KEYWORDS_FALLBACK.forEach((kw) => {
+      allKeywords.push({
+        category: 'テクノロジ系',
+        middleCategory: 'セキュリティ',
+        keyword: kw,
+        syllabusRef: '23',
       });
     });
   }
@@ -105,12 +140,12 @@ async function main() {
     } catch (e) {}
   }
 
-  const existingKeywords = new Set(existingQuestions.map(q => q.keyword));
-  const targetKeywords = allKeywords.filter(k => !existingKeywords.has(k.keyword));
+  const existingKeywords = new Set(existingQuestions.map((q) => q.keyword));
+  const targetKeywords = allKeywords.filter((k) => !existingKeywords.has(k.keyword));
   console.log(`🎯 未生成ターゲット: ${targetKeywords.length} 個`);
 
   if (targetKeywords.length === 0) {
-    console.log("✨ 全キーワード生成済みです！");
+    console.log('✨ 全キーワード生成済みです！');
     process.exit(0);
   }
 
@@ -153,7 +188,10 @@ async function main() {
       if (response.error) throw new Error(response.error.message);
 
       const text = response.text();
-      const jsonText = text.replace(/```json/g, '').replace(/```/g, '').trim();
+      const jsonText = text
+        .replace(/```json/g, '')
+        .replace(/```/g, '')
+        .trim();
       const generatedData = JSON.parse(jsonText);
 
       if (generatedData && generatedData.question) {
@@ -163,7 +201,7 @@ async function main() {
         generatedData.examId = 'sg';
         generatedData.middleCategory = item.middleCategory;
         generatedData.syllabusRef = item.syllabusRef;
-        
+
         existingQuestions.push(generatedData);
         fs.writeFileSync(outputFile, JSON.stringify(existingQuestions, null, 2), 'utf8');
         console.log(`✅ Success: ${item.keyword}`);
@@ -171,7 +209,7 @@ async function main() {
     } catch (err) {
       console.error(`❌ Error [${item.keyword}]:`, err.message);
     }
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise((resolve) => setTimeout(resolve, 2000));
   }
 }
 

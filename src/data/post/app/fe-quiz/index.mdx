@@ -1,0 +1,58 @@
+---
+publishDate: 2026-02-18
+title: '基本情報技術者試験 攻略シミュレーター'
+excerpt: '科目A・科目B（アルゴリズム）に完全対応。擬似言語の「コード感覚」をAIと磨き、最短合格を狙う戦略的シミュレーター。'
+category: 'app'
+tags: ['基本情報技術者', 'アルゴリズム', 'SyllabusHack']
+image: '~/data/post/app/fe-quiz/cover.jpg'
+knowledge:
+  examId: 'fe'
+  type: 'problem'
+  difficulty: 'intermediate'
+metadata:
+  description: '基本情報技術者試験（FE）の科目Aおよび科目B（アルゴリズム）に完全対応した、戦略的学習ツール。出題比率に基づいた効率的な演習が可能。'
+---
+
+import QuizApp from '~/apps/it-passport-quiz/QuizApp';
+import '~/apps/it-passport-quiz/quiz.css';
+import strategyQuestions from '~/data/quiz/fe/strategy.json';
+import managementQuestions from '~/data/quiz/fe/management.json';
+import technologyQuestions from '~/data/quiz/fe/technology.json';
+import practicalQuestions from '~/data/quiz/fe/practical.json';
+
+import { transformRawQuestions } from '~/apps/it-passport-quiz/transformQuestions';
+
+export const rawQuestions = [
+  ...strategyQuestions,
+  ...managementQuestions,
+  ...technologyQuestions,
+  ...practicalQuestions,
+];
+
+export const allQuestions = transformRawQuestions(rawQuestions, 'fe');
+
+# 基本情報技術者試験 攻略シミュレーター
+
+このシミュレーターは、 **基本情報技術者試験（FE）** の新形式（科目A・科目B）に完全対応した、戦略的学習ツールです。本番の出題比率と **IRT（項目応答理論）** を攻略するための設計を導入しています。
+
+## 戦略的学習のポイント
+
+効率的に合格ラインを突破するため、以下の設計を導入しています。
+
+- **科目Bの黄金比** : 出題数の8割を占める **データ構造及びアルゴリズム** （擬似言語）と、2割の **情報セキュリティ** に特化した問題配分を行っています。
+- **知識と技能の2ステージ演習** : 同一キーワードに対し、用語の意味を問う「知識問題（科目A形式）」と、擬似言語やケーススタディで実践力を問う「技能問題（科目B形式）」の2パターンを収録。丸暗記を防ぎます。
+- **AI解説連携** : 単なる正誤判定ではなく、問題の背後にある概念を **SyllabusHack** 独自のプロンプトで解説。初見の問題への対応力を養います。
+
+---
+
+<div class="not-prose">
+  <QuizApp client:load questions={allQuestions} examId="fe" examName="基本情報技術者試験" />
+</div>
+
+---
+
+## 使い方
+
+1. **スタートボタン**を押して演習を開始してください。
+2. 科目B（アルゴリズム）の問題では、**トレース**を丁寧に行うことが正解への近道です。
+3. 間違えた問題は、解説を読み、キーワードをメモしておきましょう。
