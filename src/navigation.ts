@@ -46,7 +46,7 @@ export const footerData = {
     { text: 'プライバシーポリシー', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/344dev' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/sasisi344' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `
