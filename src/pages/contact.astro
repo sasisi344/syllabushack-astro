@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
@@ -15,19 +14,43 @@ const metadata = {
   <HeroText tagline="Contact" title="お問い合わせ" />
 
   <Features2
-    title="ご連絡はこちらから"
-    subtitle="現在、Webフォームからのお問い合わせは停止しております。Twitter（X）のDMにてご連絡ください。"
+    title="お問い合わせ"
+    subtitle="お問い合わせは以下のフォーム、またはメールかSNSのDM（Twitter、Threads）にて受け付けております。"
+    columns={2}
     items={[
       {
-        title: 'Twitter (X)',
+        title: 'SNS (X)',
         description: '@sasisi344',
-        icon: 'tabler:brand-x',
+        icon: 'tabler:messages',
         callToAction: {
-          text: 'DMを送る',
-          href: 'https://twitter.com/sasisi344',
+          text: 'X(Twitter) を開く',
+          href: 'https://x.com/sasisi344',
           target: '_blank',
+        },
+      },
+      {
+        title: 'Email',
+        description: 'sasisi344@gmail.com',
+        icon: 'tabler:mail',
+        callToAction: {
+          text: 'メールを送る',
+          href: 'mailto:sasisi344@gmail.com',
         },
       },
     ]}
   />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 mb-20 text-center">
+    <h2 class="text-2xl font-bold mb-8 dark:text-white">お問い合わせフォーム</h2>
+    <!-- Google Forms oEmbed / iframe を配置 -->
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSeZEIRrQ5LcTZ5dBcitMRq52hiGzBhZoNdn5A2kclM0ZTx99Q/viewform?usp=publish-editor/viewform?embedded=true"
+      width="100%"
+      height="800"
+      style="border: 0; margin: 0;"
+      class="max-w-full rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+    >
+      読み込んでいます…
+    </iframe>
+  </div>
 </Layout>

@@ -28,6 +28,10 @@ This is an **Astro project (using AstroWind template)** focused on "Syllabus Hac
 
 Articles must be created in `src/data/post/{category}/{slug}/index.md` (Page Bundle pattern).
 
+- **App Category Fine-tuning**:
+  - **Tool Main**: Use `index.mdx` and set `knowledge.type: "app"`.
+  - **Technical Explanation**: Use `index.md` and set `knowledge.type: "method"`.
+
 **Project Management:**
 
 - `.workspace/drafts/`: 下書き（ドラフト）記事の保管場所。
@@ -48,6 +52,7 @@ The allowed categories are exactly these four:
 4.  **app** (`src/data/post/app/`)
     - **Display Name**: ウェブアプリ
     - **Content**: CBT simulators, quiz tools, PDF converters, and other interactive tools.
+    - **Category Page**: Posts are automatically separated into "Tools/Apps" and "Development Stories/Technical Explanations" based on their `knowledge.type`.
 
 ### Frontmatter Constraint
 
@@ -66,7 +71,7 @@ For the full standard template, refer to `00_templates/post-template.md`.
     - OK: `tags: ["基本情報技術者", "アルゴリズム", "SyllabusHack"]`
 - `knowledge` (Optional - for App Integration):
   - `examId`: `it-passport`, `sg`, `fe`, `ap`, `common`
-  - `type`: `term` (用語), `problem` (問題解説), `method` (学習法)
+  - `type`: `app` (ツール本体・シミュレーター), `method` (開発ストーリー・技術解説), `term` (用語), `problem` (問題解説)
   - `syllabusRef`: Reference to syllabus section (e.g., "Strategy-1")
   - `difficulty`: `beginner`, `intermediate`, `advanced`
 - `metadata`:

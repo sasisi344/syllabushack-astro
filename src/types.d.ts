@@ -42,6 +42,14 @@ export interface Post {
 
   /**  */
   readingTime?: number;
+
+  /**  */
+  knowledge?: {
+    examId?: string;
+    type?: string;
+    syllabusRef?: string;
+    difficulty?: string;
+  };
 }
 
 export interface Taxonomy {

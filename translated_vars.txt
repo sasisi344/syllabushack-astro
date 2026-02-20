@@ -1,0 +1,10 @@
+ID: fe-b-1771470136501
+Missing in scenario: ['error', 'unknown']
+Question: 空欄 [ a ] に入れるべき適切な文字列はどれか
+Options: ['ア: valid', 'イ: invalid', 'ウ: unknown', 'エ: error']
+---
+ID: fe-b-1771470390961
+Missing in scenario: ['tempとすべき']
+Question: 上記の擬似言語において、基本選択法（選択ソート）のアルゴリズムを実現しています。このコードは正しいですか？誤りがある場合、修正すべき箇所を指摘し、正しいコードに修正してください。ここでは、特に修正の必要がない場合でも「正しい」を選択肢として含めます。
+Options: ['ア: 正しい', 'イ: 11行目の条件式が誤っている。employeeIDs[j] > employeeIDs[min_index]とすべき。', 'ウ: 15行目と16行目の代入が逆である。employeeIDs[min_index] ← employeeIDs[i]とemployeeIDs[i] ← tempとすべき。', 'エ: 7行目の繰り返し範囲が誤っている。n - 1ではなくnまで繰り返すべき。']
+---

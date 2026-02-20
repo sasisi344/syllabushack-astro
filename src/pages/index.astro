@@ -1,5 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import { getPermalink } from '~/utils/permalinks';
 
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
@@ -22,10 +23,10 @@ const metadata = {
       {
         variant: 'primary',
         text: '試験対策アプリを使う',
-        href: '/app',
+        href: getPermalink('app', 'category'),
         icon: 'tabler:device-laptop',
       },
-      { text: '学習メソッドを読む', href: '/method' },
+      { text: '学習メソッドを読む', href: getPermalink('method', 'category') },
     ]}
     image={{ src: '~/assets/images/hero-syllabushack.jpg', alt: 'Syllabus Hack Hero Image' }}
   >

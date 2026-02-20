@@ -57,6 +57,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     author,
     draft = false,
     metadata = {},
+    knowledge = {},
   } = data;
 
   const actualCategory = rawCategory || (Array.isArray(rawCategories) && rawCategories.length > 0 ? rawCategories[0] : undefined);
@@ -108,6 +109,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     // or 'content' in case you consume from API
 
     readingTime: remarkPluginFrontmatter?.readingTime,
+    knowledge: knowledge,
   };
 };
 
@@ -218,7 +220,13 @@ export const getStaticPathsBlogCategory = async ({ paginate }: { paginate: Pagin
 
   return Array.from(Object.keys(categories)).flatMap((categorySlug) =>
     paginate(
-      posts.filter((post) => post.category?.slug && categorySlug === post.category?.slug),
+      posts
+        .filter((post) => post.category?.slug && categorySlug === post.category?.slug)
+        .sort((a, b) => {
+          if (a.knowledge?.type === 'app' && b.knowledge?.type !== 'app') return -1;
+          if (a.knowledge?.type !== 'app' && b.knowledge?.type === 'app') return 1;
+          return b.publishDate.valueOf() - a.publishDate.valueOf();
+        }),
       {
         params: { category: categorySlug, blog: CATEGORY_BASE || undefined },
         pageSize: blogPostsPerPage,

@@ -5,6 +5,8 @@ title: '【Gemini 2.0】CLIで無限にクイズを作る自作ツール "Quiz G
 excerpt: 'コマンド一発で試験問題を量産。Gemini APIのリミット制御と重複排除を実装したNode.jsスクリプトの全貌。'
 image: '~/data/post/app/gemini-cli-quiz-maker/cover.jpg'
 category: 'app'
+knowledge:
+  type: method
 tags: ['Gemini', 'CLI', 'Node.js', '自作ツール']
 metadata:
   description: 'Gemini 2.0 Flash APIを活用し、コマンドラインから資格試験のクイズデータを一括生成するNode.js製CLIツールの紹介と技術的な実装ポイント。'
@@ -45,13 +47,68 @@ Gemini API (Free tier) には分間のリクエスト制限があります。
 生成された問題が既存のデータと被らないよう、既存のJSONを読み込んでキーワードベースでフィルタリングします。
 これにより、「まだ作っていない問題」だけをピンポイントで生成できます。
 
-### 3. "Gemini 2.0 Flash" の実力
+### 3. CLIで動かす「真のメリット」
 
-高速で安価（現在は無料枠あり）な `gemini-2.0-flash` モデルを採用。
-思考時間は短いですが、明確なプロンプトを与えることで、試験センター公認レベルの「ひっかけ問題」も生成可能です。
+このツールをCLI（コマンドライン）で動かすことには、技術者ならではの大きなメリットがあります。
 
-## コードの公開
+それは、**「AIエージェントのクォータ（利用制限）を消費しない」** ことです。
 
-このツールは Syllabus Hack の開発プロセスで実際に使用されています。
-ソースコードの主要部分は [GitHub (344dev/syllabushack-astro)](https://github.com/344dev/syllabushack-astro) で確認できます。
-ぜひフォークして、あなただけの「無限問題生成器」を作ってみてください。
+例えば、VS Codeなどで私（Antigravity）に直接「問題を作って」と頼むと、エージェント側の利用回数が削られてしまいます。しかし、自作のスクリプトをターミナルの外出しプロセスとして走らせれば、Gemini APIとあなたの直接対話になるため、エージェント側の制限を気にせず、バックグラウンドで何百問ものデータを量産できるのです。
+
+## 開発の裏側：実際に使っているソースコード
+
+「AIを活用してアプリを作る」そのプロセス自体が Syllabus Hack の核です。
+実際に問題生成に使用している `scripts/generate-quiz-fe.js` のコアロジックを抜粋して紹介します。
+
+### Gemini API 呼び出しの核心部
+
+APIキーを設定し、構造化データ（JSON）を直接出力させるための設定です。
+
+```javascript
+const API_KEY = process.env.GEMINI_API_KEY;
+const MODEL = 'gemini-2.0-flash';
+
+async function callGemini(prompt) {
+  const genAI = new GoogleGenerativeAI(API_KEY);
+  const model = genAI.getGenerativeModel({
+    model: MODEL,
+    // ストレートにJSONを返させるための魔法の設定
+    generationConfig: { responseMimeType: 'application/json' },
+  });
+
+  const result = await model.generateContent(prompt);
+  return result.response;
+}
+```
+
+### 逐次保存とレートリミット対策
+
+生成したそばからファイルに書き込み、API制限に配慮して「待つ」実装。これが安定した量産の秘訣です。
+
+````javascript
+for (const item of sample) {
+  console.log(`🌀 生成中: [${item.keyword}]...`);
+  const response = await callGemini(prompt);
+  const jsonText = response
+    .text()
+    .replace(/```json/g, '')
+    .replace(/```/g, '')
+    .trim();
+  const generatedData = JSON.parse(jsonText);
+
+  if (generatedData && generatedData.question) {
+    // 既存のリストに追記して即座に保存
+    existingQuestions.push(generatedData);
+    fs.writeFileSync(outputFile, JSON.stringify(existingQuestions, null, 2), 'utf8');
+    console.log(`✅ Success: ${item.keyword}`);
+  }
+  // APIへの負荷を考慮して2秒のクールダウン
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+}
+````
+
+## まとめ：構想があるならAIに具現化してもらう
+
+このコード自体も、AIと対話しながらブラッシュアップしてきたものです。
+
+コードをそのまま真似る必要はありません。あなたが「作りたいもの」をAIに伝え、自分専用の武器にカスタマイズしていく楽しさを、ぜひ体験してみてください。

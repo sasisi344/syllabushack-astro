@@ -1,0 +1,136 @@
+node.exe : npm warn Unknown pr
+oject config "shamefully-hoist
+". This will stop working in t
+he next major version of npm.
+???? C:\Program Files\nodejs\n
+pm.ps1:29 ??:3
++   & $NODE_EXE $NPM_CLI_JS $a
+rgs
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~
+    + CategoryInfo          : 
+    NotSpecified: (npm warn   
+  Unknow...version of npm.:   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+
+> astro-temp@1.0.0-beta.52 check:astro
+> astro check
+
+22:12:27 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+22:12:27 [content] Syncing content
+22:12:27 [content] Synced content
+22:12:27 [types] Generated 568ms
+22:12:27 [check] Getting diagnostics for Astro files in C:\Users\sasis\344dev\syllabushack-astro...
+[96mparse-err.js[0m:[93m1[0m:[93m12[0m - [93mwarning[0m[90m ts(80001): [0mFile is a CommonJS module; it may be converted to an ES module.
+
+[7m1[0m const fs = require('fs');
+[7m [0m [93m           ~~~~~~~~~~~~~[0m
+
+[96mscripts/extract-syllabus.js[0m:[93m124[0m:[93m9[0m - [93mwarning[0m[90m ts(6133): [0m'isInKeywordSection' is declared but its value is never read.
+
+[7m124[0m     let isInKeywordSection = false;
+[7m   [0m [93m        ~~~~~~~~~~~~~~~~~~[0m
+[96mscripts/extract-syllabus.js[0m:[93m8[0m:[93m19[0m - [93mwarning[0m[90m ts(7016): [0mCould not find a declaration file for module 'pdf-parse'. 'C:/Users/sasis/344dev/syllabushack-astro/node_modules/pdf-parse/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/pdf-parse` if it exists or add a new declaration (.d.ts) file containing `declare module 'pdf-parse';`
+
+[7m8[0m let pdf = require('pdf-parse');
+[7m [0m [93m                  ~~~~~~~~~~~[0m
+[96mscripts/extract-syllabus.js[0m:[93m7[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m7[0m const require = createRequire(import.meta.url);
+[7m [0m [93m      ~~~~~~~[0m
+
+[96msrc/navigation.ts[0m:[93m1[0m:[93m24[0m - [93mwarning[0m[90m ts(6133): [0m'getBlogPermalink' is declared but its value is never read.
+
+[7m1[0m import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+[7m [0m [93m                       ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/apps/it-passport-quiz/App.ts[0m:[93m13[0m:[93m11[0m - [93mwarning[0m[90m ts(6133): [0m'currentQuestionIndex' is declared but its value is never read.
+
+[7m13[0m   private currentQuestionIndex: number = 0;
+[7m  [0m [93m          ~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/apps/it-passport-quiz/App.ts[0m:[93m12[0m:[93m11[0m - [93mwarning[0m[90m ts(6133): [0m'questions' is declared but its value is never read.
+
+[7m12[0m   private questions: any[] = [];
+[7m  [0m [93m          ~~~~~~~~~[0m
+
+[96msrc/apps/it-passport-quiz/QuizApp.tsx[0m:[93m69[0m:[93m9[0m - [91merror[0m[90m ts(2322): [0mType 'Question[]' is not assignable to type 'never[]'.
+  Type 'Question' is not assignable to type 'never'.
+
+[7m69[0m         fieldQuestions = questions.filter((q) => q.field === field);
+[7m  [0m [91m        ~~~~~~~~~~~~~~[0m
+[96msrc/apps/it-passport-quiz/QuizApp.tsx[0m:[93m67[0m:[93m9[0m - [91merror[0m[90m ts(2322): [0mType 'Question[]' is not assignable to type 'never[]'.
+  Type 'Question' is not assignable to type 'never'.
+
+[7m67[0m         fieldQuestions = questions.filter((q) => q.field === 'technology' || q.field === 'generative-ai');
+[7m  [0m [91m        ~~~~~~~~~~~~~~[0m
+[96msrc/apps/it-passport-quiz/QuizApp.tsx[0m:[93m41[0m:[93m9[0m - [93mwarning[0m[90m ts(6133): [0m'currentQuestion' is declared but its value is never read.
+
+[7m41[0m   const currentQuestion = drillQuestions[currentIndex];
+[7m  [0m [93m        ~~~~~~~~~~~~~~~[0m
+[96msrc/apps/it-passport-quiz/QuizApp.tsx[0m:[93m25[0m:[93m10[0m - [93mwarning[0m[90m ts(6133): [0m'showResult' is declared but its value is never read.
+
+[7m25[0m   const [showResult, setShowResult] = useState(false);
+[7m  [0m [93m         ~~~~~~~~~~[0m
+[96msrc/apps/it-passport-quiz/QuizApp.tsx[0m:[93m2[0m:[93m42[0m - [93mwarning[0m[90m ts(6133): [0m'useEffect' is declared but its value is never read.
+
+[7m2[0m import { useState, useCallback, useMemo, useEffect, useRef } from 'preact/hooks';
+[7m [0m [93m                                         ~~~~~~~~~[0m
+
+[96msrc/apps/it-passport-quiz/StrategyDrill.tsx[0m:[93m4[0m:[93m38[0m - [93mwarning[0m[90m ts(6133): [0m'getFieldAccuracy' is declared but its value is never read.
+
+[7m4[0m import { recordAnswer, loadProgress, getFieldAccuracy } from './progress';
+[7m [0m [93m                                     ~~~~~~~~~~~~~~~~[0m
+[96msrc/apps/it-passport-quiz/StrategyDrill.tsx[0m:[93m3[0m:[93m39[0m - [93mwarning[0m[90m ts(6196): [0m'ExamField' is declared but never used.
+
+[7m3[0m import type { Question, QuizAppProps, ExamField } from './types';
+[7m [0m [93m                                      ~~~~~~~~~[0m
+[96msrc/apps/it-passport-quiz/StrategyDrill.tsx[0m:[93m3[0m:[93m25[0m - [93mwarning[0m[90m ts(6196): [0m'QuizAppProps' is declared but never used.
+
+[7m3[0m import type { Question, QuizAppProps, ExamField } from './types';
+[7m [0m [93m                        ~~~~~~~~~~~~[0m
+[96msrc/apps/it-passport-quiz/StrategyDrill.tsx[0m:[93m2[0m:[93m42[0m - [93mwarning[0m[90m ts(6133): [0m'useEffect' is declared but its value is never read.
+
+[7m2[0m import { useState, useCallback, useMemo, useEffect, useRef } from 'preact/hooks';
+[7m [0m [93m                                         ~~~~~~~~~[0m
+
+[96msrc/apps/it-passport-quiz/progress.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m ts(2739): [0mType '{ strategy: { answered: number; correct: number; }; management: { answered: number; correct: number; }; technology: { answered: number; correct: number; }; }' is missing the following properties from type 'Record<ExamField, { answered: number; correct: number; }>': practical, "generative-ai"
+
+[7m13[0m   fieldStats: {
+[7m  [0m [91m  ~~~~~~~~~~[0m
+
+[96msrc/content/config.ts[0m:[93m55[0m:[93m12[0m - [93mwarning[0m[90m ts(6133): [0m'image' is declared but its value is never read.
+
+[7m55[0m   schema: ({ image }) =>
+[7m  [0m [93m           ~~~~~~~~~[0m
+
+[96msrc/pages/contact.astro[0m:[93m52[0m:[93m7[0m - [93mwarning[0m[90m ts(6385): [0m'marginwidth' is deprecated.
+
+[7m52[0m       marginwidth="0"
+[7m  [0m [93m      ~~~~~~~~~~~[0m
+[96msrc/pages/contact.astro[0m:[93m51[0m:[93m7[0m - [93mwarning[0m[90m ts(6385): [0m'marginheight' is deprecated.
+
+[7m51[0m       marginheight="0"
+[7m  [0m [93m      ~~~~~~~~~~~~[0m
+[96msrc/pages/contact.astro[0m:[93m50[0m:[93m7[0m - [93mwarning[0m[90m ts(6385): [0m'frameborder' is deprecated.
+
+[7m50[0m       frameborder="0"
+[7m  [0m [93m      ~~~~~~~~~~~[0m
+
+[96msrc/utils/blog.ts[0m:[93m66[0m:[93m63[0m - [91merror[0m[90m ts(2769): [0mNo overload matches this call.
+  Overload 1 of 5, '(value: string | number | Date): Date', gave the following error.
+  Overload 2 of 5, '(vd: VarDate): Date', gave the following error.
+  Overload 3 of 5, '(value: string | number): Date', gave the following error.
+
+[7m66[0m   const updateDate = (rawLastmod || rawUpdateDate) ? new Date(rawLastmod || rawUpdateDate) : undefined;
+[7m  [0m [91m                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Result (129 files): 
+- 4 errors
+- 0 warnings
+- 18 hints
+
