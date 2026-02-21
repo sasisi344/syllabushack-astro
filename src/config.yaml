@@ -66,7 +66,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # TODO: デプロイ前に "G-XXXXXXXXXX" を設定してください
+      id: 'G-SF1FB2J0T1' # TODO: デプロイ前に "G-XXXXXXXXXX" を設定してください
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
