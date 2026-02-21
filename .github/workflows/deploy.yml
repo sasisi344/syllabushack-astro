@@ -1,0 +1,51 @@
+name: Auto Deploy (FTP Diff Upload)
+
+on:
+  push:
+    branches:
+      - main # mainブランチにプッシュされたら自動実行
+  workflow_dispatch: # 手動で実行できるボタンも用意
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 差分計算のために履歴をフェッチ
+
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 📦 Install Dependencies
+        run: npm ci
+
+      - name: 🔨 Build Astro Project
+        run: npm run build
+
+      - name: 🚀 Deploy via FTP (Diff only)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # GitHub Secretsに設定したFTP情報を参照します
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          
+          # Astroのビルド出力ディレクトリ
+          local-dir: ./dist/
+          
+          # サーバー上のアップロード先ディレクトリ（例： /public_html/ や /syllabushack.com/public_html/ など）
+          # ※ ご利用のサーバー環境に合わせて変更してください
+          server-dir: /public_html/
+          
+          # 【重要】差分アップロードの設定
+          # 初回は全送受信しますが、次回以降は `.ftp-deploy-sync-state.json` を使って
+          # 変更のあったファイル（差分）だけを高速に転送します。
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
