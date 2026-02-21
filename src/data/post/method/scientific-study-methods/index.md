@@ -4,8 +4,12 @@ updateDate: 2026-02-19
 title: '【Active Recall】科学的に「脳に効く」勉強法だけをやる。エビデンスベースの資格試験攻略'
 excerpt: '精神論ではなくエビデンス。認知科学で実証された「アクティブリコール」「分散学習」「インターリービング」をSyllabus Hack流に実践する手法。'
 image: '~/data/post/method/scientific-study-methods/cover.jpg'
-category: 'method'
+category: method
 tags: ['学習法', '科学的根拠', 'ActiveRecall', '効率化']
+knowledge:
+  examId: common
+  type: method
+  difficulty: beginner
 metadata:
   description: '認知科学に基づく「科学的に正しい勉強法」を紹介。再読よりも想起（アクティブリコール）、集中よりも分散（スペーシング）など、脳の仕組みを利用した資格試験対策。'
 ---

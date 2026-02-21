@@ -1,10 +1,14 @@
 ---
-title: "基本情報シラバスVer.9.0緊急解説！「生成AI」追加で試験はどう変わる？"
-image: "~/data/post/trend/syllabus-ver9-update/cover.jpg"
-description: "「古い参考書で勉強してるけど大丈夫？」→危険です！基本情報技術者試験（シラバスVer.9.0）とITパスポート（Ver.6.3）の新傾向を徹底解説。生成AI分野の対策法も紹介します。"
+title: '基本情報シラバスVer.9.0緊急解説！「生成AI」追加で試験はどう変わる？'
+image: '~/data/post/trend/syllabus-ver9-update/cover.jpg'
+description: '「古い参考書で勉強してるけど大丈夫？」→危険です！基本情報技術者試験（シラバスVer.9.0）とITパスポート（Ver.6.3）の新傾向を徹底解説。生成AI分野の対策法も紹介します。'
 date: 2026-01-31
-categories: ["trend"]
-tags: ["基本情報技術者", "ITパスポート", "AI学習法", "シラバス"]
+category: trend
+tags: ['基本情報技術者', 'ITパスポート', 'AI学習法', 'シラバス']
+knowledge:
+  examId: fe
+  type: method
+  difficulty: beginner
 draft: false
 toc: true
 ---

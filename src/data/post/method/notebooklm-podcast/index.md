@@ -1,14 +1,17 @@
 ---
-title: "【NotebookLM】試験シラバスを「聴く参考書」に変える！音声学習の極意と裏技"
-image: "~/data/post/method/notebooklm-podcast/cover.jpg"
-description: "「シラバスを読むのが苦痛」「移動時間を勉強にあてたい」そんな悩みをNotebookLMの音声機能で解決。PDFを丸投げするだけでは作れない、自分専用の「高効率ポッドキャスト」を作成するハック術を紹介します。"
+title: '【NotebookLM】試験シラバスを「聴く参考書」に変える！音声学習の極意と裏技'
+image: '~/data/post/method/notebooklm-podcast/cover.jpg'
+description: '「シラバスを読むのが苦痛」「移動時間を勉強にあてたい」そんな悩みをNotebookLMの音声機能で解決。PDFを丸投げするだけでは作れない、自分専用の「高効率ポッドキャスト」を作成するハック術を紹介します。'
 date: 2026-02-07T09:00:00+09:00
-categories: ["method"]
-tags: ["NotebookLM", "勉強法", "耳学", "SyllabusHack", "Gemini"]
+category: method
+tags: ['NotebookLM', '勉強法', '耳学', 'SyllabusHack', 'Gemini']
+knowledge:
+  examId: common
+  type: method
+  difficulty: beginner
 toc: true
 draft: false
 ---
-
 
 IPA（情報処理推進機構）の試験シラバスや、数百ページある技術書。
 **「読むだけで眠くなる」「文字ばかりで頭に入らない」** と感じたことはありませんか？
@@ -23,9 +26,9 @@ NotebookLMの **「音声オーバービュー（Audio Overview）」** 機能�
 
 まず、前提として知っておくべきことがあります。
 
-*   **PDFをそのまま読める** : NotebookLMはRAG（検索拡張生成）が得意なため、重たいシラバスPDFも問題なく処理できます。
-*   **生成回数の壁** : 無料版では1日の生成回数に制限があります（目安として数回程度）。
-    「とりあえず作ってみて、気に入らなかったらやり直そう」を繰り返すと、すぐに制限がかかってしまいます。
+- **PDFをそのまま読める** : NotebookLMはRAG（検索拡張生成）が得意なため、重たいシラバスPDFも問題なく処理できます。
+- **生成回数の壁** : 無料版では1日の生成回数に制限があります（目安として数回程度）。
+  「とりあえず作ってみて、気に入らなかったらやり直そう」を繰り返すと、すぐに制限がかかってしまいます。
 
 だからこそ、 **「一発で成功させるプロンプトと設定」** が重要になります。
 
@@ -39,6 +42,7 @@ NotebookLMの **「音声オーバービュー（Audio Overview）」** 機能�
 そこで、NotebookLM内のメモ機能を活用して、ソースを限定します。
 
 **手順:**
+
 1.  チャット欄で **「ストラテジ系の頻出用語をリストアップして」** と指示。
 2.  出力された回答を「メモに保存」する。
 3.  左側のソース一覧で、 **シラバスのチェックを外し、保存した「メモ」だけにチェックを入れる** 。
@@ -53,6 +57,7 @@ NotebookLMに要約させるのではなく、GeminiやChatGPTで作った「完
 一手間かかりますが、クオリティは段違いになります。
 
 **手順:**
+
 1.  Gemini等に指示: 「基本情報技術者試験のセキュリティ攻撃手法について、初心者にもわかりやすく解説するラジオ番組の台本を書いて」
 2.  出力されたテキストをコピーし、NotebookLMに「新しいソース（テキスト）」として貼り付け。
 3.  そのテキストリソースのみを選択して音声化。
@@ -64,12 +69,12 @@ NotebookLMに要約させるのではなく、GeminiやChatGPTで作った「完
 音声生成画面にある「カスタマイズ」ボタン（旧プロンプト入力欄）で、AIに明確な指示を出しましょう。
 分数を直接指定することはできませんが、キーワードでコントロール可能です。
 
-*   **サクッと聞きたい時（5分程度）**
-    *   `Focus on the absolute basics. Keep it short and concise.`
-    *   「最重要ポイントに絞って、簡潔にまとめて」
-*   **じっくり学びたい時（15分以上）**
-    *   `Deep dive into the details. Use specific examples.`
-    *   「詳細まで深掘りして。具体的な事例（たとえ話）を交えて詳しく議論して」
+- **サクッと聞きたい時（5分程度）**
+  - `Focus on the absolute basics. Keep it short and concise.`
+  - 「最重要ポイントに絞って、簡潔にまとめて」
+- **じっくり学びたい時（15分以上）**
+  - `Deep dive into the details. Use specific examples.`
+  - 「詳細まで深掘りして。具体的な事例（たとえ話）を交えて詳しく議論して」
 
 ![slider interface](slider.jpg)
 

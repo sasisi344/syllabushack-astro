@@ -4,8 +4,12 @@ updateDate: 2026-02-19
 title: 'ChatGPTプロンプト集：Syllabus Hackを支える記事・アプリ開発プロンプト'
 excerpt: '当サイト「Syllabus Hack」の膨大な記事執筆やクイズアプリ開発で実際に使用した、実践的なChatGPT/Geminiプロンプトを公開。'
 image: '~/data/post/method/chatgpt-prompt-collection/cover.jpg'
-category: 'method'
+category: method
 tags: ['ChatGPT', 'Gemini', 'プロンプト', '開発記', '効率化']
+knowledge:
+  examId: common
+  type: method
+  difficulty: beginner
 metadata:
   description: 'Syllabus Hackの運営で使用している、記事作成・データ加工・コード生成のための厳選プロンプト集。AIを単なるチャット相手ではなく「開発パートナー」に変える手法。'
 ---

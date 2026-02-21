@@ -62,6 +62,23 @@ export const appRegistry: Record<string, AppMetadata> = {
     status: 'stable',
     examId: 'fe',
   },
+  'genai-ethics-quiz': {
+    id: 'genai-ethics-quiz',
+    slug: 'genai-ethics-quiz',
+    title: '生成AI・AI倫理「新用語」特化型クイズ',
+    description: '最新シラバス対応！生成AIとAI倫理の重要キーワードをAI解説付きドリルで攻略。',
+    category: 'quiz',
+    status: 'development',
+  },
+  'sg-subject-b-quiz': {
+    id: 'sg-subject-b-quiz',
+    slug: 'sg-subject-b-quiz',
+    title: 'SG科目B 実務シナリオ演習ドリル',
+    description: '情報セキュリティマネジメント試験の最難関「科目B」に特化。実務シナリオ形式の長文問題を攻略。',
+    category: 'quiz',
+    status: 'development',
+    examId: 'sg',
+  },
 };
 
 /**

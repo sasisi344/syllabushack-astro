@@ -4,8 +4,12 @@ updateDate: 2026-02-19
 title: '試験に出るのは「新参者」だ。シラバス改訂差分から次回の出題を予測するハック'
 excerpt: 'IPAが公式公開する「シラバス変更履歴」こそ最強の予想問題集。AIに差分分析させ、新規追加キーワードを狙い撃つデータ戦略。'
 image: '~/data/post/method/syllabus-diff-hack/cover.jpg'
-category: 'method'
+category: method
 tags: ['学習法', '試験予想', 'データ分析', 'シラバス']
+knowledge:
+  examId: common
+  type: method
+  difficulty: intermediate
 metadata:
   description: 'AIでIPAシラバスの改定前後の差分を解析し、新たに追加されたキーワードを抽出。試験で出題されやすい「新トレンド」だけを重点学習。'
 ---

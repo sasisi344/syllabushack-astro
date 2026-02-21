@@ -1,0 +1,53 @@
+---
+publishDate: 2026-02-21
+lastmod: 2026-02-21
+title: 生成AI・AI倫理「新用語」特化型クイズ
+excerpt: 最新シラバス対応！ハルシネーション、RAG、著作権ガイドラインなど、試験頻出の生成AIキーワードを攻略。
+category: app
+image: '~/data/post/app/genai-ethics-quiz/cover.jpg'
+knowledge:
+  examId: common
+  type: app
+  difficulty: beginner
+tags:
+  - 生成AI
+  - AI倫理
+  - ITパスポート
+  - 基本情報技術者
+  - SyllabusHack
+metadata:
+  description: IPAの最新シラバス（iパス Ver.6.2, FE Ver.8.1等）で追加された生成AI・AI倫理の重要キーワードを、AI解説付きで効率よく学べる演習ドリル。
+---
+
+import QuizApp from '~/apps/genai-ethics-quiz/QuizApp';
+import '~/apps/genai-ethics-quiz/quiz.css';
+import questionsJson from '~/data/master/questions-genai-ethics.json';
+import { transformRawQuestions } from '~/apps/genai-ethics-quiz/transformQuestions';
+
+export const allQuestions = transformRawQuestions(questionsJson);
+
+## アプリについて
+
+このアプリは、 **ITパスポート試験（Ver.6.2以降）** や **基本情報技術者試験** で近年急速に追加された **生成AI・AI倫理** の新用語を最速でマスターするための演習ツールです。
+
+最新のシラバス変更点（差分）に特化しているため、従来のテキストだけではカバーしきれない「今、出る用語」を重点的に学習できます。
+
+## 攻略のポイント
+
+- **仕組みからリスクまで** : 大規模言語モデル（LLM）の基本構造だけでなく、ハルシネーションやプロンプトインジェクションといったリスク、著作権法などの法的側面まで網羅。
+- **実務視点のキーワード** : RAG（検索拡張生成）やHITL（Human-in-the-Loop）など、シラバスに追加された実務実装用語を収録。
+- **AI解説で深く理解** : 全ての問題にAIによる詳細解説へのリンクを用意。単なる用語の暗記ではなく、背景にある技術的・倫理的意義を理解できます。
+
+---
+
+<div class="not-prose">
+  <QuizApp client:load questions={allQuestions} examId="common" examName="生成AI・AI倫理特訓ドリル" />
+</div>
+
+---
+
+## 合格へのアドバイス
+
+1.  **「ハルシネーション」などのリスクをまず把握** : 生成AIの限界を知ることは、試験でも実務でも必須の知識です。
+2.  **法的規制の動向をチェック** : 日本の著作権法（30条の4）やEU AI法など、最新のルールは得点源になります。
+3.  **「ステップバイステップ」で考える** : プロンプトエンジニアリングの基本（CoTなど）は、仕組みを理解すれば確実に正解できます。

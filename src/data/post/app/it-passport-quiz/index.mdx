@@ -6,6 +6,7 @@ excerpt: 本番のCBT試験を忠実に再現した、ITパスポート模擬試
 category: app
 knowledge:
   type: app
+  examId: ip
 tags:
   - ITパスポート
   - CBT
@@ -57,4 +58,4 @@ export const allQuestions = transformRawQuestions(rawQuestions);
 
 ---
 
-<QuizApp client:load questions={allQuestions} examId="ip" examName="ITパスポート試験" />
+<QuizApp client:load questions={allQuestions} examId="it-passport" examName="ITパスポート試験" />

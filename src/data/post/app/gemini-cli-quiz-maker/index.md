@@ -4,9 +4,10 @@ updateDate: 2026-02-19
 title: '【Gemini 2.0】CLIで無限にクイズを作る自作ツール "Quiz Generator"'
 excerpt: 'コマンド一発で試験問題を量産。Gemini APIのリミット制御と重複排除を実装したNode.jsスクリプトの全貌。'
 image: '~/data/post/app/gemini-cli-quiz-maker/cover.jpg'
-category: 'app'
+category: app
 knowledge:
   type: method
+  examId: common
 tags: ['Gemini', 'CLI', 'Node.js', '自作ツール']
 metadata:
   description: 'Gemini 2.0 Flash APIを活用し、コマンドラインから資格試験のクイズデータを一括生成するNode.js製CLIツールの紹介と技術的な実装ポイント。'

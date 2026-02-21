@@ -1,0 +1,340 @@
+/* SG Subject B Quiz App Style */
+
+.sg-quiz-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Inter Variable', sans-serif;
+  color: #334155;
+}
+
+.dark .sg-quiz-container {
+  color: #cbd5e1;
+}
+
+.sg-quiz-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .sg-quiz-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- Scenario Viewer --- */
+.sg-side-scenario {
+  position: sticky;
+  top: 6rem;
+  max-height: calc(100vh - 8rem);
+  overflow-y: auto;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.dark .sg-side-scenario {
+  background: #1e293b;
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #f1f5f9;
+}
+
+@media (max-width: 1024px) {
+  .sg-side-scenario {
+    position: sticky;
+    top: 3.5rem;
+    z-index: 5;
+    max-height: 40vh;
+    border-bottom: none;
+    border-radius: 1rem 1rem 0 0;
+    /* マスクの開始位置を下げて視認性を確保 */
+    mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+    margin-bottom: -1rem;
+  }
+}
+
+.sg-scenario-tag {
+  display: inline-block;
+  background: #64748b;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.sg-scenario-content {
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 1024px) {
+  .sg-scenario-content {
+    padding-bottom: 60px; /* フェード領域に重ならないよう余白を追加 */
+  }
+}
+
+.sg-scenario-content p {
+  margin-bottom: 1rem;
+}
+
+/* --- Main Content (Question) --- */
+.sg-main-content {
+  padding: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .sg-main-content {
+    position: relative;
+    z-index: 10;
+    background: #ffffff; /* 不透明な背景でシナリオを隠す */
+    padding-top: 2rem;
+    margin-top: 0;
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+
+  .dark .sg-main-content {
+    background: #020617; /* ダークモード用のソリッド背景 */
+  }
+}
+
+.sg-q-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.sg-q-num {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+.dark .sg-q-num {
+  color: #f8fafc;
+}
+
+.sg-progress-dots {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.sg-progress-dots .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e2e8f0;
+}
+
+.dark .sg-progress-dots .dot {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sg-progress-dots .dot.active {
+  background: #6366f1;
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.5);
+}
+
+.sg-progress-dots .dot.done {
+  background: #94a3b8;
+}
+
+.sg-question-text {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #0f172a;
+  border-left: 4px solid #6366f1;
+  padding-left: 1.25rem;
+}
+
+.dark .sg-question-text {
+  color: #f8fafc;
+  border-left-color: #818cf8;
+}
+
+.sg-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.sg-choice-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.dark .sg-choice-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #e0e7ff;
+}
+
+.sg-choice-btn:hover:not(:disabled) {
+  border-color: #6366f1;
+  background: #f5f3ff;
+  transform: translateX(4px);
+}
+
+.dark .sg-choice-btn:hover:not(:disabled) {
+  background: rgba(99, 102, 241, 0.1);
+}
+
+.sg-choice-btn .label {
+  flex-shrink: 0;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: #f1f5f9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.dark .sg-choice-btn .label {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sg-choice-btn.correct {
+  border-color: #22c55e;
+  background: rgba(34, 197, 94, 0.05);
+}
+
+.sg-choice-btn.correct .label {
+  background: #22c55e;
+  color: #fff;
+}
+
+.sg-choice-btn.wrong {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.05);
+}
+
+.sg-choice-btn.wrong .label {
+  background: #ef4444;
+  color: #fff;
+}
+
+.sg-choice-btn.dimmed {
+  opacity: 0.5;
+}
+
+/* --- Explanation --- */
+.sg-explanation-box {
+  background: #f8fafc;
+  border: 1px solid #6366f1;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  animation: sg-slide-up 0.3s ease;
+}
+
+.dark .sg-explanation-box {
+  background: rgba(99, 102, 241, 0.05);
+}
+
+.sg-status-badge {
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.sg-explanation-box .text {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: #475569;
+  margin-bottom: 1.25rem;
+}
+
+.dark .sg-explanation-box .text {
+  color: #cbd5e1;
+}
+
+.sg-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.sg-btn {
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s;
+}
+
+.sg-btn.primary,
+.sg-btn.next {
+  background: linear-gradient(135deg, #6366f1, #818cf8);
+  color: #fff;
+}
+
+.sg-ai-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #1e293b;
+  text-decoration: none;
+}
+
+.dark .sg-ai-btn {
+  background: rgba(255, 255, 255, 0.05);
+  color: #e0e7ff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes sg-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Result View */
+.res-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.sg-result-card {
+  text-align: center;
+}
+
+.sg-score {
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 1.5rem 0;
+  color: #6366f1;
+}

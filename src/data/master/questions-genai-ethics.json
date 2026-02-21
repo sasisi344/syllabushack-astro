@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "category": "ethics_governance",
+    "subCategory": "リスク・セキュリティ",
+    "question": "生成AIが、学習データの不備や確率的モデルの限界により、事実とは異なる「もっともらしい嘘」を出力してしまう現象を何というか？",
+    "options": ["ア: ディープフェイク", "イ: ハルシネーション", "ウ: プロンプトインジェクション", "エ: エコーチェンバー"],
+    "answer": "イ",
+    "explanation": "生成AIは確率的な予測を行う性質上、「ハルシネーション（幻覚）」を完全に排除することは現時点では不可能です。そのため、実務においては出力結果の真偽を人間が確認するプロセスが必須とされています。"
+  },
+  {
+    "id": 2,
+    "category": "mechanism",
+    "subCategory": "技術要素",
+    "question": "テキスト、画像、音声、動画など、異なる種類の情報を同時に扱い、相互に変換・理解するAI技術を指す用語はどれか？",
+    "options": ["ア: 特化型AI", "イ: 説明可能なAI (XAI)", "ウ: マルチモーダルAI", "エ: 汎用AI"],
+    "answer": "ウ",
+    "explanation": "従来のAIが単一のモーダル（データ形式）に特化していたのに対し、マルチモーダルAIは人間の脳のように多角的な情報の統合を可能にする技術です。"
+  },
+  {
+    "id": 3,
+    "category": "utilization",
+    "subCategory": "実務実装",
+    "question": "企業が固有のデータをAIに活用させる手法のうち、外部の知識ベースから関連情報を検索し、それをプロンプトに付加して回答させる手法はどれか？",
+    "options": ["ア: RAG (検索拡張生成)", "イ: ファインチューニング", "ウ: 強化学習", "エ: スクレイピング"],
+    "answer": "ア",
+    "explanation": "RAG（Retrieval-Augmented Generation）は、モデル自体を更新せずに最新情報や独自データを参照させる手法です。一方、モデル自体を追加学習させるのは「ファインチューニング」です。"
+  },
+  {
+    "id": 4,
+    "category": "ethics_governance",
+    "subCategory": "ガバナンス",
+    "question": "AIが生成した結果をそのまま信用するのではなく、最終的に人間が介在して確認・検証するプロセスを指す用語はどれか？",
+    "options": ["ア: PoV (価値実証)", "イ: Human-in-the-Loop (HITL)", "ウ: アライメント", "エ: オプトアウト"],
+    "answer": "イ",
+    "explanation": "AIの誤りリスクを管理するため、重要な意思決定には人間が介在する「Human-in-the-Loop」が、ガイドライン等でも強く推奨されています。"
+  },
+  {
+    "id": 5,
+    "category": "ethics_governance",
+    "subCategory": "権利・法規制",
+    "question": "日本の著作権法第30条の4において、AIの学習データとして著作物を権利者の許諾なく利用できるのは、原則としてどのような目的の場合か？",
+    "options": ["ア: 非享受目的", "イ: 営利目的", "ウ: 私的使用目的", "エ: 引用目的"],
+    "answer": "ア",
+    "explanation": "表現を享受することを目的としない「非享受目的」の情報解析であれば、原則として許諾なく学習可能です。ただし、権利者の利益を不当に害する場合は例外となります。"
+  },
+  {
+    "id": 6,
+    "category": "ethics_governance",
+    "subCategory": "ガバナンス",
+    "question": "AIの判断プロセスがブラックボックス化する懸念に対し、なぜその結果が出力されたのかを人間が理解できる形で説明できる技術を何と呼ぶか？",
+    "options": ["ア: PoC (概念実証)", "イ: マルチモーダルAI", "ウ: XAI (説明可能なAI)", "エ: LLM (大規模言語モデル)"],
+    "answer": "ウ",
+    "explanation": "Explainable AI (XAI)は、AIの判断根拠を透明化し、信頼性を確保するための重要な技術領域です。"
+  },
+  {
+    "id": 7,
+    "category": "utilization",
+    "subCategory": "実務実装",
+    "question": "AIを導入する際、技術的に可能であることを証明する「PoC」に加え、それがビジネス上の価値を生むかどうかを実証するプロセスを何というか？",
+    "options": ["ア: BPR", "イ: PoV (価値実証)", "ウ: ROI", "エ: DX"],
+    "answer": "イ",
+    "explanation": "PoV (Proof of Value)は、生成AIの出力が確率的である特性を考慮し、実際のビジネス価値を検証するフェーズです。"
+  },
+  {
+    "id": 8,
+    "category": "mechanism",
+    "subCategory": "生成モデル",
+    "question": "ChatGPTなどの大規模言語モデル（LLM）において、文脈の中の重要な箇所に重み付けをして処理する、中心的なアーキテクチャはどれか？",
+    "options": ["ア: RNN", "イ: CNN", "ウ: Transformer", "エ: GAN"],
+    "answer": "ウ",
+    "explanation": "Transformerは「Attentionメカニズム」により、入力データの関連性を効率よく学習できる、現代の生成AIの基盤となる技術です。"
+  },
+  {
+    "id": 9,
+    "category": "utilization",
+    "subCategory": "プロンプト",
+    "question": "AIに期待通りの出力をさせるため、プロンプトの中で数個の具体例を提示する手法を何というか？",
+    "options": ["ア: Zero-shotプロンプティング", "イ: Few-shotプロンプティング", "ウ: Chain of Thought", "エ: ネガティブプロンプト"],
+    "answer": "イ",
+    "explanation": "例を全く与えないのをZero-shot、数個(few)の例を与えるのをFew-shotと呼びます。これにより精度が向上します。"
+  },
+  {
+    "id": 10,
+    "category": "utilization",
+    "subCategory": "プロンプト",
+    "question": "複雑な計算や論理的思考が必要な際、「ステップバイステップで考えて」などの指示を与えることで推論精度を高める手法はどれか？",
+    "options": ["ア: RAG", "イ: Chain of Thought (CoT)", "ウ: ファインチューニング", "エ: トークン化"],
+    "answer": "イ",
+    "explanation": "Chain of Thought（思考の連鎖）は、AIに中間的な思考プロセスを出力させることで、論論的ミスを減らす手法です。"
+  },
+  {
+    "id": 11,
+    "category": "utilization",
+    "subCategory": "トレンド",
+    "question": "AIが自ら目標達成のための計画を立て、ツールを使い分けながら自律的にタスクを実行する仕組みを何というか？",
+    "options": ["ア: チャットボット", "イ: AIエージェント", "ウ: エキスパートシステム", "エ: ベクトル検索"],
+    "answer": "イ",
+    "explanation": "AIエージェントは、単なる対話応答を超え、自律的に判断し実行する次世代のAI活用形態です。"
+  },
+  {
+    "id": 12,
+    "category": "ethics_governance",
+    "subCategory": "リスク・セキュリティ",
+    "question": "悪意のある入力によって、AIの制限設定（ガードレール）を解除させたり、不適切な出力を引き出したりする攻撃手法を何というか？",
+    "options": ["ア: SQLインジェクション", "イ: プロンプトインジェクション", "ウ: フィッシング", "エ: クロスサイトスクリプティング"],
+    "answer": "イ",
+    "explanation": "ユーザー入力によってAIの指示を上書きし、本来禁止されている操作を行わせるセキュリティリスクです。"
+  },
+  {
+    "id": 13,
+    "category": "ethics_governance",
+    "subCategory": "リスク・セキュリティ",
+    "question": "企業の許可を得ずに、従業員が個人用の生成AIツールを業務で勝手に使用してしまい、情報漏洩 Risk が生じる状態を何というか？",
+    "options": ["ア: BYOD", "イ: シャドーAI", "ウ: ダークウェブ", "エ: ソーシャルエンジニアリング"],
+    "answer": "イ",
+    "explanation": "企業の管理が及ばないAI利用（Shadow AI）は、機密情報の流出や利用規約違反のリスクを高めます。"
+  },
+  {
+    "id": 14,
+    "category": "mechanism",
+    "subCategory": "生成モデル",
+    "question": "ノイズ状態から段階的にノイズを取り除いていくことで、高品質な画像を生成するAIモデルの名称はどれか？",
+    "options": ["ア: Transformer", "イ: GAN (敵対的生成ネットワーク)", "ウ: 拡散モデル (Diffusion Model)", "エ: 回帰モデル"],
+    "answer": "ウ",
+    "explanation": "Stable Diffusionなどの画像生成AIの多くは、この「拡散モデル」という仕組みを利用しています。"
+  },
+  {
+    "id": 15,
+    "category": "ethics_governance",
+    "subCategory": "権利・法規制",
+    "question": "2024年に成立し、AIをリスクの高さに応じて4段階に分類して規制する、世界初の包括的なAI法案はどれか？",
+    "options": ["ア: 広島AIプロセス", "イ: デジタル庁ガイドライン", "ウ: EU AI法 (AI Act)", "エ: 米大統領令"],
+    "answer": "ウ",
+    "explanation": "EU AI法は、ハイリスクなAIに対する厳格な義務を課すなど、世界の規制の雛形（ブラッセル効果）になると見られています。"
+  },
+  {
+    "id": 16,
+    "category": "ethics_governance",
+    "subCategory": "国際枠組み",
+    "question": "G7において、生成AIに関する国際的な指針（高度なAIシステムを開発する組織向けの行動規範）を策定したプロジェクトを何というか？",
+    "options": ["ア: G7 AIサミット", "イ: 広島AIプロセス", "ウ: パリ協定", "エ: ダボス会議"],
+    "answer": "イ",
+    "explanation": "日本が議長国を務めたG7広島サミットで合意された、生成AIの国際的なルール作りを目指す枠組みです。"
+  },
+  {
+    "id": 17,
+    "category": "mechanism",
+    "subCategory": "技術要素",
+    "question": "単語や文を、その意味的な近さを反映した「多次元の数値（ベクトル）」に変換することを何というか？",
+    "options": ["ア: エンコーディング", "イ: トークン化", "ウ: 埋め込み (Embedding)", "エ: 正規化"],
+    "answer": "ウ",
+    "explanation": "Embedding（埋め込み）により、意味が近い言葉を空間上の近い位置に配置でき、RAGなどの検索技術に不可欠です。"
+  },
+  {
+    "id": 18,
+    "category": "utilization",
+    "subCategory": "実務実装",
+    "question": "汎用的な大規模モデルを、さらに特定の専門領域（医療、法律、社内規定など）のデータで追加学習させて最適化することを何というか？",
+    "options": ["ア: 蒸留 (Distillation)", "イ: ファインチューニング", "ウ: プロンプトエンジニアリング", "エ: アノテーション"],
+    "answer": "イ",
+    "explanation": "ファインチューニングは既存モデルの「重み」を調整することで、特定タスクへの専門性を高める手法です。"
+  },
+  {
+    "id": 19,
+    "category": "ethics_governance",
+    "subCategory": "ガバナンス",
+    "question": "AIの出力を人間の価値観や倫理観、具体的な意図に一致させるための調整プロセスを何というか？",
+    "options": ["ア: キャリブレーション", "イ: フィルタリング", "ウ: アライメント", "エ: モデレーション"],
+    "answer": "ウ",
+    "explanation": "アライメント（Alignment）は、AIが人間にとって有害な回答をしないように「方向性を合わせる」作業です。"
+  },
+  {
+    "id": 20,
+    "category": "mechanism",
+    "subCategory": "生成モデル",
+    "question": "多種多様なタスクに対応可能で、他のモデルを開発する際の「土台」となるような、膨大な学習データを用いた大規模モデルを何と呼ぶか？",
+    "options": ["ア: マスターモデル", "イ: 基盤モデル (Foundation Model)", "ウ: プロトタイプモデル", "エ: 共有モデル"],
+    "answer": "イ",
+    "explanation": "基盤モデル（Foundation Model）は、その上に特定のアプリケーションを構築するための共通の土台となるモデルです。"
+  }
+]
+

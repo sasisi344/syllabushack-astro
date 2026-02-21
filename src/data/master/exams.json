@@ -1,80 +1,94 @@
 [
   {
-    "id": "ip",
+    "id": "it-passport",
     "name": "ITパスポート試験",
+    "englishName": "Information Technology Passport Examination",
     "shortName": "IP",
     "tags": ["ITパスポート", "iパス", "IP"]
   },
   {
     "id": "sg",
     "name": "情報セキュリティマネジメント試験",
+    "englishName": "Information Security Management Examination",
     "shortName": "SG",
     "tags": ["情報セキュリティマネジメント", "セキュマネ", "SG"]
   },
   {
     "id": "fe",
     "name": "基本情報技術者試験",
+    "englishName": "Fundamental Information Technology Engineer Examination",
     "shortName": "FE",
     "tags": ["基本情報技術者", "基本情報", "FE"]
   },
   {
     "id": "ap",
     "name": "応用情報技術者試験",
+    "englishName": "Applied Information Technology Engineer Examination",
     "shortName": "AP",
     "tags": ["応用情報技術者", "応用情報", "AP"]
   },
   {
     "id": "st",
     "name": "ITストラテジスト試験",
+    "englishName": "Information Technology Strategist Examination",
     "shortName": "ST",
-    "tags": ["ITストラテジスト", "ST"]
+    "tags": ["ITストラテジスト", "ストラテジスト", "ST"]
   },
   {
     "id": "sa",
     "name": "システムアーキテクト試験",
+    "englishName": "Systems Architect Examination",
     "shortName": "SA",
-    "tags": ["システムアーキテクト", "SA"]
+    "tags": ["システムアーキテクト", "シスアキ", "SA"]
   },
   {
     "id": "pm",
     "name": "プロジェクトマネージャ試験",
+    "englishName": "Project Manager Examination",
     "shortName": "PM",
-    "tags": ["プロジェクトマネージャ", "PM"]
+    "tags": ["プロジェクトマネージャ", "プロマネ", "Pマネ", "PM"]
   },
   {
     "id": "nw",
     "name": "ネットワークスペシャリスト試験",
+    "englishName": "Network Specialist Examination",
     "shortName": "NW",
-    "tags": ["ネットワークスペシャリスト", "NW"]
+    "tags": ["ネットワークスペシャリスト", "ネスペ", "NW"]
   },
   {
     "id": "db",
     "name": "データベーススペシャリスト試験",
+    "englishName": "Database Specialist Examination",
     "shortName": "DB",
-    "tags": ["データベーススペシャリスト", "DB"]
+    "tags": ["データベーススペシャリスト", "デスペ", "DB"]
   },
   {
     "id": "es",
     "name": "エンベデッドシステムスペシャリスト試験",
+    "englishName": "Embedded Systems Specialist Examination",
     "shortName": "ES",
-    "tags": ["エンベデッドシステムスペシャリスト", "ES"]
+    "tags": ["エンベデッドシステムスペシャリスト", "エンベデッド", "ES"]
   },
   {
     "id": "sm",
     "name": "ITサービスマネージャ試験",
+    "englishName": "Information Technology Service Manager Examination",
     "shortName": "SM",
-    "tags": ["ITサービスマネージャ", "SM"]
+    "tags": ["ITサービスマネージャ", "サビマネ", "SM"]
   },
   {
     "id": "au",
     "name": "システム監査技術者試験",
+    "englishName": "Systems Auditor Examination",
     "shortName": "AU",
-    "tags": ["システム監査技術者", "AU"]
+    "tags": ["システム監査技術者", "シス監", "システム監査", "AU"]
   },
   {
     "id": "sc",
     "name": "情報処理安全確保支援士試験",
+    "englishName": "Registered Information Security Specialist Examination",
     "shortName": "SC",
-    "tags": ["情報処理安全確保支援士", "登録セキスペ", "SC"]
+    "tags": ["情報処理安全確保支援士", "登録セキスペ", "セキスペ", "SC"]
   }
 ]
+
