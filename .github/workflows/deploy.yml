@@ -40,7 +40,7 @@ jobs:
           
           # サーバー上のアップロード先ディレクトリ（例： /public_html/ や /syllabushack.com/public_html/ など）
           # ※ ご利用のサーバー環境に合わせて変更してください
-          server-dir: /public_html/
+          server-dir: /syllabushack.com/public_html/
           
           # 【重要】差分アップロードの設定
           # 初回は全送受信しますが、次回以降は `.ftp-deploy-sync-state.json` を使って
