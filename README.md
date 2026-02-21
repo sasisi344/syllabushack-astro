@@ -67,7 +67,7 @@ src/
 
 - [X (Twitter)](https://x.com/sasisi344)
 - [Threads](https://www.threads.com/@sasisi344)
-- [GitHub](https://github.com/344dev)
+- [GitHub](https://github.com/sasisi344)
 
 ---
 

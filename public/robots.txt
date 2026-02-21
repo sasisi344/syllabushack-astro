@@ -1,2 +1,29 @@
 User-agent: *
-Disallow:
+Allow: /
+
+# AI Crawler settings
+# OpenAI: GPTBot (Training), ChatGPT-User (Browsing), OAI-SearchBot (Search)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google: Google-Extended (Gemini training)
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic: Anthropic-ai (Claude)
+User-agent: Anthropic-ai
+Allow: /
+
+# Meta: FacebookBot (Llama)
+User-agent: FacebookBot
+Allow: /
+
+# Common Crawl: CCBot (General LLM training datasets)
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://syllabushack.com/sitemap-index.xml

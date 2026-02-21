@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+    <rect width="128" height="128" rx="28" class="bg" />
+    <path d="M64 24L108 46L64 68L20 46L64 24Z" fill="white" />
+    <path d="M40 56V80C40 80 64 94 88 80V56" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M108 46V76" stroke="white" stroke-width="4" stroke-linecap="round" />
+    <circle cx="108" cy="80" r="6" fill="white" />
+    <path d="M68 32 L53 52 H62 L59 69 L78 44 H68 L74 30 H68 Z" class="bolt" />
+    <style>
+        .bg { fill: #030620; }
+        .bolt { fill: #030620; }
+        @media (prefers-color-scheme: light) {
+            .bg { fill: #0161EF; }
+            .bolt { fill: #0161EF; }
+        }
+    </style>
+</svg>
