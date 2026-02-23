@@ -1,0 +1,55 @@
+---
+publishDate: 2026-02-23
+title: 応用情報技術者(AP) 科目A試験 模擬試験シミュレーター
+image: '~/data/post/app/ap-quiz/cover.png'
+excerpt: 2026年からのCBT方式移行に対応。テクノロジ50問、ストラテジ20問、マネジメント10問の出題比率を完全再現した科目A（旧 午前）対策アプリ。
+category: app
+knowledge:
+  type: app
+  examId: ap
+tags:
+  - 応用情報
+  - AP
+  - 科目A
+  - 模擬試験
+  - CBT
+metadata:
+  description: 応用情報技術者試験の科目A対策用CBTシミュレーター。本番同様の出題比率で、効率的な合格をサポートします。
+---
+
+import QuizApp from '~/apps/ap-quiz/QuizApp';
+import '~/apps/ap-quiz/quiz.css';
+import technologyQuestions from '~/data/quiz/ap/technology.json';
+import managementQuestions from '~/data/quiz/ap/management.json';
+import strategyQuestions from '~/data/quiz/ap/strategy.json';
+
+import { transformRawQuestions } from '~/apps/ap-quiz/transformQuestions';
+
+export const rawQuestions = [...technologyQuestions, ...managementQuestions, ...strategyQuestions];
+
+export const allQuestions = transformRawQuestions(rawQuestions);
+
+## 科目A試験（旧 午前試験）の学習戦略
+
+科目Aは、 **配点の6割以上を占めるテクノロジ系** の攻略が合格への必須条件です。
+また、全体の4〜5割が過去問から再出題されるため、大量の過去問をランダムに演習することが最も効率的です。
+
+### 本番同様の出題比率で練習する
+
+本アプリでは、以下の比率で80問を自動選出する「模擬試験モード」を搭載しています。
+
+- **テクノロジ系：50問** (最優先)
+- **ストラテジ系：20問**
+- **マネジメント系：10問**
+
+---
+
+## 模擬試験シミュレーター（科目A）
+
+<QuizApp client:load questions={allQuestions} examId="ap-a-quiz" examName="応用情報技術者試験" />
+
+---
+
+## 次のステップ：記述・長文対策へ
+
+科目Aで基礎知識を固めたら、次は実務的な応用力が問われる[ **科目B試験（旧 午後）対策ケーススタディ** ](/app/ap-subject-b)に進みましょう。用語を覚えるだけでなく、「どう使うか」の体系的な理解が求められます。
