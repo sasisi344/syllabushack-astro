@@ -1,0 +1,49 @@
+---
+publishDate: 2026-02-23T17:15:00Z
+title: '暗記ハック：IPA重要用語フラッシュカード'
+description: 'ITパスポートから応用情報まで対応。隙間時間にカードをめくって、膨大なシラバス用語を効率的にインプットしましょう。'
+excerpt: 'IPA試験の合格に不可欠な「専門用語の暗記」を、もっとスマートに。NotebookLMライクなリッチなフラッシュカードで、インプット効率を最大化します。'
+image: '~/data/post/app/flashcard-app/cover.jpg'
+category: 'app'
+tags: ['暗記', '学習効率化', 'ITパスポート', '基本情報', '応用情報', '生成AI']
+knowledge:
+  examId: 'common'
+  type: 'app'
+  difficulty: 'beginner'
+---
+
+import questionsGenai from '~/data/master/questions-genai-ethics.json';
+import questionsIp from '~/data/master/questions-it-passport.json';
+import syllabusAp from '~/data/master/syllabus-ap.json';
+import syllabusFe from '~/data/master/syllabus-fe.json';
+import FlashcardApp from '~/apps/flashcard-app/FlashcardApp';
+
+export const allData = {
+  genai: questionsGenai,
+  ipQuestions: questionsIp,
+  apSyllabus: syllabusAp,
+  feSyllabus: syllabusFe,
+};
+
+## 専門用語の暗記を「作業」から「ハック」へ
+
+情報処理技術者試験の合格を阻む最大の壁、それは **膨大な専門用語の暗記** です。
+「問題演習は楽しいけれど、用語を覚えるのが苦痛…」そんな声に応えるために開発したのが、この **暗記ハック（Flashcards）** です。
+
+### このアプリの特長
+
+1.  **インプット特化のUX** : 4択問題よりも高速に、テンポよく用語をチェックできます。
+2.  **最新シラバス完全準拠** : 生成AIや最新のITトレンド用語をいち早く網羅。
+3.  **隙間時間の活用** : PCでもスマホでも、片手でサクサク学習が進みます。
+
+### さあ、学習を始めましょう
+
+<FlashcardApp client:load allData={allData} />
+
+---
+
+### 推奨される学習フロー
+
+1.  **インプット** : このフラッシュカードで、知らない用語を「脳にインデックス」します。
+2.  **仕分け** : 覚えたカードは「✓」、不安なものは「✕」で仕分け、効率的に反復します。
+3.  **アウトプット** : 用語を覚えたら、[生成AI・AI倫理クイズ](/app/genai-ethics-quiz)などのドリルで実戦力を試しましょう。

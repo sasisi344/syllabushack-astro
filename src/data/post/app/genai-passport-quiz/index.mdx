@@ -1,0 +1,50 @@
+---
+title: '生成AIパスポート 模擬試験シミュレーター：シラバス完全対応AIドリル'
+excerpt: '生成AIパスポート試験のシラバスに完全準拠した無料の模擬試験アプリ。AIの基礎から生成AIの各種モデル、最新動向、プロンプトエンジニアリング、AI倫理・法規制まで、全分野を網羅。'
+publishDate: 2026-02-23
+image: '~/data/post/app/genai-passport-quiz/cover.png'
+category: app
+tags:
+  - 生成AIパスポート
+  - 資格試験
+  - プロンプトエンジニアリング
+  - アダプティブラーニング
+  - 無料アプリ
+knowledge:
+  examId: fe
+  type: app
+  difficulty: intermediate
+metadata:
+  metadata:
+    description: '生成AIパスポート試験の合格に向けた最強のオンライン模擬試験ツール。本番さながらの演習と、間違えた問題の丁寧なAI解説で、最短での合格をサポートします。'
+draft: false
+appId: 'genai-passport-quiz'
+---
+
+import QuizApp from '~/apps/genai-cert-quiz/QuizApp';
+import questionsJson from '~/data/quiz/genai-passport/genai-knowledge.json';
+import { transformRawQuestions } from '~/apps/genai-cert-quiz/transformQuestions';
+
+export const quizQuestions = transformRawQuestions(questionsJson);
+
+## アプリの概要
+
+「**生成AIパスポート**」は、AIのメリットだけでなく、リスクや限界を正しく理解し、安全に活用できるリテラシーを証明する注目の資格です。本アプリは、その公式シラバスに完全対応した無料の模擬試験シミュレーターです。
+
+### 全出題カテゴリを網羅
+
+以下の公式シラバスの全カテゴリから、実践的な問題をランダムに出題します。
+
+- **AI（人工知能）**: AIの歴史と基本概念、機械学習、ディープラーニング
+- **生成AI（ジェネレーティブAI）**: 生成AIの仕組み、多様なモデル（テキスト、画像、音声等）
+- **現在の生成AIの動向**: 最新のモデル動向、AIエージェント、マルチモーダル化
+- **情報リテラシー・基本理念**: AI社会原則、セキュリティ・リスク管理、権利や法規制（著作権など）
+- **プロンプト制作**: 目的に応じたプロンプト作成手法、文脈の与え方
+
+### おすすめの使い方
+
+まずは「ランダムで10問挑戦」を行い、自分の現在地を把握しましょう。その後、結果画面に表示されるカテゴリ別の正答率を確認し、「苦手な分野」を重点的にドリルで反復演習するのが最も効率的な学習法です。各問題には詳細な解説が付随しており、さらに「🤖 AIに詳しく聞く」機能でGeminiに直接質問して理解を深めることも可能です。
+
+---
+
+<QuizApp client:only="preact" questions={quizQuestions} examId="genai-pass" examName="生成AIパスポート" />

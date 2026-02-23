@@ -79,6 +79,32 @@ export const appRegistry: Record<string, AppMetadata> = {
     status: 'development',
     examId: 'sg',
   },
+  'genai-passport-quiz': {
+    id: 'genai-passport-quiz',
+    slug: 'genai-passport-quiz',
+    title: '生成AIパスポート 模擬試験シミュレーター',
+    description: 'シラバス完全準拠！AIの基礎から生成AIの仕組み、プロンプト、倫理まで分野別ドリルで攻略。',
+    category: 'quiz',
+    status: 'beta',
+    examId: 'genai-pass',
+  },
+  'genai-ip-quiz': {
+    id: 'genai-ip-quiz',
+    slug: 'genai-ip-quiz',
+    title: '生成AI導入実務者検定 攻略マスター',
+    description: 'ビジネス実務での生成AI導入・運用プロセスに特化！実例クイズとAI解説でROI向上スキルを磨く。',
+    category: 'quiz',
+    status: 'beta',
+    examId: 'genai-ip',
+  },
+  'flashcard-app': {
+    id: 'flashcard-app',
+    slug: 'flashcard-app',
+    title: '暗記ハック：IPA重要用語フラッシュカード',
+    description: 'ITパスポートから応用情報まで対応。隙間時間にカードをめくって、膨大なシラバス用語を効率的にインプット。',
+    category: 'tool',
+    status: 'development',
+  },
 };
 
 /**

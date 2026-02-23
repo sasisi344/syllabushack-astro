@@ -24,6 +24,17 @@ jobs:
       - name: 📦 Install Dependencies
         run: npm ci
 
+      - name: 💾 Setup Astro Build Cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules/.astro
+            node_modules/.cache
+          key: ${{ runner.os }}-astro-build-${{ hashFiles('package-lock.json') }}-${{ github.run_number }}
+          restore-keys: |
+            ${{ runner.os }}-astro-build-${{ hashFiles('package-lock.json') }}-
+            ${{ runner.os }}-astro-build-
+
       - name: 🔨 Build Astro Project
         run: npm run build
 
