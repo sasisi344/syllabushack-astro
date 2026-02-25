@@ -1,0 +1,122 @@
+[
+  {
+    "term": "シグネチャ検知",
+    "meaning": "既知のマルウェアが持つ固有のパターン（シグネチャ）をデータベースと照合して検知する手法。",
+    "exam_id": "sc",
+    "category": "マルウェア対策"
+  },
+  {
+    "term": "ヒューリスティック検知",
+    "meaning": "プログラムの振る舞いや静的な特徴から、未知のマルウェアを推定して検知する手法。",
+    "exam_id": "sc",
+    "category": "マルウェア対策"
+  },
+  {
+    "term": "ビヘイビア検知",
+    "meaning": "実行中のプログラムの動作（ファイル書き換え、ネットワーク通信など）を監視し、不審な挙動に基づいて検知する手法。動的解析の一種。",
+    "exam_id": "sc",
+    "category": "マルウェア対策"
+  },
+  {
+    "term": "サンドボックス",
+    "meaning": "外部から隔離された保護領域で、不審なファイルを実行して安全性を確認するための仮想環境。",
+    "exam_id": "sc",
+    "category": "マルウェア対策"
+  },
+  {
+    "term": "STRIDE分析",
+    "meaning": "Microsoftが提唱した脅威モデリング手法。Spoofing（なりすまし）、Tampering（改ざん）、Repudiation（否認）、Information Disclosure（情報漏洩）、Denial of Service（サービス拒否）、Elevation of Privilege（権限昇格）の頭文字。",
+    "exam_id": "sc",
+    "category": "リスクアセスメント"
+  },
+  {
+    "term": "アタックツリー分析",
+    "meaning": "攻撃の目標を頂点とし、それを達成するための具体的な攻撃手段を木構造（ツリー状）で列挙・分析する手法。",
+    "exam_id": "sc",
+    "category": "リスクアセスメント"
+  },
+  {
+    "term": "真正性 (Authenticity)",
+    "meaning": "利用者や情報が、主張する通りのものであることが確実であるという特性。",
+    "exam_id": "sc",
+    "category": "情報セキュリティの特性"
+  },
+  {
+    "term": "責任追跡性 (Accountability)",
+    "meaning": "利用者やプロセスの動作を一意に追跡でき、誰がいつ何をしたかを証明できる特性。",
+    "exam_id": "sc",
+    "category": "情報セキュリティの特性"
+  },
+  {
+    "term": "否認防止 (Non-repudiation)",
+    "meaning": "事後になって、ある行為や事象が発生した事実を否定できないようにする特性。電子署名などが用いられる。",
+    "exam_id": "sc",
+    "category": "情報セキュリティの特性"
+  },
+  {
+    "term": "信頼性 (Reliability)",
+    "meaning": "システムが意図した動作を矛盾なく確実に実行できるという特性。",
+    "exam_id": "sc",
+    "category": "情報セキュリティの特性"
+  },
+  {
+    "term": "FIDO (Fast IDentity Online)",
+    "meaning": "パスワードを使わないユーザー認証の標準規格。公開鍵暗号方式を利用し、秘密鍵をデバイス内の安全な領域（TPMなど）に保持する。",
+    "exam_id": "sc",
+    "category": "アカウント・アクセス管理"
+  },
+  {
+    "term": "OAuth 2.0",
+    "meaning": "リソースオーナーが認可サーバーを介して、サードパーティアプリケーションに限定的なアクセス権（アクセストークン）を付与するための認可フレームワーク。",
+    "exam_id": "sc",
+    "category": "アカウント・アクセス管理"
+  },
+  {
+    "term": "OpenID Connect",
+    "meaning": "OAuth 2.0を拡張し、ユーザーのID属性（プロファイル情報）を交換できるようにしたID連携のための認証プロトコル。",
+    "exam_id": "sc",
+    "category": "アカウント・アクセス管理"
+  },
+  {
+    "term": "SAML (Security Assertion Markup Language)",
+    "meaning": "異なるドメイン間（例えば自社システムとクラウドサービス）で認証情報・認可情報を交換するためのXMLベースの規格。シングルサインオン（SSO）で広く利用される。",
+    "exam_id": "sc",
+    "category": "アカウント・アクセス管理"
+  },
+  {
+    "term": "DNSSEC",
+    "meaning": "DNS応答にデジタル署名を付加することで、応答の真正性と完全性を保証し、キャッシュポイズニング攻撃を防止する技術。",
+    "exam_id": "sc",
+    "category": "ネットワークセキュリティ"
+  },
+  {
+    "term": "DMARC",
+    "meaning": "SPFおよびDKIMの認証結果に基づき、認証失敗時のメール処理（隔離、拒否など）を受信者側でどのように扱うかを送信者側が宣言する仕組み。",
+    "exam_id": "sc",
+    "category": "ネットワークセキュリティ"
+  },
+  {
+    "term": "ペネトレーションテスト",
+    "meaning": "ネットワークやシステムに対し、想定される攻撃手法を用いて実際に侵入を試みることで、脆弱性や防御態勢の有効性を検証するテスト。",
+    "exam_id": "sc",
+    "category": "セキュリティテスト"
+  },
+  {
+    "term": "CSIRT (Computer Security Incident Response Team)",
+    "meaning": "情報セキュリティインシデントが発生した際に、その対応や再発防止などの活動を行う組織内チーム。",
+    "exam_id": "sc",
+    "category": "インシデント管理"
+  },
+  {
+    "term": "SOC (Security Operations Center)",
+    "meaning": "24時間365日体制でネットワークやシステムを監視し、セキュリティログの分析や攻撃の検知を行う専門組織。",
+    "exam_id": "sc",
+    "category": "インシデント管理"
+  },
+  {
+    "term": "デジタルフォレンジックス",
+    "meaning": "コンピュータや電子媒体に残された証拠資料を、法的証拠として保全・収集・分析するための技術的・法的手続きの総称。",
+    "exam_id": "sc",
+    "category": "インシデント管理"
+  }
+]

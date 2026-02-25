@@ -1,0 +1,80 @@
+[
+  {
+    "term": "BGP (Border Gateway Protocol)",
+    "meaning": "AS（自律システム）間で経路情報を交換するための外部ゲートウェイプロトコル。パスベクトル方式を採用し、インターネットの経路制御に不可欠。",
+    "exam_id": "nw",
+    "category": "ルーティングプロトコル"
+  },
+  {
+    "term": "OSPF (Open Shortest Path First)",
+    "meaning": "AS内部で使用されるリンク状態型の内部ルーティングプロトコル。コスト（帯域幅）をメトリックとし、ダイクストラ法により最短経路を算出する。",
+    "exam_id": "nw",
+    "category": "ルーティングプロトコル"
+  },
+  {
+    "term": "HSRP / VRRP",
+    "meaning": "デフォルトゲートウェイなどのルータを冗長化するためのプロトコル。仮想IPアドレスと仮想MACアドレスを共有し、障害時にマスタールータを切り替える。",
+    "exam_id": "nw",
+    "category": "ネットワークの可用性"
+  },
+  {
+    "term": "SD-WAN",
+    "meaning": "ソフトウェアによってWANサービス（専用線、インターネット、4G/5Gなど）を統合管理し、アプリケーションやポリシーに基づいた動的な経路制御を行う技術。",
+    "exam_id": "nw",
+    "category": "広域ネットワーク技術"
+  },
+  {
+    "term": "VXLAN (Virtual eXtensible LAN)",
+    "meaning": "Layer 3ネットワーク上にLayer 2ネットワークをトンネリングによって構築するオーバーレイ技術。24ビットのVNIにより、最大約1600万のセグメントを作成可能。",
+    "exam_id": "nw",
+    "category": "仮想化ネットワーク"
+  },
+  {
+    "term": "SDN (Software Defined Networking)",
+    "meaning": "ネットワーク機器の制御機能（コントロールプレーン）とデータ転送機能（データプレーン）を分離し、中央のソフトウェアからネットワーク全体を統合管理・制御する概念。",
+    "exam_id": "nw",
+    "category": "ネットワーク構成技術"
+  },
+  {
+    "term": "NFV (Network Functions Virtualisation)",
+    "meaning": "ファイアウォールやロードバランサなどの専用のハードウェア機能を、汎用サーバ上の仮想マシンやコンテナとして実装する技術。",
+    "exam_id": "nw",
+    "category": "仮想化ネットワーク"
+  },
+  {
+    "term": "ICMPv6",
+    "meaning": "IPv6で使用される制御プロトコル。エラー通知だけでなく、近隣探索プロトコル（NDP）によるアドレス解決や重複アドレス検出（DAD）などの重要な機能を担う。",
+    "exam_id": "nw",
+    "category": "ネットワーク層プロトコル"
+  },
+  {
+    "term": "SIP (Session Initiation Protocol)",
+    "meaning": "IP電話（VoIP）などのリアルタイム通信において、セッションの開始、変更、終了を行うためのシグナリングプロトコル。HTTPに似たテキストベースの形式を持つ。",
+    "exam_id": "nw",
+    "category": "アプリケーション層プロトコル"
+  },
+  {
+    "term": "MQTT (Message Queuing Telemetry Transport)",
+    "meaning": "IoT機器などで標的にした、軽量なパブリッシュ/サブスクライブ方式のメッセージ転送プロトコル。低帯域幅、不安定なネットワーク環境に適している。",
+    "exam_id": "nw",
+    "category": "アプリケーション層プロトコル"
+  },
+  {
+    "term": "HTTP/3",
+    "meaning": "UDPベースのトランスポートプロトコル「QUIC」を利用した最新のHTTP。TCPのハンドシェイクやHoLブロッキング（先頭パケットの詰まり）問題を解消し、通信効率を高めている。",
+    "exam_id": "nw",
+    "category": "アプリケーション層プロトコル"
+  },
+  {
+    "term": "VPC (Virtual Private Cloud)",
+    "meaning": "パブリッククラウド環境において、特定の組織専用の独立した仮想ネットワーク空間を構築するサービス。",
+    "exam_id": "nw",
+    "category": "クラウドネットワーク"
+  },
+  {
+    "term": "QoS (Quality of Service)",
+    "meaning": "特定の通信（音声や重要データ）に対して優先制御や帯域予約を行い、通信品質を保証する技術。DiffServなどが代表的。",
+    "exam_id": "nw",
+    "category": "ネットワーク設計・性能"
+  }
+]

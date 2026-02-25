@@ -1,0 +1,1556 @@
+[
+  {
+    "large_category": "",
+    "small_category": "",
+    "overview": "◆テクノロジ系◆ ◆マネジメント系◆ ◆ストラテジ系◆",
+    "required_knowledge": "",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": " 現を修得し，応用する。",
+    "required_knowledge": "➢ 基数，基数の変換，数値の表現，算術演算と精度など，コンピュータで扱う数値表",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ 集合，論理演算の基本法則，手法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ 確率・統計の計算，分析手法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ 線形代数，行列などの数値計算を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ 数値解析，グラフ理論，待ち行列理論など，数学的原理を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ 情報理論，符号理論の考え方，仕組みを修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ コードによる文字の表現を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": " 得し，応用する。",
+    "required_knowledge": "➢ 述語論理，形式言語，オートマトンなど，情報に関する理論の考え方，仕組みを修",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ 正当性理論の考え方，仕組みを修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ AI（人工知能）の考え方，仕組み，代表的なモデルを修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ コンパイラ理論，プログラム言語論や意味論の考え方，仕組みを修得し，応用す",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ 情報を伝送するための技術について，代表的な方式の考え方，仕組みを修得し，応",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ 信号処理に関する考え方，仕組みを修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ 制御の必要性，考え方，仕組みを修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 1：基礎理論",
+    "overview": "",
+    "required_knowledge": "➢ 代表的なセンサー・アクチュエーターの種類と動作特性を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ データ構造の考え方，仕組みを修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ 代表的なデータ構造の種類，特徴，操作を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ アルゴリズム，流れ図の考え方，表現方法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ 代表的なアルゴリズムを修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ アルゴリズムの設計方法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ プログラミング作法，コーディング標準を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ プログラム言語の文法の表記法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ プログラム言語の種類，特徴，記述方法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ プログラム言語の制御構造を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ プログラムの実行に必要な記憶域の考え方，利用法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ プログラム言語がもつ構文規則，意味規則を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ 代表的なマークアップ言語の種類，特徴，記述方法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 1：基礎理論",
+    "small_category": "中分類 2：アルゴリズムとプログラミング",
+    "overview": "",
+    "required_knowledge": "➢ コンピュータで使用されるその他の言語を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ コンピュータの種類，構成を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ プロセッサの種類，アーキテクチャ，構造，方式，動作原理を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ プロセッサの性能を表す指標を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ プロセッサの高速化技術，高信頼化技術を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ メモリの種類，特徴，メモリ選択の考え方を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": " 得し，応用する。",
+    "required_knowledge": "➢ 主記憶装置の構成，メモリシステムの構成，記憶階層など，記憶装置の仕組みを修",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ 記録媒体の種類，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ バスの種類，特徴，制御方式，標準規格を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ 入出力インタフェースの種類，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ デバイスドライバの役割，機能を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ 代表的な入出力装置の種類，特徴，仕組み，用途を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 3：コンピュータ構成要素",
+    "overview": "",
+    "required_knowledge": "➢ 代表的な補助記憶装置の種類，特徴，仕組み，用途を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 4：システム構成要素",
+    "overview": "",
+    "required_knowledge": "➢ システムの処理形態，利用形態，適用領域を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 4：システム構成要素",
+    "overview": "",
+    "required_knowledge": "➢ 代表的なシステム構成の種類，特徴，システム構成要素間の機能配分を修得し，応用",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 4：システム構成要素",
+    "overview": "",
+    "required_knowledge": "➢ クライアントサーバシステムの特徴，構成を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 4：システム構成要素",
+    "overview": "",
+    "required_knowledge": "➢ システムの信頼性設計の考え方，技術を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 4：システム構成要素",
+    "overview": " 計の考え方を修得し，応用する。",
+    "required_knowledge": "➢ システムの性能，信頼性，経済性を測るための考え方，評価指標，それらを高める設",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 5：ソフトウェア",
+    "overview": "",
+    "required_knowledge": "➢ OSの種類，特徴，機能，構成を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 5：ソフトウェア",
+    "overview": "",
+    "required_knowledge": "➢ ジョブ管理，タスク管理，記憶管理など OS の代表的な機能，役割を修得し，応用す",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 5：ソフトウェア",
+    "overview": "",
+    "required_knowledge": "➢ プログラムの形態，性質，OSの動向を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 5：ソフトウェア",
+    "overview": "",
+    "required_knowledge": "➢ 代表的なミドルウェアの役割，機能を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 5：ソフトウェア",
+    "overview": " 修得し，応用する。",
+    "required_knowledge": "➢ ファイルを階層化して管理するディレクトリの種類，特徴，ファイル管理の仕組みを",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 5：ソフトウェア",
+    "overview": "",
+    "required_knowledge": "➢ ファイルシステムの種類，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 5：ソフトウェア",
+    "overview": "",
+    "required_knowledge": "➢ ファイル編成，アクセス手法，検索手法，バックアップ方式を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 5：ソフトウェア",
+    "overview": "",
+    "required_knowledge": "➢ ソフトウェア開発に用いる開発ツールの種類，特徴，機能を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 5：ソフトウェア",
+    "overview": " 得し，応用する。",
+    "required_knowledge": "➢ オープンソースソフトウェアの種類，特徴，機能，構成，利用上の考慮点，動向を修",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 6：ハードウェア",
+    "overview": "",
+    "required_knowledge": "➢ コンピュータの構成部品である電気・電子回路，機械・制御を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 6：ハードウェア",
+    "overview": " を修得し，応用する。",
+    "required_knowledge": "➢ 構成部品や要素とその実装，組込みシステムを構成する部品の役割，部品間の関係",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 6：ハードウェア",
+    "overview": "",
+    "required_knowledge": "➢ 最適な構成で設計するための論理設計の留意事項を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 2：コンピュータシステム",
+    "small_category": "中分類 6：ハードウェア",
+    "overview": "",
+    "required_knowledge": "➢ 組込み機器の開発における消費電力の重要性，関連する技術，動向を修得し，応用",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 7：ユーザーインタフェース",
+    "overview": "",
+    "required_knowledge": "➢ 情報アーキテクチャの考え方，目的を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 7：ユーザーインタフェース",
+    "overview": "",
+    "required_knowledge": "➢ 代表的なユーザーインタフェース技術の種類，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 7：ユーザーインタフェース",
+    "overview": "",
+    "required_knowledge": "➢ GUIの特徴，構成部品，GUI画面設計の手順，留意事項を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 7：ユーザーインタフェース",
+    "overview": "",
+    "required_knowledge": "➢ UXデザイン，情報デザインの考え方，目的を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 7：ユーザーインタフェース",
+    "overview": "",
+    "required_knowledge": "➢ 画面設計，帳票設計，コード設計の考え方，手順，手法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 7：ユーザーインタフェース",
+    "overview": "",
+    "required_knowledge": "➢ ユニバーサルデザインの考え方を応用した望ましいインタフェースを修得し，応用",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 7：ユーザーインタフェース",
+    "overview": "",
+    "required_knowledge": "➢ 人間中心設計の考え方，目的を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 8：情報メディア",
+    "overview": " り扱うマルチメディアの考え方，必要な資源，機能を修得し，応用する。",
+    "required_knowledge": "➢ コンピュータにおける文字，音声，画像などの仕組み，特徴，それらを統合して取",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 8：情報メディア",
+    "overview": "",
+    "required_knowledge": "➢ 情報の圧縮，伸長の目的，特徴，仕組みを修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 8：情報メディア",
+    "overview": "",
+    "required_knowledge": "➢ マルチメディアシステムの特徴，マルチメディア応用の例を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": " し，応用する。",
+    "required_knowledge": "➢ データベースの種類，特徴，データベースのモデル，3 層スキーマの考え方を修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ データベース管理システムの目的，機能を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ データの分析の考え方を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ データベースの設計の考え方，手順，手法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ データの正規化の目的，手順を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ データベース作成の手順，評価方法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ 関係データベースのデータの操作を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ データベース言語の種類，SQL文を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ データベースの同時実行制御（排他制御），障害回復の考え方，仕組みを修得し，応",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ トランザクション管理，アクセス効率向上のための考え方を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ データに対するアクセス制御の必要性，代表的なアクセス権限を修得し，応用す",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ データベースの応用対象，応用方法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ 分散データベースの特徴，機能を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 9：データベース",
+    "overview": "",
+    "required_knowledge": "➢ データ資源管理の仕組みとして，リポジトリ，データディクショナリを修得し，応",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": " し，応用する。",
+    "required_knowledge": "➢ LANとWANの仕組み，特徴，電気通信事業者が提供するサービスの種類，特徴を修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ 有線LANと無線LAN，交換方式の仕組み，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ 回線速度，データ量，転送時間の関係を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ インターネット技術の必要性，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ ネットワークアーキテクチャの考え方，重要性，効果を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ 伝送方式と回線の種類，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ ネットワーク接続装置の種類，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ ネットワークにおける代表的な制御機能の仕組み，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": " ているか，その役割は何かを修得し，応用する。",
+    "required_knowledge": "➢ 代表的なプロトコルである TCP/IP が OSI 基本参照モデルのどの階層の機能を実現し",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ ネットワーク運用管理の管理項目，管理方法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ ネットワーク管理のためのツール，プロトコルの機能，仕組み，利用法を修得し，",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": " し，応用する。",
+    "required_knowledge": "➢ インターネットで利用されている電子メールや Web などの仕組み，特徴，機能を修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ イントラネットとエクストラネットの仕組み，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ ネットワークOSの仕組み，特徴，機能を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ 代表的な通信サービスの種類，特徴，機能，留意事項を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 10：ネットワーク",
+    "overview": "",
+    "required_knowledge": "➢ モバイルシステムの仕組み，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": "",
+    "required_knowledge": "➢ 情報セキュリティの目的，考え方，重要性を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": "",
+    "required_knowledge": "ぜい\n➢ 情報資産に対する脅威，脆弱性と主な攻撃手法の種類を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": " で，どのような脅威を防止できるかを修得し，応用する。",
+    "required_knowledge": "➢ 情報セキュリティに関する技術の種類，仕組み，特徴，その技術を使用すること",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": "",
+    "required_knowledge": "➢ 情報セキュリティ管理の考え方を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": "",
+    "required_knowledge": "➢ リスク分析と評価などの方法，手順を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": "",
+    "required_knowledge": "➢ 情報セキュリティ継続の考え方を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": " 考え方を修得し，応用する。",
+    "required_knowledge": "➢ 情報セキュリティ諸規程（情報セキュリティポリシーを含む組織内規程）の目的，",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": "",
+    "required_knowledge": "➢ 情報セキュリティマネジメントシステム（ISMS）や情報セキュリティに関係するそ",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": "",
+    "required_knowledge": "の他の基準の考え方，情報セキュリティ組織・機関の役割を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": "",
+    "required_knowledge": "➢ セキュリティ技術評価の目的，考え方，適用方法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": "",
+    "required_knowledge": "➢ 人的，技術的，物理的セキュリティの側面から情報セキュリティ対策を修得し，応",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": " 術，効果を修得し，応用する。",
+    "required_knowledge": "➢ システムの開発，運用におけるセキュリティ対策やセキュア OS の仕組み，実装技",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": " 果を修得し，応用する。",
+    "required_knowledge": "➢ ネットワーク，データベースに実装するセキュリティ対策の仕組み，実装技術，効",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 3：技術要素",
+    "small_category": "中分類 11：セキュリティ",
+    "overview": "",
+    "required_knowledge": "➢ アプリケーションセキュリティの対策の仕組み，実装技術，効果を修得し，応用す",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 12：システム開発技術",
+    "overview": " 得し，適用する。",
+    "required_knowledge": "➢ システム及び／又はソフトウェア要件定義の考え方，手順，手法，留意事項を修",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 12：システム開発技術",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ システム及び／又はソフトウェア設計の考え方，手順，手法，留意事項を修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 12：システム開発技術",
+    "overview": "",
+    "required_knowledge": "➢ ソフトウェア構築の考え方，手順，手法，留意事項を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 12：システム開発技術",
+    "overview": " ストの考え方，手順，手法，留意事項を修得し，応用する。",
+    "required_knowledge": "➢ システム及び／又はソフトウェア統合・システム及び／又はソフトウェア検証テ",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 12：システム開発技術",
+    "overview": " 意事項を修得し，応用する。",
+    "required_knowledge": "➢ システム及び／又はソフトウェアの導入及び受入れ支援の考え方，手順，手法，留",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 12：システム開発技術",
+    "overview": "",
+    "required_knowledge": "➢ 妥当性確認テストの考え方，手順，手法，留意事項を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 12：システム開発技術",
+    "overview": "",
+    "required_knowledge": "➢ 保守の考え方，タイプ及び形態，手順，留意事項を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 12：システム開発技術",
+    "overview": "",
+    "required_knowledge": "➢ 廃棄の考え方，手順，留意事項を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 13：ソフトウェア開発管理技術",
+    "overview": "",
+    "required_knowledge": "➢ ソフトウェア開発プロセスに関する手法の考え方，特徴を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 13：ソフトウェア開発管理技術",
+    "overview": "",
+    "required_knowledge": "➢ アジャイルの概要，アジャイルソフトウェア開発手法の考え方，特徴を修得し，応",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 13：ソフトウェア開発管理技術",
+    "overview": " し，応用する。",
+    "required_knowledge": "➢ ソフトウェア開発工程で必要となる知的財産権の取得，管理の目的，考え方を修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 13：ソフトウェア開発管理技術",
+    "overview": "",
+    "required_knowledge": "➢ ソフトウェア開発工程で発生した知的財産権の保護のための手順を修得し，応用す",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 13：ソフトウェア開発管理技術",
+    "overview": "",
+    "required_knowledge": "➢ 開発環境の目的，考え方，管理対象，手法を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 4：開発技術",
+    "small_category": "中分類 13：ソフトウェア開発管理技術",
+    "overview": "",
+    "required_knowledge": "➢ 構成管理と変更管理の目的，考え方，手順を修得し，応用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " ス群，対象群を修得し，適用する。",
+    "required_knowledge": "➢ プロジェクト，及びプロジェクトマネジメントの目的，考え方，プロセス，プロセ",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": "",
+    "required_knowledge": "➢ プロジェクトの体制の種類，特徴，役割，責任分担，自己管理の内容を修得し，応",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ 統合の対象群が含むプロセスの目的，役割，機能，プロセス間の関連などを修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " と技法を修得し，適用する。",
+    "required_knowledge": "➢ 統合の対象群が含むプロセスの主要なインプット及びアウトプット，並びにツール",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " どを修得し，適用する。",
+    "required_knowledge": "➢ ステークホルダの対象群が含むプロセスの目的，役割，機能，プロセス間の関連な",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " びにツールと技法を修得し，適用する。",
+    "required_knowledge": "➢ ステークホルダの対象群が含むプロセスの主要なインプット及びアウトプット，並",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " 得し，適用する。",
+    "required_knowledge": "➢ スコープの対象群が含むプロセスの目的，役割，機能，プロセス間の関連などを修",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " ールと技法を修得し，適用する。",
+    "required_knowledge": "➢ スコープの対象群が含むプロセスの主要なインプット及びアウトプット，並びにツ",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ 資源の対象群が含むプロセスの目的，役割，機能，プロセス間の関連などを修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " と技法を修得し，適用する。",
+    "required_knowledge": "➢ 資源の対象群が含むプロセスの主要なインプット及びアウトプット，並びにツール",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ 時間の対象群が含むプロセスの目的，役割，機能，プロセス間の関連などを修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " と技法を修得し，適用する。",
+    "required_knowledge": "➢ 時間の対象群が含むプロセスの主要なインプット及びアウトプット，並びにツール",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ コストの対象群が含むプロセスの目的，役割，機能，プロセス間の関連などを修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " ルと技法を修得し，適用する。",
+    "required_knowledge": "➢ コストの対象群が含むプロセスの主要なインプット及びアウトプット，並びにツー",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ リスクの対象群が含むプロセスの目的，役割，機能，プロセス間の関連などを修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " ルと技法を修得し，適用する。",
+    "required_knowledge": "➢ リスクの対象群が含むプロセスの主要なインプット及びアウトプット，並びにツー",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ 品質の対象群が含むプロセスの目的，役割，機能，プロセス間の関連などを修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " と技法を修得し，適用する。",
+    "required_knowledge": "➢ 品質の対象群が含むプロセスの主要なインプット及びアウトプット，並びにツール",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ 調達の対象群が含むプロセスの目的，役割，機能，プロセス間の関連などを修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " と技法を修得し，適用する。",
+    "required_knowledge": "➢ 調達の対象群が含むプロセスの主要なインプット及びアウトプット，並びにツール",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " 連などを修得し，適用する。",
+    "required_knowledge": "➢ コミュニケーションの対象群が含むプロセスの目的，役割，機能，プロセス間の関",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 5：プロジェクトマネジメント",
+    "small_category": "中分類 14：プロジェクトマネジメント",
+    "overview": " ト，並びにツールと技法を修得し，適用する。",
+    "required_knowledge": "➢ コミュニケーションの対象群が含むプロセスの主要なインプット及びアウトプッ",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 15：サービスマネジメント",
+    "overview": "",
+    "required_knowledge": "➢ サービスマネジメントの目的，考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 15：サービスマネジメント",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ サービスマネジメントシステムの確立，実施，維持及び継続的改善の考え方を修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 15：サービスマネジメント",
+    "overview": "",
+    "required_knowledge": "➢ サービスマネジメントシステムの計画及び運用の要求事項を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 15：サービスマネジメント",
+    "overview": "",
+    "required_knowledge": "➢ パフォーマンス評価及び改善を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 15：サービスマネジメント",
+    "overview": "",
+    "required_knowledge": "➢ 運用計画や資源管理といったシステム運用管理の役割，機能を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 15：サービスマネジメント",
+    "overview": " 得し，適用する。",
+    "required_knowledge": "➢ システムの操作やスケジューリングといった運用オペレーションの役割，機能を修",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 15：サービスマネジメント",
+    "overview": "",
+    "required_knowledge": "➢ サービスデスクの役割，機能を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 15：サービスマネジメント",
+    "overview": " 留意事項を修得し，適用する。",
+    "required_knowledge": "➢ ファシリティマネジメントの目的，考え方，施設や設備の管理，維持保全における",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 16：システム監査",
+    "overview": "",
+    "required_knowledge": "➢ 監査の目的，種類を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 16：システム監査",
+    "overview": "",
+    "required_knowledge": "➢ システム監査の目的，手順，対象業務についての考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 16：システム監査",
+    "overview": " え方を修得し，適用する。",
+    "required_knowledge": "➢ システム監査の計画・実施・報告・フォローアップ，システム監査の体制整備の考",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 16：システム監査",
+    "overview": "",
+    "required_knowledge": "➢ 情報システムに関係する監査で参照される代表的な基準，法規などを修得し，適用",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 6：サービスマネジメント",
+    "small_category": "中分類 16：システム監査",
+    "overview": "",
+    "required_knowledge": "➢ 企業などにおける内部統制，ITガバナンスの目的，考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 17：システム戦略",
+    "overview": "",
+    "required_knowledge": "➢ 情報システム戦略の目的，考え方，策定手順や留意事項を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 17：システム戦略",
+    "overview": "",
+    "required_knowledge": "➢ エンタープライズアーキテクチャなどの手法を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 17：システム戦略",
+    "overview": " トを修得し，適用する。",
+    "required_knowledge": "➢ プログラムマネジメント，フレームワーク，品質統制，情報システム戦略マネジメン",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 17：システム戦略",
+    "overview": "",
+    "required_knowledge": "➢ 業務プロセスの改善と問題解決に関する考え方，代表的な手法を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 17：システム戦略",
+    "overview": "",
+    "required_knowledge": "➢ ソリューションビジネスの考え方，代表的なサービスを修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 17：システム戦略",
+    "overview": "",
+    "required_knowledge": "➢ 情報システム活用促進，評価の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 17：システム戦略",
+    "overview": " え方を修得し，適用する。",
+    "required_knowledge": "➢ 情報システムに蓄積されたデータを分析して，事業戦略に活用することの重要性，考",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 17：システム戦略",
+    "overview": " を修得し，適用する。",
+    "required_knowledge": "➢ 情報システムの利用実態を評価，検証して，改善に結びつけることの重要性，考え方",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 17：システム戦略",
+    "overview": "",
+    "required_knowledge": "➢ 情報システム廃棄の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 18：システム企画",
+    "overview": "",
+    "required_knowledge": "➢ システム化構想の立案とシステム化計画の立案の目的，考え方，手順を修得し，適用",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 18：システム企画",
+    "overview": "",
+    "required_knowledge": "➢ システム化計画の立案における検討項目を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 18：システム企画",
+    "overview": "",
+    "required_knowledge": "➢ 要求分析と要件定義の目的，考え方，手順，代表的な手法を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 18：システム企画",
+    "overview": "",
+    "required_knowledge": "➢ 情報システム戦略との整合性の検証を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 7：システム戦略",
+    "small_category": "中分類 18：システム企画",
+    "overview": "",
+    "required_knowledge": "➢ 調達計画の策定と調達実施の目的，考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 19：経営戦略マネジメント",
+    "overview": "",
+    "required_knowledge": "➢ 経営戦略の目的，考え方，経営戦略の階層を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 19：経営戦略マネジメント",
+    "overview": "",
+    "required_knowledge": "➢ 全社戦略，事業戦略の目的，考え方，代表的な経営戦略・手法を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 19：経営戦略マネジメント",
+    "overview": "",
+    "required_knowledge": "➢ マーケティングの目的，考え方，代表的なマーケティング手法を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 19：経営戦略マネジメント",
+    "overview": "",
+    "required_knowledge": "➢ ビジネス戦略と目標の設定，評価の目的，考え方，手順を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 19：経営戦略マネジメント",
+    "overview": "",
+    "required_knowledge": "➢ 目標の設定，評価のための代表的な情報分析手法を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 19：経営戦略マネジメント",
+    "overview": "",
+    "required_knowledge": "➢ 代表的な経営管理システムの特徴，考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 20：技術戦略マネジメント",
+    "overview": "",
+    "required_knowledge": "➢ 技術開発戦略の目的，考え方，立案手順を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 20：技術戦略マネジメント",
+    "overview": "",
+    "required_knowledge": "➢ 技術動向の把握，イノベーションの促進の重要性，考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 20：技術戦略マネジメント",
+    "overview": "",
+    "required_knowledge": "➢ 技術開発計画の目的，内容，考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 20：技術戦略マネジメント",
+    "overview": "",
+    "required_knowledge": "➢ ロードマップの目的，考え方，種類，特徴を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 21：ビジネスインダストリ",
+    "overview": "",
+    "required_knowledge": "➢ 各種ビジネス分野に用いられる情報システムの特徴，代表例，動向を修得し，適用す",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 21：ビジネスインダストリ",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ AI システム・AI サービスの特徴，代表例，動向，利活用する上での留意事項を修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 21：ビジネスインダストリ",
+    "overview": "",
+    "required_knowledge": "➢ エンジニアリングシステムの開発，設計における目的，考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 21：ビジネスインダストリ",
+    "overview": " み，技術を修得し，適用する。",
+    "required_knowledge": "➢ 生産の自動制御，生産システム，生産管理，コンピュータ支援システムの目的，仕組",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 21：ビジネスインダストリ",
+    "overview": " 修得し，適用する。",
+    "required_knowledge": "➢ EC，EDI などインターネットを介して行う e-ビジネスの仕組み，特徴，留意事項を",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 21：ビジネスインダストリ",
+    "overview": "",
+    "required_knowledge": "➢ データ交換の代表的な標準を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 21：ビジネスインダストリ",
+    "overview": "",
+    "required_knowledge": "➢ ソーシャルメディアの概念，類型，技術的背景を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 21：ビジネスインダストリ",
+    "overview": "",
+    "required_knowledge": "➢ IoTシステム・組込みシステムの特徴，動向，代表例を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 21：ビジネスインダストリ",
+    "overview": "",
+    "required_knowledge": "➢ 民生機器の特徴，動向，代表例を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 8：経営戦略",
+    "small_category": "中分類 21：ビジネスインダストリ",
+    "overview": "",
+    "required_knowledge": "➢ 産業用電子機器の特徴，動向，代表例を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 22：企業活動",
+    "overview": "",
+    "required_knowledge": "➢ 企業活動，経営管理，経営組織の種類，特徴，手法を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 22：企業活動",
+    "overview": "",
+    "required_knowledge": "➢ 経営環境の変化，課題を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 22：企業活動",
+    "overview": "",
+    "required_knowledge": "➢ ITの進展とそれに伴う社会の変化，IT利活用の動向を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 22：企業活動",
+    "overview": " し，適用する。",
+    "required_knowledge": "➢ 代表的なORやIEの手法，データの利活用によって問題を解決するための手法を修得",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 22：企業活動",
+    "overview": "",
+    "required_knowledge": "➢ データの収集，整理，分析，ビジュアル表現などの手法を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 22：企業活動",
+    "overview": "",
+    "required_knowledge": "➢ 企業活動と会計，財務会計と管理会計を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 22：企業活動",
+    "overview": "",
+    "required_knowledge": "➢ 財務諸表の分析手法を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 22：企業活動",
+    "overview": "",
+    "required_knowledge": "➢ キャッシュフロー会計，資金計画と資金管理，資産管理，経済性計算を修得し，適用",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 知的財産権に関わる法律の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 著作権に関わる法律の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 産業財産権法の中心となる4法の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 不正競争防止法の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": " セキュリティ基本法の考え方を修得し，適用する。",
+    "required_knowledge": "➢ 我が国のサイバーセキュリティに関する施策の基本となる事項などを定めたサイバー",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 不正アクセス禁止法の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ コンピュータを利用した不法行為に関する刑法の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 個人情報保護・プライバシー保護の考え方，手法・技法を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 電子署名及び認証業務などに関する法律の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 情報流通プラットフォーム対処法の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 代表的な労働関連の法規の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 代表的な取引関連の法規の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 代表的な企業間の取引に関わる契約の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ デジタル社会形成基本法など，情報化と法制度の関連の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ コンプライアンス，技術者倫理，遵守すべき法律・基準の考え方を修得し，適用す",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 情報公開法の考え方を修得し，適用する。",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": "",
+    "required_knowledge": "➢ 代表的な標準や規格，標準化団体や関連機構の役割，国際認証の枠組みを修得し，適",
+    "required_skill": ""
+  },
+  {
+    "large_category": "大分類 9：企業と法務",
+    "small_category": "中分類 23：法務",
+    "overview": " 情報処理技術者試験 独立行政法人情報処理推進機構 〒113-8663 東京都文京区本駒込2-28-8 文京グリーンコートセンターオフィス15階 TEL：03-5978-7600（代表） ホームページ：https://www.ipa.go.jp/shiken/ 2026.1",
+    "required_knowledge": "➢ システム開発・取引，ソフトウェアやデータの標準を修得し，適用する。",
+    "required_skill": ""
+  }
+]
