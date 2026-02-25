@@ -1,5 +1,6 @@
 ---
 publishDate: 2026-02-26
+lastmod: 2026-02-25
 title: "シラバスへの生成AI知識の本格導入"
 excerpt: "ITパスポートから高度試験まで、2025年以降のIPA試験シラバスにおける生成AI知識の追加状況と具体的な出題キーワードを解説します。"
 category: trend
