@@ -48,6 +48,7 @@ scripts/
 !package-lock.json
 !tsconfig.json
 !*questions*.json
+!src/data/quiz/**/*.json
 !exams.json
 !search-results.json
 
