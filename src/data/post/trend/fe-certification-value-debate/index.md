@@ -2,7 +2,7 @@
 title: "基本情報技術者は意味ない論争に終止符を打つ！現役エンジニアが教える本当の使い道"
 image: "~/data/post/trend/fe-certification-value-debate/cover.jpg"
 description: "基本情報技術者試験は本当に意味がないのか？ネットで囁かれる批判を徹底検証。2025年最新データと現役エンジニアの視点から、取るべき人・不要な人を明確に解説します。"
-date: 2026-01-31
+publishDate: 2026-01-31
 categories: ["trend"]
 tags: ["基本情報技術者", "資格取得", "キャリア戦略"]
 draft: false

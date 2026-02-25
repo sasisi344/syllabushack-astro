@@ -1,7 +1,7 @@
 ---
 title: 'Geminiに自分専用の過去問を作らせる最強プロンプト集【コピペOK】'
 description: '基本情報技術者試験の過去問が足りない？解説が難しい？GoogleのAI「Gemini」を使えば、苦手分野の類題を無限に生成できます。今すぐ使える実践的プロンプト集を公開。'
-date: 2026-02-02
+publishDate: 2026-02-02
 category: method
 tags: ['Gemini', 'ChatGPT', 'プロンプト', 'AI学習法', '基本情報技術者']
 knowledge:

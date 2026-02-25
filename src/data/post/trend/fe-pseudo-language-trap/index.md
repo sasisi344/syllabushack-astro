@@ -2,7 +2,7 @@
 title: "科目BのアルゴリズムはPythonで学ぶな！試験対策で陥る3つの罠と攻略法"
 image: "~/data/post/trend/fe-pseudo-language-trap/cover.jpg"
 description: "「Python勉強すれば基本情報も余裕でしょ？」は大間違い。1始まりの添字、使えないソート関数……Python経験者が試験本番でパニックになる「擬似言語の罠」と、AIを使った賢い攻略法を解説。"
-date: 2026-01-31
+publishDate: 2026-01-31
 categories: ["trend"]
 tags: ["基本情報技術者", "アルゴリズム", "プログラミング", "Python"]
 draft: false

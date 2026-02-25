@@ -2,7 +2,7 @@
 title: '【NotebookLM】マインドマップ機能で自分の「脳内バグ」を可視化する弱点分析術'
 image: '~/data/post/method/notebooklm-mindmap/cover.jpg'
 description: 'NotebookLMのマインドマップ機能を教科書の整理に使っていませんか？実は「自分の間違えた問題ログ」を分析させることで、無意識の弱点をあぶり出す最強のメタ認知ツールになります。'
-date: 2026-02-07T09:15:00+09:00
+publishDate: 2026-02-07T09:15:00+09:00
 category: method
 tags: ['NotebookLM', '自己分析', 'メタ認知', 'Mermaid', '勉強法']
 knowledge:

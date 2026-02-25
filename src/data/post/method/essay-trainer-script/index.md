@@ -1,6 +1,6 @@
 ---
 title: "【無料配布】応用情報・記述式を無限に練習できる「論文トレーナー」スクリプトを作りました"
-date: 2026-02-03T01:15:00+09:00
+publishDate: 2026-02-03T01:15:00+09:00
 draft: false
 toc: true
 categories: ["method"]

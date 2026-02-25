@@ -2,7 +2,7 @@
 title: "ポモドーロ×Anki：脳科学が証明した「残業続きでも30時間で受かる」最強の時短学習法"
 image: "~/data/post/method/pomodoro-anki-technique/cover.jpg"
 description: "「毎日残業で勉強時間がない…」そんな社会人こそチャンス。脳の仕組みを利用して、25分の集中を極限まで高める「ポモドーロ・テクニック」と「Anki」の最強コンボを解説します。"
-date: 2026-01-31
+publishDate: 2026-01-31
 categories: ["method"]
 tags: ["勉強法", "Anki", "ポモドーロ", "時間管理", "脳科学"]
 draft: false

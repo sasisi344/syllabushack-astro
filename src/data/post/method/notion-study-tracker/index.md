@@ -2,7 +2,7 @@
 title: "Notionで進捗管理！「落ちる人」と「受かる人」のダッシュボードの違い"
 image: "~/data/post/method/notion-study-tracker/cover.jpg"
 description: "「完璧な計画を作ったのに3日で挫折…」それはツールのせいです。Excelのガチガチな予定表を捨て、柔軟でモチベーションが上がるNotionダッシュボードで「合格する進捗管理」を始めましょう。"
-date: 2026-02-01
+publishDate: 2026-02-01
 categories: ["method"]
 tags: ["勉強法", "Notion", "タスク管理", "モチベーション", "進捗管理"]
 draft: false

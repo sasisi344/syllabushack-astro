@@ -2,7 +2,7 @@
 title: '応用情報技術者を取ると年収は上がる？リアルな求人票データを徹底調査【2025年版】'
 image: '~/data/post/career/ap-salary-impact/cover.jpg'
 description: '「応用情報技術者を取れば年収は上がるのか？」本音の疑問に答えます。資格手当の相場、転職市場での評価額、そして年収アップに直結する3つのパターンを解説。'
-date: 2026-02-02
+publishDate: 2026-02-02
 category: career
 tags: ['応用情報技術者', '年収', 'キャリア', '転職', '資格手当']
 draft: false
