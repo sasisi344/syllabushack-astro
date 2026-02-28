@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-03-05
+publishDate: 2026-02-27
 lastmod: 2026-02-27
 title: '構想からリリースまで！ Syllabus Hackアプリ開発プロセスの全軌跡'
 excerpt: '「自分が欲しい」を形にする。 Syllabus Hack がどのような着想から生まれ、数々の課題を乗り越えてリリースに至ったか、そのプロセスの全容を公開します。'
