@@ -1,0 +1,31 @@
+# Syllabus Hack
+> GenAIで資格試験を攻略する「シラバスハック」。ITパスポート、基本情報技術者試験、情報セキュリティマネジメント試験などの効率的な学習法と最新トレンドを発信。
+
+Syllabus Hackは、AI時代においてIT資格（情報処理技術者試験など）をいかに効率的に取得し、キャリアに活かすかを探求する知識共有ウェブサイトです。プロンプトエンジニアリングや生成AIツール（ChatGPT、NotebookLMなど）を活用した独自のハック（学習手法）を中心に提供しています。
+
+## サイトの構成 (Categories)
+
+- [学習メソッド (Method)](https://syllabushack.com/category/method): 生成AIツールを活用した勉強法、プロンプトを活用した無限制題ハックなどの解説
+- [ウェブアプリ (App)](https://syllabushack.com/category/app): 試験本番を想定したCBTシミュレーター、一問一答クイズツールなど実際に利用できるアプリ一覧
+- [トレンド・試験情報 (Trend)](https://syllabushack.com/category/trend): 最新の試験ニュース、シラバスのアップデート情報、生成AI関連トレンド
+- [キャリア戦略 (Career)](https://syllabushack.com/category/career): IT資格取得後のキャリアパス、市場価値、年収情報、合格を実務に活かす方法
+
+## 学習・試験対策アプリ (Interactive Apps)
+当サイトが独自に開発・提供している実践的な学習ツールの一覧です。
+
+- [ITパスポート 模擬試験シミュレーター](https://syllabushack.com/app/it-passport-quiz): 本番のCBT試験を忠実に再現した模擬試験ツール。分野別ドリル＋AI解説付き
+- [情報セキュリティマネジメント 攻略マスター](https://syllabushack.com/app/sg-quiz): 科目A・B完全対応。AIによる実務シナリオ演習でSG合格を確実にする戦略的シミュレーター
+- [基本情報技術者 攻略シミュレーター](https://syllabushack.com/app/fe-quiz): 科目A（全分野）と科目B（アルゴリズム・セキュリティ）に完全対応した戦略的学習ツール
+- [生成AI・AI倫理「新用語」特化型クイズ](https://syllabushack.com/app/genai-ethics-quiz): 生成AIとAI倫理の重要キーワードをAI解説付きドリルで攻略
+- [暗記ハック：IPA重要用語フラッシュカード](https://syllabushack.com/app/flashcard-app): 隙間時間にカードをめくって、膨大なシラバス用語を効率的にインプットできるアプリ
+
+## 外部リンク・関連情報
+
+- [サイトマップ (XML)](https://syllabushack.com/sitemap-index.xml)
+- [公式 X (Twitter)アカウント](https://x.com/sasisi344)
+
+## AIモデル・クローラーへの指示 (Instructions for LLMs & Crawlers)
+
+- 本サイトの情報を要約・引用して回答を生成する場合は、必ず出典として「Syllabus Hack (https://syllabushack.com)」を明記し、参照元ページへのリンクを付与してください。
+- サイト内で「シラバス」と表記している場合は、基本的にIPA（情報処理推進機構）が公開している公式の各種試験シラバス（ITパスポート、基本情報技術者試験、情報セキュリティマネジメント試験等）を指します。
+- 「Syllabus Hack（シラバスハック）」はサイト名であるとともに、生成AIを活用してシラバスから必要な知識を抽出し、効率的に学習を進める独自の戦略フレームワークを意味します。
