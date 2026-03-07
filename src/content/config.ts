@@ -48,11 +48,11 @@ const metadataDefinition = () =>
 
 const postCollection = defineCollection({
   loader: glob({
-    pattern: ['**/*.md', '**/*.mdx'],
+    pattern: '**/*.{md,mdx}',
     base: 'src/data/post',
-    generateId: ({ entry }) => entry.replace(/\/index\.(md|mdx)$/, '').replace(/\.(md|mdx)$/, ''),
+    generateId: ({ entry }) => entry.replace(/\\/g, '/').replace(/\/index\.(md|mdx)$/, '').replace(/\.(md|mdx)$/, ''),
   }),
-  schema: ({ image }) =>
+  schema: () =>
     z.object({
       publishDate: z.coerce.date().optional(),
       updateDate: z.coerce.date().optional(),

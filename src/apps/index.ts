@@ -1,7 +1,7 @@
 /**
  * Syllabus Hack App Registry
  * Webアプリの実装とメタデータを一元管理するためのインデックスファイルです。
- * 
+ *
  * 役割:
  * 1. アプリのメタデータ（タイトル、カテゴリ、説明）の定義
  * 2. 各コンテンツページ（src/data/post/app/...）からの呼び出しの正規化
@@ -101,9 +101,30 @@ export const appRegistry: Record<string, AppMetadata> = {
     id: 'flashcard-app',
     slug: 'flashcard-app',
     title: '暗記ハック：IPA重要用語フラッシュカード',
-    description: 'ITパスポートから応用情報まで対応。隙間時間にカードをめくって、膨大なシラバス用語を効率的にインプット。',
+    description:
+      'ITパスポートから応用情報まで対応。隙間時間にカードをめくって、膨大なシラバス用語を効率的にインプット。',
     category: 'tool',
     status: 'development',
+  },
+  'ip-management-drill': {
+    id: 'ip-management-drill',
+    slug: 'ip-management-drill',
+    title: 'ITパスポート マネジメント系 集中80問ドリル',
+    description:
+      'プロジェクト管理・サービスマネジメントなど、実務に直結する「マネジメント系」に特化した集中演習ドリル。',
+    category: 'quiz',
+    status: 'beta',
+    examId: 'ip',
+  },
+  'ip-technology-drill': {
+    id: 'ip-technology-drill',
+    slug: 'ip-technology-drill',
+    title: 'ITパスポート テクノロジ系 集中100問ドリル',
+    description:
+      '基礎理論からIT技術、セキュリティまで。配点の半分を占める「テクノロジ系」を完全網羅した集中演習ドリル。',
+    category: 'quiz',
+    status: 'beta',
+    examId: 'ip',
   },
 };
 

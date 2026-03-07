@@ -11,6 +11,7 @@ import preact from '@astrojs/preact';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
 import type { AstroIntegration } from 'astro';
+import remarkLinkCard from 'remark-link-card-plus';
 
 import astrowind from './vendor/integration';
 
@@ -87,7 +88,17 @@ export default defineConfig({
   },
 
   markdown: {
-    remarkPlugins: [readingTimeRemarkPlugin],
+    remarkPlugins: [
+      readingTimeRemarkPlugin,
+      [
+        remarkLinkCard,
+        {
+          cache: true,
+          shortenUrl: true,
+          thumbnailPosition: 'right',
+        },
+      ],
+    ],
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
 

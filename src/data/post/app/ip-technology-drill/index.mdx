@@ -1,0 +1,70 @@
+---
+publishDate: 2026-03-01
+lastmod: 2026-03-01
+title: ITパスポート テクノロジ系 集中100問ドリル
+image: '~/data/post/app/ip-technology-drill/cover.png'
+excerpt: 基礎理論からIT技術、セキュリティまで、試験の半分を占める「テクノロジ系」全101問を網羅。苦手分析とAI解説で、広範囲な技術分野を効率よく攻略。
+category: app
+persona: IT初学者
+knowledge:
+  type: app
+  examId: ip
+tags:
+  - ITパスポート
+  - CBT
+  - 模擬試験
+  - SyllabusHack
+metadata:
+  description: ITパスポートのテクノロジ系（セキュリティ、ネットワーク、ハードウェア、基礎理論など）を網羅した集中ドリル。全101問を収録し、苦手問題の優先出題とAI解説で効率学習を支援。
+---
+
+import StrategyDrill from '~/apps/it-passport-quiz/StrategyDrill';
+import '~/apps/it-passport-quiz/quiz.css';
+import technologyQuestions from '~/data/quiz/it-passport/technology.json';
+import { transformRawQuestions } from '~/apps/it-passport-quiz/transformQuestions';
+
+export const allQuestions = transformRawQuestions(technologyQuestions);
+
+## なぜ「テクノロジ系」が最大の壁なのか
+
+ITパスポート試験で最も大きな比率を占めるのがテクノロジ系です。全体の **約45%** を占めるこの分野には、理系の基礎理論から最新のセキュリティ技術まで、幅広い知識が詰め込まれています。
+
+特に、近年ますます重要性が増している **セキュリティ** 分野は、このテクノロジ系に属しており、合格のためには避けて通れません。
+
+### 学習のポイント：広く、深く
+
+- **セキュリティ**：ウイルス、不正アクセス、暗号化技術。
+- **ネットワーク**：プロトコル、LAN/WAN、IPアドレスの仕組み。
+- **基礎理論**：2進数、論理演算、アルゴリズムの基礎。
+- **ハード・ソフト**：PCの構成、OSの役割、UI/UXのデザイン。
+
+### このドリルの構成
+
+このドリルには、テクノロジ系の問題を **101問** 収録しています。
+
+| 中分類                 | 問題数 |
+| :--------------------- | :----- |
+| セキュリティ           | 35問   |
+| ネットワーク           | 31問   |
+| 基礎理論               | 6問    |
+| マルチメディア         | 6問    |
+| データベース           | 5問    |
+| その他（HW、SW、UI等） | 18問   |
+
+### 使い方
+
+1. まず **30問、40問、50問** のいずれかを選んでスタート。
+2. 解答後すぐに正誤と **AI解説** が表示されます。
+3. セッション終了後に **中分類ごとの正答率** を確認しましょう。
+4. 苦手な問題は、次回のセットで **再選出される確率が大幅にアップ** します。
+
+> 💡 IT用語が苦手な方も、AIによる丁寧な解説を読み込むことで、概念をしっかりと理解できます。
+
+---
+
+<StrategyDrill
+  client:load
+  questions={allQuestions}
+  examId="it-passport-tech"
+  examName="ITパスポート テクノロジ系ドリル"
+/>
