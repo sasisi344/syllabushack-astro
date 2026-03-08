@@ -67,6 +67,7 @@ IT資格を持っていることは、データの裏付けを持った提案が
 ### 地域別キャリアハック一覧
 
 - [【愛知編】製造業DXの波に乗る！文系学生のためのIT資格活用術](/career/liberal-arts-it-strategy-aichi)
+- [【福岡編】スタートアップ特区×ITで攻める文系就活ハック](/career/liberal-arts-it-strategy-fukuoka)
 - （順次追加予定）
 
 ---
