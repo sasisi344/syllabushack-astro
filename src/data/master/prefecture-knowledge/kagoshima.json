@@ -1,0 +1,49 @@
+{
+  "prefectureId": "kagoshima",
+  "name": "鹿児島県",
+  "capitalCity": "鹿児島市",
+  "regionId": "kyushu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 64,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 24,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "鹿児島市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.25,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業",
+      "農業",
+      "観光"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "鹿児島中央駅前「Li-Ka1920」ハック",
+      "description": "駅直結の再開発ビル。電源カフェがあり、新幹線待ちや通勤のハブとして活用。",
+      "tool": "駅ビル自習スペース"
+    }
+  ]
+}

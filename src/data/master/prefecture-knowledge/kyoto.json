@@ -1,0 +1,54 @@
+{
+  "prefectureId": "kyoto",
+  "name": "京都府",
+  "capitalCity": "京都市",
+  "regionId": "kansai",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 40,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 40,
+      "main_method": "train/bus/bicycle",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "京都市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 2.1,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "ハイテク産業",
+      "任天堂関連",
+      "観光"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "「学生の街」鴨川沿い・ブックカフェハック",
+      "description": "百万遍や四条河原町周辺のブックカフェ。周囲の熱気に当てられて集中力を維持。",
+      "tool": "学生街ブックカフェ"
+    },
+    {
+      "title": "京都府立図書館の学習ラウンジ",
+      "description": "平安神宮近く。景観を楽しみながらのリラックス学習。",
+      "tool": "公共図書館"
+    }
+  ]
+}

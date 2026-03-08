@@ -1,0 +1,52 @@
+{
+  "prefectureId": "osaka",
+  "name": "大阪府",
+  "capitalCity": "大阪市",
+  "regionId": "kansai",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 15,
+      "train_ratio_percent": 75,
+      "average_time_minutes": 40,
+      "main_method": "train",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "high"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "梅田",
+        "難波",
+        "天王寺"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "high",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 4,
+    "it_market_growth": "high",
+    "target_industries": [
+      "製造業DX",
+      "金融システム",
+      "Sler"
+    ],
+    "high_demand_certs": [
+      "fe",
+      "ap",
+      "st",
+      "sc"
+    ],
+    "salary_boost_potential": "high"
+  },
+  "hack_ideas": [
+    {
+      "title": "【大阪・商売人ハック】『勉強カフェ』を拠点にした効率最大化戦略",
+      "method": "study_cafe_base",
+      "description": "梅田・難波に日本一密集している『勉強カフェ』をフル活用。仕事終わりや移動の合間に、1時間単位で超集中環境を確保できるのが大阪の強み。試験会場（CBTセンター）との距離も近く、試験直前まで拠点として使い倒すのが合格への近道です。"
+    }
+  ]
+}

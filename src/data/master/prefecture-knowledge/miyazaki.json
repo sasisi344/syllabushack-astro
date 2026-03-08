@@ -1,0 +1,48 @@
+{
+  "prefectureId": "miyazaki",
+  "name": "宮崎県",
+  "capitalCity": "宮崎市",
+  "regionId": "kyushu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 71,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 22,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "low",
+      "major_city_centers": [
+        "宮崎市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.3,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "IT企業誘致",
+      "農業"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "宮崎「テラスカフェ・オーシャンビュー」学習",
+      "description": "リゾート感のあるカフェや公園で。開放的な環境で煮詰まりを解消。",
+      "tool": "アウトドア学習"
+    }
+  ]
+}

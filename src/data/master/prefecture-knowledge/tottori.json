@@ -1,0 +1,49 @@
+{
+  "prefectureId": "tottori",
+  "name": "鳥取県",
+  "capitalCity": "鳥取市",
+  "regionId": "chugoku",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 72,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 22,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "low",
+      "major_city_centers": [
+        "鳥取市",
+        "米子市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.1,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "農業",
+      "製造業"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "米子駅前「コワーキング」ハック",
+      "description": "鳥取県内でも有数の交通拠点。待ち時間をIT用語アプリ学習に。",
+      "tool": "駅前コワーキング"
+    }
+  ]
+}

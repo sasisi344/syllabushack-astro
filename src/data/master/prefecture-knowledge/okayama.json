@@ -1,0 +1,50 @@
+{
+  "prefectureId": "okayama",
+  "name": "岡山県",
+  "capitalCity": "岡山市",
+  "regionId": "chugoku",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 65,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 30,
+      "main_method": "car/train",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "岡山市",
+        "倉敷市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.5,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業",
+      "流通",
+      "IT「穴場」"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "岡山駅前「ハレマチ特区」周辺カフェ",
+      "description": "利便性の高い駅周辺を拠点にする。都会と地方のバランスが良い学習環境。",
+      "tool": "駅地下カフェ"
+    }
+  ]
+}

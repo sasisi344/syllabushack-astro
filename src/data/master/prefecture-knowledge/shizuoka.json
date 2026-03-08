@@ -1,0 +1,49 @@
+{
+  "prefectureId": "shizuoka",
+  "name": "静岡県",
+  "capitalCity": "静岡市",
+  "regionId": "chubu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 74,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 32,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "静岡市",
+        "浜松市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.5,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業（自動車",
+      "楽器）"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "浜松「ものづくりIT」交流ハック",
+      "description": "浜松市内のスタートアップ拠点やカフェ。技術者が多いため、学習意欲を刺激されやすい。",
+      "tool": "技術者カフェ"
+    }
+  ]
+}

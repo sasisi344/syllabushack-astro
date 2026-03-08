@@ -1,0 +1,52 @@
+{
+  "prefectureId": "aichi",
+  "name": "愛知県",
+  "capitalCity": "名古屋市",
+  "regionId": "chubu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 42,
+      "train_ratio_percent": 40,
+      "average_time_minutes": 32,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "medium"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "名古屋駅前",
+        "栄",
+        "金山"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "medium",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 3.2,
+    "it_market_growth": "high",
+    "target_industries": [
+      "自動車(CASE/MaaS)",
+      "製造業DX",
+      "組込み"
+    ],
+    "high_demand_certs": [
+      "fe",
+      "ap",
+      "embedded",
+      "sg"
+    ],
+    "salary_boost_potential": "high"
+  },
+  "hack_ideas": [
+    {
+      "title": "【愛知・モノづくりハック】TOYOTA流改善を自分に適用：通勤車内の『Podcast化』",
+      "method": "kaizen_audio",
+      "description": "職住近接だが道路事情が良く車移動が長い愛知では、車内を『移動するリスニングルーム』に作り込みます。NotebookLMで生成した自身の弱点分析Podcastを通勤時間（平均32分）に充て、現場へ着くまでに1項目マスターする改善サイクルを回します。"
+    }
+  ]
+}

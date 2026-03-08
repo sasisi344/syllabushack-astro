@@ -1,0 +1,49 @@
+{
+  "prefectureId": "gifu",
+  "name": "岐阜県",
+  "capitalCity": "岐阜市",
+  "regionId": "chubu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 78,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 30,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "岐阜市",
+        "大垣市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.3,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業（航空宇宙",
+      "自動車）"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "「メディアコスモス」ハック",
+      "description": "岐阜市の「みんなの森 ぎふメディアコスモス」は超快適な自習環境。高い天井と広々としたデスクで集中。",
+      "tool": "ハイクラス図書館"
+    }
+  ]
+}

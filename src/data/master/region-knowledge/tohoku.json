@@ -1,0 +1,63 @@
+{
+  "regionId": "tohoku",
+  "name": "東北",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 80.6,
+      "train_ratio_percent": 5,
+      "average_time_minutes": 55,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "low"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "仙台市 (SS30, ソフトキャンパス等)",
+        "盛岡市 (大通, 菜園)",
+        "郡山市 (ビッグアイ, 商工会議所)"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "medium",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 2.5,
+    "it_market_growth": "high",
+    "target_industries": [
+      "仙台市進出IT企業",
+      "製造業(自動車・電子部品)",
+      "自治体DX"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "sg",
+      "fe",
+      "ap"
+    ],
+    "salary_boost_potential": "medium"
+  },
+  "hack_ideas": [
+    {
+      "title": "車通勤を『聴く』勉強時間に変えるハック",
+      "method": "podcast_learning",
+      "recommended_apps": [
+        "NotebookLM (Audio)",
+        "ChatGPT Voice"
+      ]
+    },
+    {
+      "title": "【東北・車社会】ハンドルを握りながら合格を掴む『耳学』戦略",
+      "method": "audio_hack",
+      "description": "山形や秋田などの自家用車通勤率80%超の地域では、通勤時間がそのまま『黄金の勉強時間』になります。NotebookLMで抽出したシラバス用語のPodcastを再生し、信号待ちでAIと音声対話（ChatGPT Voice等）をすることで、机に向かわずともインプットとアウトプットを完結させます。"
+    },
+    {
+      "title": "【主要都市・ハブ駅ハック】試験直前の集中環境は『無人カフェ』で確保",
+      "method": "space_hack",
+      "description": "仙台、盛岡、郡山などの主要駅周辺にある無人カフェ（セルフカフェ等）は、試験直前の追い込みに最適。電源・Wi-Fi完備で予約不要な場所が多く、移動の合間に集中環境をハックできます。"
+    }
+  ]
+}

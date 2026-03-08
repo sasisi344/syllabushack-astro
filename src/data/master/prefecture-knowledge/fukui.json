@@ -1,0 +1,48 @@
+{
+  "prefectureId": "fukui",
+  "name": "福井県",
+  "capitalCity": "福井市",
+  "regionId": "chubu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 78,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 24,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "low",
+      "major_city_centers": [
+        "福井市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.4,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業",
+      "繊維。IT求人倍率全国上位"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "共働き日本一「朝活」ハック",
+      "description": "家庭内のルーチンが早いため、出勤前の30分を確保しやすい。ロードサイドカフェでの短時間集中。",
+      "tool": "朝活カフェ"
+    }
+  ]
+}

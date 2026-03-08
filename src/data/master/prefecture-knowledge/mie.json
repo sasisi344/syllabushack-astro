@@ -1,0 +1,49 @@
+{
+  "prefectureId": "mie",
+  "name": "三重県",
+  "capitalCity": "津市",
+  "regionId": "kansai",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 76,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 33,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "津市",
+        "四日市市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.3,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業（半導体",
+      "自動車）"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "四日市・津のロードサイド「珈琲家」ハック",
+      "description": "出勤前に広めのソファ席で参考書を1章読む。ロードサイド型店舗の利便性を活用。",
+      "tool": "ロードサイドカフェ"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "prefectureId": "saitama",
+  "name": "埼玉県",
+  "capitalCity": "さいたま市",
+  "regionId": "kanto",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 36,
+      "train_ratio_percent": 40,
+      "average_time_minutes": 45,
+      "main_method": "multi",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "high"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "大宮",
+        "浦和",
+        "川越",
+        "所沢"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "medium",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 3.2,
+    "it_market_growth": "medium",
+    "target_industries": [
+      "物流DX",
+      "製造業",
+      "eコマース"
+    ],
+    "high_demand_certs": [
+      "fe",
+      "ap",
+      "sg"
+    ],
+    "salary_boost_potential": "medium"
+  },
+  "hack_ideas": [
+    {
+      "title": "【埼玉・自転車ハック】チャリ通＋『リスニング学習』で健康と知識を両立",
+      "method": "bicycle_audio",
+      "description": "自転車利用率全国トップクラスの埼玉県。安全な骨伝導イヤホンを使用し、大宮・浦和・川越といったハブ駅までの『チャリ時間（平均20分）』を、NotebookLM生成のシラバス音声講義に充てます。朝の運動とインプットを同期させるのが埼玉流です。"
+    }
+  ]
+}

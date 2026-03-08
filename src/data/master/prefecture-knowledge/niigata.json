@@ -1,0 +1,54 @@
+{
+  "prefectureId": "niigata",
+  "name": "新潟県",
+  "capitalCity": "新潟市",
+  "regionId": "chubu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 73,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 25,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "新潟市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.38,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業",
+      "農業",
+      "情報通信"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "バイパス渋滞「耳学」ハック",
+      "description": "新潟バイパスなどの渋滞時間を活用。車内での用語復習をルーチン化する。",
+      "tool": "オーディオブック"
+    },
+    {
+      "title": "新潟駅前「自習スペース」活用",
+      "description": "駅周辺のコワーキングやカフェは電源Wi-Fiが安定しており、帰宅前の1時間に最適。",
+      "tool": "駅前電源カフェ"
+    }
+  ]
+}

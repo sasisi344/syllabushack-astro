@@ -1,0 +1,49 @@
+{
+  "prefectureId": "wakayama",
+  "name": "和歌山県",
+  "capitalCity": "和歌山市",
+  "regionId": "kansai",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 75,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 28,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "low",
+      "major_city_centers": [
+        "和歌山市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.15,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業",
+      "農業",
+      "観光"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "和歌山県立図書館「自習室」ハック",
+      "description": "非常に綺麗で使いやすい。静かな環境で休日をフルに学習に充てる。",
+      "tool": "公共自習室"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "prefectureId": "fukushima",
+  "name": "福島県",
+  "capitalCity": "福島市",
+  "regionId": "tohoku",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 78,
+      "train_ratio_percent": 5,
+      "average_time_minutes": 25,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "low"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "福島",
+        "郡山",
+        "いわき"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "low",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.25,
+    "it_market_growth": "medium",
+    "target_industries": [
+      "エネルギー関連IT",
+      "製造業",
+      "スマートシティ"
+    ],
+    "high_demand_certs": [
+      "fe",
+      "ip",
+      "sg"
+    ],
+    "salary_boost_potential": "medium"
+  },
+  "hack_ideas": [
+    {
+      "title": "【福島・広域ハック】浜・中・会津の長距離移動を『知識の定着タイム』に",
+      "method": "long_drive_listening",
+      "description": "3つの地域に分かれ移動距離が長い福島県。車での長距離移動こそ、AIが生成した試験対策の要約音声をリピート再生する絶好の機会です。郡山や福島市内のCBT会場へ向かう道中を『最後の総復習リスニング』に充てます。"
+    }
+  ]
+}

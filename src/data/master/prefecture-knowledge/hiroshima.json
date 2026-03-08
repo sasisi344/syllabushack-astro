@@ -1,0 +1,49 @@
+{
+  "prefectureId": "hiroshima",
+  "name": "広島県",
+  "capitalCity": "広島市",
+  "regionId": "chugoku",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 48,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 42,
+      "main_method": "car/train/tram",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "広島市",
+        "福山市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.8,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業（マツダ関連）",
+      "商業"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "広電「市内電車」ゆったり学習",
+      "description": "市内の移動時間をフラッシュカード学習に。独特の揺れをリズムに集中。",
+      "tool": "広島電鉄（路面電車）"
+    }
+  ]
+}

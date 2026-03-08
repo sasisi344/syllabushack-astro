@@ -1,0 +1,53 @@
+{
+  "prefectureId": "iwate",
+  "name": "岩手県",
+  "capitalCity": "盛岡市",
+  "regionId": "tohoku",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 75,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 30,
+      "main_method": "car/train",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "盛岡市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.86,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業",
+      "農林水産業"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "盛岡駅前「Self Cafe」ハック",
+      "description": "24時間営業の無人カフェが盛岡駅前にあり、仕事帰りや早朝の追い込みに最適。",
+      "tool": "24h無人カフェ"
+    },
+    {
+      "title": "ブックカフェ「ことの葉」活用",
+      "description": "1階でドリンク、2階で無料配布の読書・自習スペース。ロードサイド型で駐車場も完備。",
+      "tool": "ブックカフェ"
+    }
+  ]
+}

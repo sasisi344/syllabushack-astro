@@ -1,0 +1,53 @@
+{
+  "prefectureId": "kanagawa",
+  "name": "神奈川県",
+  "capitalCity": "横浜市",
+  "regionId": "kanto",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 25,
+      "train_ratio_percent": 60,
+      "average_time_minutes": 50,
+      "main_method": "train",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "high"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "横浜駅周辺",
+        "川崎",
+        "藤沢",
+        "厚木"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "high",
+      "public_libraries_with_wifi": "high"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 3.5,
+    "it_market_growth": "high",
+    "target_industries": [
+      "自動車関連IT",
+      "精密機械",
+      "エンタメDX"
+    ],
+    "high_demand_certs": [
+      "fe",
+      "ap",
+      "sc",
+      "aws"
+    ],
+    "salary_boost_potential": "high"
+  },
+  "hack_ideas": [
+    {
+      "title": "【神奈川・湘南/横浜ハック】東海道線/横須賀線＝『走る書斎』の完全活用",
+      "method": "train_long_commute",
+      "description": "都内への通勤時間が長い神奈川県民にとって、グリーン車や始発駅（小田原・平塚等）の座席確保は最大の投資。座席を確保し、机を使える環境で『午後試験対策（アルゴリズム/プログラミング）』の長文読解を集中してこなすのが神奈川スタイルです。"
+    }
+  ]
+}

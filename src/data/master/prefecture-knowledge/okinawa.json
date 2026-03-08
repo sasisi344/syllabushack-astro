@@ -1,0 +1,54 @@
+{
+  "prefectureId": "okinawa",
+  "name": "沖縄県",
+  "capitalCity": "那覇市",
+  "regionId": "kyushu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 62,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 33,
+      "main_method": "car/bus/monorail",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "那覇市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.4,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "IT企業誘致",
+      "観光",
+      "コールセンター"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "沖縄「ゆいレール」短時間集中",
+      "description": "渋滞を避けたゆいレール移動中を貴重な学習室に変える。1駅1キーワード暗記。",
+      "tool": "ゆいレール"
+    },
+    {
+      "title": "ビーチサイド・コワーキング活用",
+      "description": "ワーケーション拠点が豊富な沖縄。青い海を見ながらモチベーションを高めて学習。",
+      "tool": "ビーチパーク/カフェ"
+    }
+  ]
+}

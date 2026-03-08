@@ -1,0 +1,53 @@
+{
+  "prefectureId": "tokyo",
+  "name": "東京都",
+  "capitalCity": "新宿区",
+  "regionId": "kanto",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 5,
+      "train_ratio_percent": 85,
+      "average_time_minutes": 45,
+      "main_method": "train",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "high"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "新宿",
+        "秋葉原",
+        "池袋",
+        "渋谷"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "high",
+      "public_libraries_with_wifi": "high"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 5,
+    "it_market_growth": "high",
+    "target_industries": [
+      "FinTech",
+      "AIスタートアップ",
+      "DXコンサル"
+    ],
+    "high_demand_certs": [
+      "fe",
+      "ap",
+      "sc",
+      "aws"
+    ],
+    "salary_boost_potential": "high"
+  },
+  "hack_ideas": [
+    {
+      "title": "【東京・超高密度ハック】山手線1周＝1つのシラバス大項目完了",
+      "method": "train_loop_hack",
+      "description": "東京の圧倒的な電車本数を逆手に取り、山手線等の環状線移動を『強制学習タイマー』として活用。1駅間で3問解く、1周で1章終えるなど、高密度な運行に合わせたActive Recallを組み込みます。"
+    }
+  ]
+}

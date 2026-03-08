@@ -1,0 +1,31 @@
+{
+  "regionId": "kansai",
+  "name": "近畿",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": null,
+      "train_ratio_percent": null,
+      "average_time_minutes": null,
+      "main_method": "train",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "high"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": ["大阪市", "京都市", "神戸市"]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "high",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": null,
+    "it_market_growth": "high",
+    "target_industries": ["製造業IT", "Web開発", "医療テクノロジー"],
+    "high_demand_certs": ["fe", "ap", "sc"],
+    "salary_boost_potential": "high"
+  },
+  "hack_ideas": []
+}

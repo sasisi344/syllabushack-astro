@@ -1,0 +1,48 @@
+{
+  "prefectureId": "kochi",
+  "name": "高知県",
+  "capitalCity": "高知市",
+  "regionId": "shikoku",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 60,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 22,
+      "main_method": "car/tram",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "low",
+      "major_city_centers": [
+        "高知市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.25,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "農業",
+      "観光。ITエンジニア移住支援も積極的"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "高知「オーテピア」最強ハック",
+      "description": "日本最大級の図書館「オーテピア」。圧倒的な学習席数と環境で、週末集中学習に最適。",
+      "tool": "マンモス図書館"
+    }
+  ]
+}

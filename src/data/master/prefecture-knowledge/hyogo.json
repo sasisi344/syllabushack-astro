@@ -1,0 +1,49 @@
+{
+  "prefectureId": "hyogo",
+  "name": "兵庫県",
+  "capitalCity": "神戸市",
+  "regionId": "kansai",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 55,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 55,
+      "main_method": "train/car",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "神戸市",
+        "姫路市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.6,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "港湾物流",
+      "製造業（重工業）"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "神戸三宮「地下街・電源カフェ」",
+      "description": "雨の日でも移動しやすい三宮地下街の電源スポットをハブにする。",
+      "tool": "地下街電源カフェ"
+    }
+  ]
+}

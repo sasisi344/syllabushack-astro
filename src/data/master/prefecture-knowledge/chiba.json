@@ -1,0 +1,52 @@
+{
+  "prefectureId": "chiba",
+  "name": "千葉県",
+  "capitalCity": "千葉市",
+  "regionId": "kanto",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 40,
+      "train_ratio_percent": 42,
+      "average_time_minutes": 50,
+      "main_method": "multi",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "medium"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "千葉",
+        "船橋",
+        "柏",
+        "松戸"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "medium",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 3,
+    "it_market_growth": "medium",
+    "target_industries": [
+      "成田物流IT",
+      "観光DX",
+      "スマート農業"
+    ],
+    "high_demand_certs": [
+      "fe",
+      "ip",
+      "sg"
+    ],
+    "salary_boost_potential": "medium"
+  },
+  "hack_ideas": [
+    {
+      "title": "【千葉・スカイアクセスハック】成田圏×『国際基準』のITマインドセット",
+      "method": "airport_hub_mind",
+      "description": "成田国際空港を擁する千葉県では、物流とグローバルの視点が重要。試験勉強の中に、あえて英語のIT用語解説を取り入れ、成田〜千葉〜東京の移動時間（約50分）を『グローバルIT人材への変身時間』として活用します。"
+    }
+  ]
+}

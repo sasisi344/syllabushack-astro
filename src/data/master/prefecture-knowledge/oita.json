@@ -1,0 +1,49 @@
+{
+  "prefectureId": "oita",
+  "name": "大分県",
+  "capitalCity": "大分市",
+  "regionId": "kyushu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 67,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 22,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "low",
+      "major_city_centers": [
+        "大分市",
+        "別府市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.15,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業",
+      "観光（温泉）"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "別府「温泉・ワーケーション」学習",
+      "description": "温泉併設の休憩スペースや多目的室を活用。リラックスした状態で難関用語を暗記。",
+      "tool": "温泉コワーキング"
+    }
+  ]
+}

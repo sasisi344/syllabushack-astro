@@ -1,0 +1,51 @@
+{
+  "prefectureId": "hokkaido",
+  "name": "北海道",
+  "capitalCity": "札幌市",
+  "regionId": "hokkaido",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 30,
+      "train_ratio_percent": 50,
+      "average_time_minutes": 50,
+      "main_method": "train",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "high"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "札幌駅北口",
+        "札幌駅南口",
+        "大通"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "high",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 2.8,
+    "it_market_growth": "high",
+    "target_industries": [
+      "BPO",
+      "SaaS開発",
+      "農業DX"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "linc"
+    ],
+    "salary_boost_potential": "medium"
+  },
+  "hack_ideas": [
+    {
+      "title": "【札幌・地下鉄ハック】極寒の冬を味方に！地下歩行空間×スマホ学習",
+      "method": "underground_hack",
+      "description": "札幌の冬は地上移動が困難ですが、札幌駅〜すすきのまで続く『チ・カ・ホ（地下歩行空間）』は最高のウォーキング＆リスニング環境。地下鉄移動の合間に、電波が安定した地下道でフラッシュカードを回すのが札幌スタイルです。"
+    }
+  ]
+}

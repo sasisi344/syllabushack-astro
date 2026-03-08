@@ -1,0 +1,31 @@
+{
+  "regionId": "chubu",
+  "name": "中部",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": null,
+      "train_ratio_percent": null,
+      "average_time_minutes": null,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "low"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": ["名古屋市", "静岡市", "浜松市", "新潟市"]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "medium",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": null,
+    "it_market_growth": "medium",
+    "target_industries": ["製造業(自動車等)", "スマート工場", "地域DX"],
+    "high_demand_certs": ["ip", "sg", "fe", "ap"],
+    "salary_boost_potential": "medium"
+  },
+  "hack_ideas": []
+}

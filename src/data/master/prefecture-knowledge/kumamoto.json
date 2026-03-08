@@ -1,0 +1,48 @@
+{
+  "prefectureId": "kumamoto",
+  "name": "熊本県",
+  "capitalCity": "熊本市",
+  "regionId": "kyushu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 65,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 28,
+      "main_method": "car/tram/bus",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "熊本市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.5,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "半導体（TSMC進出）",
+      "農業"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "「シリコンアイランド」半導体ITハック",
+      "description": "TSMC進出による活気を背景に、ITエンジニアが集まるカフェでの交流。先端技術の用語理解を深める。",
+      "tool": "技術者カフェ"
+    }
+  ]
+}

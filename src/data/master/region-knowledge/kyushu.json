@@ -1,0 +1,31 @@
+{
+  "regionId": "kyushu",
+  "name": "九州・沖縄",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": null,
+      "train_ratio_percent": null,
+      "average_time_minutes": null,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "low"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": ["福岡市", "北九州市", "熊本市", "那覇市"]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "medium",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": null,
+    "it_market_growth": "high",
+    "target_industries": ["半導体(熊本)", "Web開発(福岡)", "観光テクノロジー"],
+    "high_demand_certs": ["ip", "sg", "fe", "ap"],
+    "salary_boost_potential": "high"
+  },
+  "hack_ideas": []
+}

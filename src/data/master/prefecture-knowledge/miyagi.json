@@ -1,0 +1,49 @@
+{
+  "prefectureId": "miyagi",
+  "name": "宮城県",
+  "capitalCity": "仙台市",
+  "regionId": "tohoku",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 55,
+      "train_ratio_percent": 15,
+      "average_time_minutes": 30,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "low"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "仙台（青葉区・宮城野区）"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "medium",
+      "public_libraries_with_wifi": "high"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 2.5,
+    "it_market_growth": "high",
+    "target_industries": [
+      "BPO",
+      "地方創生DX",
+      "東北拠点Sier"
+    ],
+    "high_demand_certs": [
+      "fe",
+      "ap",
+      "ip"
+    ],
+    "salary_boost_potential": "medium"
+  },
+  "hack_ideas": [
+    {
+      "title": "【宮城・杜の都ハック】仙台広瀬通周辺の『Wi-Fi完備図書館』を試験直前の要塞にする",
+      "method": "library_fortress",
+      "description": "仙台市中心部には、学習に適した公立・大学図書館が点在。車社会の宮城において、あえて試験1週間前は『仙台駅前へのバス/電車通勤』に切り替え、バス車内のリスニング学習＋図書館での総仕上げという『直前ブースト』をかけるのが合格の秘訣です。"
+    }
+  ]
+}

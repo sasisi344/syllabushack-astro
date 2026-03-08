@@ -1,0 +1,31 @@
+{
+  "regionId": "shikoku",
+  "name": "四国",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": null,
+      "train_ratio_percent": null,
+      "average_time_minutes": null,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "low"
+    },
+    "cbt_center_stats": {
+      "density_level": "low",
+      "major_city_centers": ["松山市", "高松市"]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "low",
+      "public_libraries_with_wifi": "low"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": null,
+    "it_market_growth": "low",
+    "target_industries": ["一次産業テクノロジー", "地域公共インフラ"],
+    "high_demand_certs": ["ip", "sg"],
+    "salary_boost_potential": "low"
+  },
+  "hack_ideas": []
+}

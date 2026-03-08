@@ -1,0 +1,31 @@
+{
+  "regionId": "hokkaido",
+  "name": "北海道",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": null,
+      "train_ratio_percent": null,
+      "average_time_minutes": null,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "low"
+    },
+    "cbt_center_stats": {
+      "density_level": "low",
+      "major_city_centers": ["札幌市", "旭川市", "函館市"]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "medium",
+      "public_libraries_with_wifi": "medium"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": null,
+    "it_market_growth": "medium",
+    "target_industries": ["観光DX", "一次産業テクノロジー", "札幌IT企業"],
+    "high_demand_certs": ["ip", "sg", "fe"],
+    "salary_boost_potential": "medium"
+  },
+  "hack_ideas": []
+}

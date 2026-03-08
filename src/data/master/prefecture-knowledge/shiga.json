@@ -1,0 +1,54 @@
+{
+  "prefectureId": "shiga",
+  "name": "滋賀県",
+  "capitalCity": "大津市",
+  "regionId": "kansai",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 65,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 50,
+      "main_method": "car/train",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "大津市",
+        "草津市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.35,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業",
+      "流通"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "新快速「長距離通勤」ハック",
+      "description": "京都・大阪方面への新快速。座れる確率の高い始発付近や時間帯を狙い、iPadでの動画学習。",
+      "tool": "JR新快速"
+    },
+    {
+      "title": "彦根「1stBASE」コワーキング",
+      "description": "駅近の快適なスペース。仕事と学習の切り替えに活用。",
+      "tool": "駅近コワーキング"
+    }
+  ]
+}

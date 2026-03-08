@@ -1,0 +1,49 @@
+{
+  "prefectureId": "nara",
+  "name": "奈良県",
+  "capitalCity": "奈良市",
+  "regionId": "kansai",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 58,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 63,
+      "main_method": "train/car",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "low",
+      "major_city_centers": [
+        "奈良市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.2,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "サービス",
+      "近郊農業。大阪",
+      "京都のベッドタウン"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "「日本一長い通勤時間」ハック",
+      "description": "大阪方面への近鉄・JRの長い乗車時間を、完全な模試・暗記時間と位置づける。",
+      "tool": "近鉄・JR西日本"
+    }
+  ]
+}

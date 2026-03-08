@@ -1,0 +1,54 @@
+{
+  "prefectureId": "tochigi",
+  "name": "栃木県",
+  "capitalCity": "宇都宮市",
+  "regionId": "kanto",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 85,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 28,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "medium",
+      "major_city_centers": [
+        "宇都宮市",
+        "小山市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.45,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "製造業（自動車",
+      "光学）"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "那須塩原市図書館「みるる」ハック",
+      "description": "カフェ併設の超モダンな図書館。デザイン性の高い空間でモチベーションを維持。",
+      "tool": "図書館カフェ"
+    },
+    {
+      "title": "宇都宮ブックカフェ「陽東書林」",
+      "description": "学生に人気の落ち着いたブックカフェ。食事をしながらじっくり理解を深める。",
+      "tool": "ブックカフェ"
+    }
+  ]
+}

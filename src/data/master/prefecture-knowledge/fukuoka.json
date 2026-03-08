@@ -1,0 +1,54 @@
+{
+  "prefectureId": "fukuoka",
+  "name": "福岡県",
+  "capitalCity": "福岡市",
+  "regionId": "kyushu",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 49,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 38,
+      "main_method": "train/subway/bus/car",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "福岡市",
+        "北九州市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 2.5,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "ITスタートアップ（特区）",
+      "商業"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "「天神・博多」コワーキング天国ハック",
+      "description": "天神ビッグバンにより最新の電源・Wi-Fiカフェが激増。仕事と学習をシームレスに繋ぐ。",
+      "tool": "都市型コワーキング"
+    },
+    {
+      "title": "博多駅「つばめカフェ」活用",
+      "description": "駅直結の利便性と、開放的な空間で隙間時間の暗記学習。",
+      "tool": "駅ナカカフェ"
+    }
+  ]
+}

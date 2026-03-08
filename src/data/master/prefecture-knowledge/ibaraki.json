@@ -1,0 +1,54 @@
+{
+  "prefectureId": "ibaraki",
+  "name": "茨城県",
+  "capitalCity": "水戸市",
+  "regionId": "kanto",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 70,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 45,
+      "main_method": "car/train",
+      "audio_learning_suitability": "medium",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "high",
+      "major_city_centers": [
+        "水戸市",
+        "つくば市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "medium",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.5,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "研究開発（つくば）",
+      "製造業（日立）"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "つくば・守谷の24hコワーキング活用",
+      "description": "都内通勤者も多いため、守谷駅近くの24hコワーキングなど都心並みのインフラを活用可能。",
+      "tool": "24hコワーキング"
+    },
+    {
+      "title": "水戸市総合教育研究所の穴場自習室",
+      "description": "あまり知られていない公共の静かな学習スペース。無料で集中環境が手に入る。",
+      "tool": "公共研究施設"
+    }
+  ]
+}

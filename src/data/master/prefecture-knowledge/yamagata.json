@@ -1,0 +1,53 @@
+{
+  "prefectureId": "yamagata",
+  "name": "山形県",
+  "capitalCity": "山形市",
+  "regionId": "tohoku",
+  "infrastructure": {
+    "commute": {
+      "car_ratio_percent": 90,
+      "train_ratio_percent": 0,
+      "average_time_minutes": 20,
+      "main_method": "car",
+      "audio_learning_suitability": "high",
+      "visual_learning_suitability": "unknown"
+    },
+    "cbt_center_stats": {
+      "density_level": "low",
+      "major_city_centers": [
+        "山形市"
+      ]
+    },
+    "third_places": {
+      "cafe_availability": "high",
+      "coworking_spaces": "unknown",
+      "public_libraries_with_wifi": "unknown"
+    }
+  },
+  "career_trends": {
+    "job_opening_ratio": 1.38,
+    "it_market_growth": "unknown",
+    "target_industries": [
+      "精密機械",
+      "農業"
+    ],
+    "high_demand_certs": [
+      "ip",
+      "fe",
+      "sg"
+    ],
+    "salary_boost_potential": "unknown"
+  },
+  "hack_ideas": [
+    {
+      "title": "霞城セントラル「mana-vi」ハック",
+      "description": "山形駅直結の霞城セントラル内にある学習空間。電車待ちや送り迎えの合間に。 ",
+      "tool": "公共学習室"
+    },
+    {
+      "title": "ブックカフェ「ひめしゃら文庫」",
+      "description": "南陽市の静かな環境で集中。図書館のような静寂とカフェの利便性を両立。",
+      "tool": "ブックカフェ"
+    }
+  ]
+}
