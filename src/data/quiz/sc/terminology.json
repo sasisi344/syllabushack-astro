@@ -1,0 +1,38 @@
+[
+  {
+    "question": "脅威分析の手法の一つである STRIDE分析 において、「R (Repudiation)」が指す脅威はどれか。",
+    "options": [
+      "ア: 他人のIDとパスワードを不正に入手して、その人になりすますこと。",
+      "イ: 操作ログを消去したり、送信した事実を後から認めないなど、行為の証拠を残さないこと。",
+      "ウ: データベースの権限を不正に昇格させて、機密情報を閲覧すること。",
+      "エ: ネットワークトラフィックを大量に発生させ、サービスの提供を妨害すること。"
+    ],
+    "answer": "イ",
+    "explanation": "STRIDEは、Spoofing（なりすまし）、Tampering（改ざん）、Repudiation（否認）、Information Disclosure（情報漏洩）、Denial of Service（サービス拒否）、Elevation of Privilege（権限昇格）の頭文字を取ったものです。\n\n*   **Repudiation (否認)** は、行動の証拠を隠滅したり、通信の事実を否定したりすることを指します。\n*   アは **Spoofing**、ウは **Elevation of Privilege**、エは **Denial of Service** の説明です。",
+    "id": "sc-stride-001",
+    "keyword": "STRIDE分析",
+    "category": "テクノロジ系",
+    "field": "technology",
+    "examId": "sc",
+    "middleCategory": "セキュリティ",
+    "syllabusRef": "1-2"
+  },
+  {
+    "question": "サイバー攻撃の分析モデルである「ATT&CK」に関する記述として、最も適切なものはどれか。",
+    "options": [
+      "ア: 攻撃者が標的を偵察してから目的を達成するまでの各フェーズを、時系列のチェーンとして表現したモデル。",
+      "イ: 実際に観測された攻撃者の戦術 (Tactics) や手法 (Techniques) を体系的にナレッジベース化したフレームワーク。",
+      "ウ: 組織内のインシデント対応体制（CSIRT）の成熟度を評価するための指標。",
+      "エ: ソフトウェアの脆弱性の深刻度を、基本評価基準、現状評価基準、環境評価基準で定義した数値。"
+    ],
+    "answer": "イ",
+    "explanation": "MITREが提供する **ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge)** は、実世界での攻撃者の行動をベースにした、戦術・手法のナレッジベースです。\n\n*   アは **Cyber Kill Chain (サイバーキルチェーン)** の説明です。\n*   ウは **CSIRT成熟度モデル**、エは **CVSS** に関する説明です。",
+    "id": "sc-attack-001",
+    "keyword": "ATT&CK",
+    "category": "テクノロジ系",
+    "field": "technology",
+    "examId": "sc",
+    "middleCategory": "セキュリティ",
+    "syllabusRef": "1-6"
+  }
+]

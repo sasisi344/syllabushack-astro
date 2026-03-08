@@ -44,6 +44,15 @@ export const appRegistry: Record<string, AppMetadata> = {
     status: 'beta',
     examId: 'ip',
   },
+  'sc-specialist-quiz': {
+    id: 'sc-specialist-quiz',
+    slug: 'sc-specialist-quiz', // Added slug based on id
+    title: 'SC（情報処理安全確保支援士）専門用語特訓',
+    description: '高度試験（SC）の午前Ⅱおよび午後対策に必要な重要語彙をマスター。シラバスの最新用語に対応。',
+    category: 'quiz', // Changed 'type' to 'category'
+    status: 'development', // Added a default status
+    examId: 'sc',
+  },
   'sg-quiz': {
     id: 'sg-quiz',
     slug: 'sg-quiz',
