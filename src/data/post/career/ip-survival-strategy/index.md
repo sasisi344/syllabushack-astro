@@ -71,6 +71,7 @@ ITパスポートの試験範囲は、大きく3つに分かれます。
 - [**ITパスポートは「恥ずかしい」資格なのか？2026年の市場価値と現実**](/trend/it-passport-shame-debate)
 - [**経済学ゼロからでも解ける！ストラテジ系をAIの「たとえ話」で攻略する技術**](/method/ip-strategy-ai-hack)
 - [**スキマ時間だけで合格！スマホアプリをフル活用した最短ルート学習法**](/method/gap-time-apps)
+- [**NotebookLMでITパスポート用語を自分事化する最強の学習法**](/method/notebooklm-ip-study-hack)
 
 ---
 
