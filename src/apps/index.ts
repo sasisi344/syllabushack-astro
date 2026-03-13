@@ -135,6 +135,15 @@ export const appRegistry: Record<string, AppMetadata> = {
     status: 'beta',
     examId: 'ip',
   },
+  'genai-trend-quiz': {
+    id: 'genai-trend-quiz',
+    slug: 'genai-trend-quiz',
+    title: '生成AIトレンド・ロジック完全攻略ドリル',
+    description: 'IPA高度試験（Level 4）対応！2025年以降の最新トレンド、RAG、AIガバナンス、セキュリティを最速攻略する。',
+    category: 'quiz',
+    status: 'development',
+    examId: 'common',
+  },
 };
 
 /**

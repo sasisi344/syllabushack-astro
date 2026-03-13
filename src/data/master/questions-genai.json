@@ -1,0 +1,502 @@
+[
+  {
+    "id": "genai-2025-01",
+    "examId": "common",
+    "field": "technology",
+    "subField": "生成AI技術",
+    "year": "2025年度予想",
+    "questionNumber": 1,
+    "text": "大規模言語モデル（LLM）において、外部の信頼できる情報源から関連情報を検索し、その内容をコンテキストとしてAIに渡すことで、最新情報や非公開情報に基づいた回答を生成させる手法を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "ファインチューニング" },
+      { "label": "イ", "text": "転移学習" },
+      { "label": "ウ", "text": "RAG（検索拡張生成）" },
+      { "label": "エ", "text": "ディープフェイク" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "RAG（Retrieval-Augmented Generation）は、モデルの再学習を行わずに外部データベースから情報を取得して回答の精度を高める手法です。",
+    "keywords": ["RAG", "LLM", "検索拡張生成"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-02",
+    "examId": "common",
+    "field": "management",
+    "subField": "AIガバナンス",
+    "year": "2025年度予想",
+    "questionNumber": 2,
+    "text": "AIの学習、運用、および最終判断のプロセスにおいて、常に人間が介在し、AIの出力を評価・修正したり、重要な決定を人間が行ったりする仕組みを指す用語はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ファースト・イン・ファースト・アウト" },
+      { "label": "イ", "text": "ヒューマン・イン・ザ・ループ（HITL）" },
+      { "label": "ウ", "text": "アジャイル・ガバナンス" },
+      { "label": "エ", "text": "エコーチェンバー" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "Human-in-the-Loop（HITL）は、AIの不確実性をカバーするために人間が監視・介入するプロセス設計を指します。",
+    "keywords": ["HITL", "AIガバナンス", "意思決定"],
+    "syllabusRef": "マネジメント系-大分類4-中分類11",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "genai-2025-03",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AIセキュリティ",
+    "year": "2025年度予想",
+    "questionNumber": 3,
+    "text": "AIチャットボット等の入力欄に、開発者が設定したシステム指示を無視・上書きするような命令を注入し、機密情報の出力や有害情報の生成を誘発する攻撃手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "SQLインジェクション" },
+      { "label": "イ", "text": "プロンプトインジェクション" },
+      { "label": "ウ", "text": "クロスサイトスクリプティング" },
+      { "label": "エ", "text": "サービス不能攻撃（DoS）" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "プロンプトインジェクションは、生成AIの入力（プロンプト）を悪用して、AIのガードレールを突破する攻撃手法です。",
+    "keywords": ["プロンプトインジェクション", "AIセキュリティ", "LLM"],
+    "syllabusRef": "テクノロジ系-大分類3-中分類9",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-04",
+    "examId": "common",
+    "field": "strategy",
+    "subField": "DX推進",
+    "year": "2025年度予想",
+    "questionNumber": 4,
+    "text": "デジタル変革（DX）において、新技術の導入が単なる技術検証（PoC）にとどまらず、実際のビジネス上の投資対効果や価値を生むかどうかを実証する概念として適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "PoA（Proof of Authority）" },
+      { "label": "イ", "text": "PoS（Proof of Stake）" },
+      { "label": "ウ", "text": "PoV（Proof of Value）" },
+      { "label": "エ", "text": "PoC（Proof of Concept）" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "PoV（Proof of Value：価値実証）は、ビジネス上の価値が出るかを検証するフェーズを指します。",
+    "keywords": ["PoV", "DX", "投資対効果"],
+    "syllabusRef": "ストラテジ系-大分類1-中分類2",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-05",
+    "examId": "common",
+    "field": "strategy",
+    "subField": "法規・ガイドライン",
+    "year": "2025年度予想",
+    "questionNumber": 5,
+    "text": "欧州連合（EU）で合意された包括的なAI規制において、AIシステムを「許容できないリスク」「高リスク」「限定的リスク」「最小限のリスク」の4段階に分類し、リスクに応じて義務を課す考え方を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "リスクベースアプローチ" },
+      { "label": "イ", "text": "コンプライアンス管理" },
+      { "label": "ウ", "text": "ゼロトラストモデル" },
+      { "label": "エ", "text": "プライバシー・バイ・デザイン" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "EU AI法は、リスクの度合いに応じて規制の厳しさを変える「リスクベースアプローチ」を採用しています。",
+    "keywords": ["EU AI法", "リスクベースアプローチ", "AIガバナンス"],
+    "syllabusRef": "ストラテジ系-大分類3-中分類7",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "genai-2025-06",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AI基礎理論",
+    "year": "2025年度予想",
+    "questionNumber": 6,
+    "text": "生成AIが事実とは異なる情報を、あたかも真実であるかのように、尤もらしく生成してしまう現象を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "ディープフェイク" },
+      { "label": "イ", "text": "ハルシネーション（幻覚）" },
+      { "label": "ウ", "text": "バイアス（偏り）" },
+      { "label": "エ", "text": "オーバーフィッティング（過学習）" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "ハルシネーション（Hallucination）は、LLMが確率的に最もらしいが事実ではない文章を作ってしまう現象です。",
+    "keywords": ["ハルシネーション", "LLM", "信頼性"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "genai-2025-07",
+    "examId": "common",
+    "field": "strategy",
+    "subField": "知的財産権",
+    "year": "2025年度予想",
+    "questionNumber": 7,
+    "text": "日本の著作権法第30条の4に基づき、AIの学習（情報解析）目的で他者の著作物を利用する場合の原則として適切なものはどれか。",
+    "choices": [
+      { "label": "ア", "text": "著作権者の事前の許諾が必須である。" },
+      { "label": "イ", "text": "営利目的であれば利用は禁止されている。" },
+      { "label": "ウ", "text": "非享受目的の利用であれば、原則として許諾なしに可能である。" },
+      { "label": "エ", "text": "文章に限ってのみ許諾なしで利用できる。" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "日本の著作権法第30条の4は、享受（著作物の鑑賞など）を目的としない情報解析であれば、原則として許諾なしに著作物を利用できると定めています。",
+    "keywords": ["著作権法", "情報解析", "30条の4"],
+    "syllabusRef": "ストラテジ系-大分類3-中分類7",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-08",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AI基礎理論",
+    "year": "2025年度予想",
+    "questionNumber": 8,
+    "text": "モダンなLLMの心臓部として機能しており、入力データ内の重要な箇所に動的に重み付けをする「Attention」機構を中心としたニューラルネットワークアーキテクチャはどれか。",
+    "choices": [
+      { "label": "ア", "text": "RNN（再帰的ニューラルネットワーク）" },
+      { "label": "イ", "text": "CNN（畳み込みニューラルネットワーク）" },
+      { "label": "ウ", "text": "Transformer（トランスフォーマー）" },
+      { "label": "エ", "text": "GAN（敵対的生成ネットワーク）" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "Transformer（トランスフォーマー）は、Attention機構により並列処理と高い文脈把握性能を実現したアーキテクチャです。",
+    "keywords": ["Transformer", "Attention", "ニューラルネットワーク"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "genai-2025-09",
+    "examId": "common",
+    "field": "management",
+    "subField": "AI倫理",
+    "year": "2025年度予想",
+    "questionNumber": 9,
+    "text": "アルゴリズムが利用者の好みに合わせて情報を最適化した結果、利用者が自分の興味・関心の「泡」の中に閉じ込められ、異なる視点に触れられなくなる現象はどれか。",
+    "choices": [
+      { "label": "ア", "text": "エコーチェンバー" },
+      { "label": "イ", "text": "フィルターバブル" },
+      { "label": "ウ", "text": "デジタルタトゥー" },
+      { "label": "エ", "text": "バイアス" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "フィルターバブルは、パーソナライズアルゴリズムにより情報の偏りが生じる現象です。",
+    "keywords": ["フィルターバブル", "AI倫理", "アルゴリズム"],
+    "syllabusRef": "マネジメント系-大分類4-中分類11",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-10",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AI運用",
+    "year": "2025年度予想",
+    "questionNumber": 10,
+    "text": "深層学習を用いたAIにおいて、その判断に至った根拠を人間が理解できる形で提示・説明する技術や手法の総称はどれか。",
+    "choices": [
+      { "label": "ア", "text": "XAI（説明可能なAI）" },
+      { "label": "イ", "text": "MLOps" },
+      { "label": "ウ", "text": "エッジAI" },
+      { "label": "エ", "text": "埋め込み（Embedding）" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "XAI（Explainable AI：説明可能なAI）は、ブラックボックス化したAIの判断プロセスを明らかにするための技術です。",
+    "keywords": ["XAI", "説明可能なAI", "信頼性"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-11",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AI基礎理論",
+    "year": "2025年度予想",
+    "questionNumber": 11,
+    "text": "テキストだけでなく、画像、音声、動画、数値データなど、異なる複数のデータ形式を同時に受け取り、それらを統合的に処理・変換して結果を出力するAIシステムを何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "シングルモーダルAI" },
+      { "label": "イ", "text": "マルチモーダルAI" },
+      { "label": "ウ", "text": "ジェネレーティブAI" },
+      { "label": "エ", "text": "エッジAI" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "マルチモーダルAIは、複数の異なるデータ形式（モダリティ）を組み合わせて高度な処理を実現するAIです。",
+    "keywords": ["マルチモーダルAI", "入力データ", "統合処理"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "genai-2025-12",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AI基礎理論",
+    "year": "2025年度予想",
+    "questionNumber": 12,
+    "text": "テキストや画像などの非構造化データを、意味的な特徴を保持したまま高次元の数値配列に変換する処理、またはその結果得られる数値を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "チャンキング" },
+      { "label": "イ", "text": "エンベデッド（組み込み）" },
+      { "label": "ウ", "text": "埋め込み（Embedding）" },
+      { "label": "エ", "text": "サンプリング" }
+    ],
+    "correctLabel": "ウ",
+    "explanation": "埋め込み（Embedding）は、データをベクトル形式に変換することで、AIが意味的な類似度を計算可能にする技術です。",
+    "keywords": ["埋め込み", "Embedding", "ベクトル"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-13",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AI最適化",
+    "year": "2025年度予想",
+    "questionNumber": 13,
+    "text": "生成AIにおいて、同じプロンプトを入力しても毎回異なる結果が出力される現象に関与している、確率的な単語選択の度合いを制御するパラメータはどれか。",
+    "choices": [
+      { "label": "ア", "text": "ラーニングレート" },
+      { "label": "イ", "text": "Temperature（温度）" },
+      { "label": "ウ", "text": "バッチサイズ" },
+      { "label": "エ", "text": "エポック" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "Temperature（温度パラメータ）を高くすると出力のランダム性（創造性）が増し、低くすると一貫性や正確性が増します。",
+    "keywords": ["Temperature", "ランダム性", "サンプリング"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-14",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AI基礎理論",
+    "year": "2025年度予想",
+    "questionNumber": 14,
+    "text": "ある領域で学習したモデルの知識を、別の関連する領域に再利用することで、少ないデータと短い時間で高精度な学習を可能にする、転移学習に含まれる手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "ファインチューニング" },
+      { "label": "イ", "text": "フルスクラッチ学習" },
+      { "label": "ウ", "text": "データオーギュメンテーション" },
+      { "label": "エ", "text": "アンサンブル学習" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "ファインチューニングは転移学習の一種で、学習済みモデルのパラメータを特定タスク向けに微調整する手法です。",
+    "keywords": ["ファインチューニング", "転移学習", "再利用"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-15",
+    "examId": "common",
+    "field": "management",
+    "subField": "AI倫理",
+    "year": "2025年度予想",
+    "questionNumber": 15,
+    "text": "学習データに含まれる統計的な偏りや開発者の先入観が反映され、特定の属性を持つ集団に対して不当な不利益をもたらすAI特有のリスクを何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "ハルシネーション" },
+      { "label": "イ", "text": "バイアス（偏り）" },
+      { "label": "ウ", "text": "ディープフェイク" },
+      { "label": "エ", "text": "エコーチェンバー" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "バイアス（Bias）はAIの公平性を損なう要因であり、学習データの選定や評価プロセスにおいて注意が必要です。",
+    "keywords": ["バイアス", "公平性", "機械学習"],
+    "syllabusRef": "マネジメント系-大分類4-中分類11",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "genai-2025-16",
+    "examId": "common",
+    "field": "management",
+    "subField": "AI倫理",
+    "year": "2025年度予想",
+    "questionNumber": 16,
+    "text": "閉鎖的な環境で自分と同じ意見ばかりを聞き続けることで、特定の信念が増幅され、それが唯一の正解であると思い込んでしまう現象を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "フィルターバブル" },
+      { "label": "イ", "text": "エコーチェンバー" },
+      { "label": "ウ", "text": "デジタルタトゥー" },
+      { "label": "エ", "text": "オプトアウト" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "エコーチェンバー（反響室現象）は、SNS等で類似した意見のみに囲まれることで思想が極端化するリスクを指します。",
+    "keywords": ["エコーチェンバー", "情報の偏り", "社会的分断"],
+    "syllabusRef": "マネジメント系-大分類4-中分類11",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-17",
+    "examId": "common",
+    "field": "strategy",
+    "subField": "法規・ガイドライン",
+    "year": "2025年度予想",
+    "questionNumber": 17,
+    "text": "2023年のG7広島サミットで創設された、高度なAIシステムに関する国際的な指針や行動規範を策定するための枠組みを何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "京都議定書" },
+      { "label": "イ", "text": "広島AIプロセス" },
+      { "label": "ウ", "text": "パリ協定" },
+      { "label": "エ", "text": "リスボン戦略" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "広島AIプロセスは、生成AIの安全性確保や偽情報対策などについて国際的な合意を目指す枠組みです。",
+    "keywords": ["広島AIプロセス", "G7", "国際指針"],
+    "syllabusRef": "ストラテジ系-大分類3-中分類7",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-18",
+    "examId": "common",
+    "field": "strategy",
+    "subField": "情報漏洩対策",
+    "year": "2025年度予想",
+    "questionNumber": 18,
+    "text": "利用者が提供したデータや生成AIとのやり取りを、モデルの再学習やサービス改善に利用させないための選択（拒否設定）を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "オプトイン" },
+      { "label": "イ", "text": "オプトアウト" },
+      { "label": "ウ", "text": "フィルタリング" },
+      { "label": "エ", "text": "サンドボックス" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "オプトアウト（Opt-out）は、ユーザがデータの二次利用を拒否する意思表示の仕組みです。企業利用において重要となります。",
+    "keywords": ["オプトアウト", "再学習防止", "プライバシー"],
+    "syllabusRef": "ストラテジ系-大分類3-中分類8",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "genai-2025-19",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AIセキュリティ",
+    "year": "2025年度予想",
+    "questionNumber": 19,
+    "text": "人間には判別不可能な程度の微小なノイズをデータに加えることで、AIモデルを意図的に誤認させる（例：パンダをテナガザルと認識させる）不正データを何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "アノマリ通信" },
+      { "label": "イ", "text": "敵対的サンプル（Adversarial Examples）" },
+      { "label": "ウ", "text": "偽陽性データ" },
+      { "label": "エ", "text": "ゼロデイ攻撃" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "敵対的サンプルはAIの脆弱性を突く攻撃で、微小なノイズ（摂動）によってモデルを誤判定させます。",
+    "keywords": ["敵対的サンプル", "AIセキュリティ", "頑健性"],
+    "syllabusRef": "テクノロジ系-大分類3-中分類9",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "genai-2025-20",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AI運用",
+    "year": "2025年度予想",
+    "questionNumber": 20,
+    "text": "IT運用に人工知能（AI）を活用し、膨大なログデータの分析や異常検知、システム障害時の自動対応を実現し、運用の効率化を図る手法はどれか。",
+    "choices": [
+      { "label": "ア", "text": "DevOps" },
+      { "label": "イ", "text": "AIOps" },
+      { "label": "ウ", "text": "MLOps" },
+      { "label": "エ", "text": "FinOps" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "AIOpsはIT運用（Ops）にAIを適用する手法で、従来の監視では困難だった高度な分析や自動化を目的としています。",
+    "keywords": ["AIOps", "IT運用", "自動化"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-21",
+    "examId": "common",
+    "field": "technology",
+    "subField": "AI運用",
+    "year": "2025年度予想",
+    "questionNumber": 21,
+    "text": "LLMの開発から運用までを効率的に管理するため、モデルの継続的な評価、チューニング、デプロイ、監視・ロギングを自動化するプラクティスはどれか。",
+    "choices": [
+      { "label": "ア", "text": "DataOps" },
+      { "label": "イ", "text": "LLMOps" },
+      { "label": "ウ", "text": "GitHub" },
+      { "label": "エ", "text": "RAG" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "LLMOpsはMLOpsをLLM特有の要件（プロンプト管理や評価指標など）に拡張した運用手法です。",
+    "keywords": ["LLMOps", "継続的改善", "運用管理"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-22",
+    "examId": "common",
+    "field": "technology",
+    "subField": "画像生成AI",
+    "year": "2025年度予想",
+    "questionNumber": 22,
+    "text": "近年の画像生成AIにおいて主力となっている、データに段階的なノイズを加えていき、そこから元のデータを復元（除去）するプロセスを学習するモデルはどれか。",
+    "choices": [
+      { "label": "ア", "text": "RNN" },
+      { "label": "イ", "text": "拡散モデル（Diffusion Model）" },
+      { "label": "ウ", "text": "線形回帰" },
+      { "label": "エ", "text": "サポートベクターマシン" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "拡散モデルは、ノイズの除去過程を通じて高品質な画像を生成する技術で、Stable Diffusion等に採用されています。",
+    "keywords": ["拡散モデル", "画像生成", "ノイズ除去"],
+    "syllabusRef": "テクノロジ系-大分類2-中分類4",
+    "difficulty": "advanced"
+  },
+  {
+    "id": "genai-2025-23",
+    "examId": "common",
+    "field": "management",
+    "subField": "情報リテラシー",
+    "year": "2025年度予想",
+    "questionNumber": 23,
+    "text": "インターネット上に一度公開された情報は完全に削除することが困難であり半永久的に残り続ける様子を、消えない入れ墨に例えた言葉を何と呼ぶか。",
+    "choices": [
+      { "label": "ア", "text": "デジタルデバイド" },
+      { "label": "イ", "text": "デジタルタトゥー" },
+      { "label": "ウ", "text": "クラウドファンディング" },
+      { "label": "エ", "text": "フィッシング" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "デジタルタトゥーは、情報の拡散性による不可逆的なリスクを警鐘する言葉で、リテラシー教育において重要です。",
+    "keywords": ["デジタルタトゥー", "情報モラル", "SNS"],
+    "syllabusRef": "マネジメント系-大分類4-中分類11",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "genai-2025-24",
+    "examId": "common",
+    "field": "strategy",
+    "subField": "経営戦略",
+    "year": "2025年度予想",
+    "questionNumber": 24,
+    "text": "多様な膨大なデータで事前学習されており、要約、分類、生成など幅広い下流タスクに適用可能な、現代のAIシステムの土台となる大規模モデルの総称はどれか。",
+    "choices": [
+      { "label": "ア", "text": "基盤モデル（Foundation Model）" },
+      { "label": "イ", "text": "垂直統合モデル" },
+      { "label": "ウ", "text": "エキスパートシステム" },
+      { "label": "エ", "text": "ルールベースモデル" }
+    ],
+    "correctLabel": "ア",
+    "explanation": "基盤モデルは、汎用性が高く様々なAIアプリケーションの基礎（土台）として利用されるモデルです。",
+    "keywords": ["基盤モデル", "Foundation Model", "汎用AI"],
+    "syllabusRef": "ストラテジ系-大分類1-中分類2",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "genai-2025-25",
+    "examId": "common",
+    "field": "strategy",
+    "subField": "法規・ガイドライン",
+    "year": "2025年度予想",
+    "questionNumber": 25,
+    "text": "日本において、AI開発者・提供者・利用者の3つの主体が守るべき責務を整理し、総務省・経済産業省が策定した統合指針はどれか。",
+    "choices": [
+      { "label": "ア", "text": "マイナンバー法" },
+      { "label": "イ", "text": "AI事業者ガイドライン" },
+      { "label": "ウ", "text": "サイバーセキュリティ基本法" },
+      { "label": "エ", "text": "不正アクセス禁止法" }
+    ],
+    "correctLabel": "イ",
+    "explanation": "AI事業者ガイドライン（第1.0版/2024年4月）は、日本のAIガバナンスにおける中心的な実務マニュアルです。",
+    "keywords": ["AI事業者ガイドライン", "国内法規", "ガバナンス"],
+    "syllabusRef": "ストラテジ系-大分類3-中分類7",
+    "difficulty": "intermediate"
+  }
+]
